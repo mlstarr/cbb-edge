@@ -1,0 +1,5 @@
+data/raw/
+data/games.parquet
+data/players.parquet
+data/missing.parquet
+__pycache__/

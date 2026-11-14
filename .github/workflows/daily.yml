@@ -1,0 +1,34 @@
+name: daily-predictions
+on:
+  schedule:
+    - cron: "0 15 * * *"    # 8:00 AM Phoenix: morning lines
+    - cron: "0 21 * * *"    # 2:00 PM Phoenix: refresh before evening tip-offs
+    - cron: "30 0 * * *"    # 5:30 PM Phoenix: late lines
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: daily
+env:
+  TZ: America/Phoenix
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with: { path: data/raw, key: hoopr-raw-${{ github.run_id }}, restore-keys: hoopr-raw- }
+      - run: python fetch_data.py
+      - run: python prep.py data/raw/mbb
+      - run: python players.py
+      - name: Fetch lines (ESPN public feed, no key)
+        run: python fetch_lines.py || echo "lines unavailable; dashboard still works with manual entry"
+      - run: python predict.py data/raw/mbb 3
+      - name: Commit results
+        run: |
+          git config user.name "cbb-bot"; git config user.email "cbb-bot@users.noreply.github.com"
+          git add index.html picks.json data/lines_history.csv data/predictions_log.csv 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Update predictions $(date +%F-%H%M)" && git push)
