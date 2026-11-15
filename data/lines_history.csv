@@ -113,3 +113,16 @@ game_id,date,home_id,away_id,home,away,neutral,spread_home,total,provider,fetche
 401929200,2026-11-16,2636,326,UTSA Roadrunners,Texas State Bobcats,False,4.5,149.5,Draft Kings,2026-11-15T06:56
 401920896,2026-11-16,275,324,Wisconsin Badgers,Coastal Carolina Chanticleers,False,-28.5,147.5,Draft Kings,2026-11-15T06:56
 401911472,2026-11-16,23,2011,San José State Spartans,Alabama State Hornets,False,-12.5,157.5,Draft Kings,2026-11-15T06:56
+401928789,2026-11-15,21,166,San Diego State Aztecs,New Mexico State Aggies,True,-12.5,143.5,DraftKings,2026-11-15T20:15
+401917531,2026-11-15,2351,2130,Loyola Marymount Lions,Chicago State Cougars,False,-18.5,139.5,DraftKings,2026-11-15T20:15
+401917528,2026-11-15,2547,304,Seattle U Redhawks,Idaho State Bengals,False,-15.5,143.5,DraftKings,2026-11-15T20:15
+401923393,2026-11-15,88,2711,Southern Indiana Screaming Eagles,Western Michigan Broncos,False,6.5,139.5,DraftKings,2026-11-15T20:15
+401917175,2026-11-15,213,2441,Penn State Nittany Lions,New Haven Chargers,False,-24.5,142.5,DraftKings,2026-11-15T20:15
+401926073,2026-11-15,2483,2492,Oregon Ducks,Pepperdine Waves,False,-13.5,154.5,DraftKings,2026-11-15T20:15
+401911017,2026-11-15,2084,2099,Buffalo Bulls,Canisius Golden Griffins,False,-13.5,150.5,DraftKings,2026-11-15T20:15
+401920124,2026-11-15,147,13,Montana State Bobcats,Cal Poly Mustangs,False,-6.5,165.5,DraftKings,2026-11-15T20:15
+401920681,2026-11-16,2599,183,St. John's Red Storm,Syracuse Orange,False,-12.5,149.5,DraftKings,2026-11-15T20:15
+401926772,2026-11-16,30,2029,USC Trojans,Arkansas-Pine Bluff Golden Lions,False,-46.5,158.5,DraftKings,2026-11-15T20:15
+401929200,2026-11-16,2636,326,UTSA Roadrunners,Texas State Bobcats,False,3.5,147.5,DraftKings,2026-11-15T20:15
+401920896,2026-11-16,275,324,Wisconsin Badgers,Coastal Carolina Chanticleers,False,-27.5,148.5,DraftKings,2026-11-15T20:15
+401911472,2026-11-16,23,2011,San José State Spartans,Alabama State Hornets,False,-13.5,150.5,DraftKings,2026-11-15T20:15
