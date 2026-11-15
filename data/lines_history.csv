@@ -78,3 +78,38 @@ game_id,date,home_id,away_id,home,away,neutral,spread_home,total,provider,fetche
 401928789,2026-11-15,21,166,San Diego State Aztecs,New Mexico State Aggies,True,-11.5,143.5,DraftKings,2026-11-15T00:35
 401917528,2026-11-15,2547,304,Seattle U Redhawks,Idaho State Bengals,False,-16.5,144.5,DraftKings,2026-11-15T00:35
 401920681,2026-11-16,2599,183,St. John's Red Storm,Syracuse Orange,False,-12.5,150.5,DraftKings,2026-11-15T00:35
+401924858,2026-11-15,2115,2514,Central Connecticut Blue Devils,Quinnipiac Bobcats,False,4.5,134.5,Draft Kings,2026-11-15T06:56
+401918949,2026-11-15,235,97,Memphis Tigers,Louisville Cardinals,False,8.5,163.5,Draft Kings,2026-11-15T06:56
+401926063,2026-11-15,158,68,Nebraska Cornhuskers,Boise State Broncos,True,-9.5,158.5,Draft Kings,2026-11-15T06:56
+401925896,2026-11-15,2247,2450,Georgia State Panthers,Norfolk State Spartans,False,-10.5,146.5,Draft Kings,2026-11-15T06:56
+401920771,2026-11-15,48,2142,Delaware Blue Hens,Colgate Raiders,False,-1.5,147.5,Draft Kings,2026-11-15T06:56
+401920235,2026-11-15,104,159,Boston University Terriers,Dartmouth Big Green,False,-3.5,143.5,Draft Kings,2026-11-15T06:56
+401912210,2026-11-15,44,108,American University Eagles,Harvard Crimson,False,-1.5,131.5,Draft Kings,2026-11-15T06:56
+401909774,2026-11-15,66,315,Iowa State Cyclones,Niagara Purple Eagles,False,-39.5,143.5,Draft Kings,2026-11-15T06:56
+401909554,2026-11-15,103,160,Boston College Eagles,New Hampshire Wildcats,False,-22.5,133.5,Draft Kings,2026-11-15T06:56
+401918453,2026-11-15,130,2729,Michigan Wolverines,William & Mary Tribe,False,-28.5,166.5,Draft Kings,2026-11-15T06:56
+401925926,2026-11-15,232,2569,Charleston Cougars,South Carolina State Bulldogs,False,-17.5,161.5,Draft Kings,2026-11-15T06:56
+401925812,2026-11-15,2325,218,La Salle Explorers,Temple Owls,False,-1.5,152.5,Draft Kings,2026-11-15T06:56
+401921287,2026-11-15,107,399,Holy Cross Crusaders,UAlbany Great Danes,False,2.5,146.5,Draft Kings,2026-11-15T06:56
+401920136,2026-11-15,2449,2934,North Dakota State Bison,Cal State Bakersfield Roadrunners,False,-4.5,153.5,Draft Kings,2026-11-15T06:56
+401920065,2026-11-15,227,163,Rhode Island Rams,Princeton Tigers,False,-7.5,138.5,Draft Kings,2026-11-15T06:56
+401909525,2026-11-15,269,142,Marquette Golden Eagles,Missouri Tigers,True,-1.5,153.5,Draft Kings,2026-11-15T06:56
+401906866,2026-11-15,251,239,Texas Longhorns,Baylor Bears,True,-5.5,158.5,Draft Kings,2026-11-15T06:56
+401926068,2026-11-15,2197,2870,Eastern Illinois Panthers,Purdue Fort Wayne Mastodons,False,3.5,146.5,Draft Kings,2026-11-15T06:56
+401921168,2026-11-15,2010,325,Alabama A&M Bulldogs,Cleveland State Vikings,False,-3.5,145.5,Draft Kings,2026-11-15T06:56
+401911251,2026-11-15,139,2272,Saint Louis Billikens,High Point Panthers,False,-6.5,163.5,Draft Kings,2026-11-15T06:56
+401909493,2026-11-15,2294,156,Iowa Hawkeyes,Creighton Bluejays,True,-4.5,145.5,Draft Kings,2026-11-15T06:56
+401928789,2026-11-15,21,166,San Diego State Aztecs,New Mexico State Aggies,True,-12.5,142.5,Draft Kings,2026-11-15T06:56
+401919825,2026-11-15,256,2385,James Madison Dukes,Mercyhurst Lakers,False,-15.5,138.5,Draft Kings,2026-11-15T06:56
+401917531,2026-11-15,2351,2130,Loyola Marymount Lions,Chicago State Cougars,False,-18.5,141.5,Draft Kings,2026-11-15T06:56
+401917528,2026-11-15,2547,304,Seattle U Redhawks,Idaho State Bengals,False,-16.5,143.5,Draft Kings,2026-11-15T06:56
+401923393,2026-11-15,88,2711,Southern Indiana Screaming Eagles,Western Michigan Broncos,False,7.5,139.5,Draft Kings,2026-11-15T06:56
+401917175,2026-11-15,213,2441,Penn State Nittany Lions,New Haven Chargers,False,-23.5,142.5,Draft Kings,2026-11-15T06:56
+401926073,2026-11-15,2483,2492,Oregon Ducks,Pepperdine Waves,False,-12.5,157.5,Draft Kings,2026-11-15T06:56
+401911017,2026-11-15,2084,2099,Buffalo Bulls,Canisius Golden Griffins,False,-14.5,151.5,Draft Kings,2026-11-15T06:56
+401920124,2026-11-15,147,13,Montana State Bobcats,Cal Poly Mustangs,False,-7.5,166.5,Draft Kings,2026-11-15T06:56
+401920681,2026-11-16,2599,183,St. John's Red Storm,Syracuse Orange,False,-12.5,150.5,Draft Kings,2026-11-15T06:56
+401926772,2026-11-16,30,2029,USC Trojans,Arkansas-Pine Bluff Golden Lions,False,-44.5,158.5,Draft Kings,2026-11-15T06:56
+401929200,2026-11-16,2636,326,UTSA Roadrunners,Texas State Bobcats,False,4.5,149.5,Draft Kings,2026-11-15T06:56
+401920896,2026-11-16,275,324,Wisconsin Badgers,Coastal Carolina Chanticleers,False,-28.5,147.5,Draft Kings,2026-11-15T06:56
+401911472,2026-11-16,23,2011,San José State Spartans,Alabama State Hornets,False,-12.5,157.5,Draft Kings,2026-11-15T06:56
