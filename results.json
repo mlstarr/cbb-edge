@@ -1,0 +1,26 @@
+{
+ "generated": "2026-11-14 17:35",
+ "yesterday": null,
+ "season": {},
+ "parlays": null,
+ "model_only": {
+  "season": {
+   "n": 569,
+   "mae_margin": 10.73,
+   "mae_total": 14.06,
+   "bias_margin": -1.93,
+   "bias_total": -1.47,
+   "su": 0.801
+  },
+  "last7": {
+   "n": 309,
+   "mae_margin": 10.17,
+   "mae_total": 13.94,
+   "bias_margin": -0.44,
+   "bias_total": -1.93,
+   "su": 0.757
+  },
+  "through": "2026-11-13",
+  "note": "Walk-forward on finished games using only data before each game; no betting lines involved."
+ }
+}
