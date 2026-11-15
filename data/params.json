@@ -16,5 +16,9 @@
  "k_off": 0.32,
  "k_opp": 0.04,
  "sigma_margin": 11.79,
- "sigma_total": 17.1
+ "sigma_total": 17.1,
+ "early_margin": 2.4,
+ "early_total": 1.0,
+ "early_full_days": 10,
+ "early_end_days": 14
 }

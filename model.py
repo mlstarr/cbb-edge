@@ -154,3 +154,10 @@ def returning_minutes(players, season, cutoff, T, idx):
             w = min(1.0, games[t] / 4.0)
             r[idx[t]] = w * v + (1 - w) * 0.5
     return r
+
+
+def early_factor(days_since_season_start, p):
+    """1.0 for the first `early_full_days` of the season, fading linearly to 0 at `early_end_days`.
+    Backtests 2022-27 show home margin is under-predicted by ~2.4 pts (and totals by ~1-2) in this window every season."""
+    a, b = p.get("early_full_days", 10), p.get("early_end_days", 14)
+    return np.clip((b - np.asarray(days_since_season_start, float)) / max(b - a, 1), 0.0, 1.0)

@@ -32,6 +32,16 @@ def rec(res, mask):
     r = res[mask]; w, l, p = (r == "W").sum(), (r == "L").sum(), (r == "P").sum()
     return dict(w=int(w), l=int(l), p=int(p), units=round(float(w * WIN - l), 2), pct=round(float(w / (w + l)), 3) if w + l else None)
 
+def plays(d):
+    out = []
+    for r in d.sort_values("date").itertuples():
+        base = dict(date=str(r.date), game=f"{r.away} @ {r.home}", final=f"{int(r.act_a)}-{int(r.act_h)}")
+        if r.ats != "" and abs(r.se) >= SPREAD_EDGE:
+            h = r.se > 0; out.append(dict(base, kind="Spread", pick=f"{r.home if h else r.away} {'%+g' % (r.line_spread if h else -r.line_spread)}", edge=round(abs(r.se), 1), result=r.ats, units=round(WIN if r.ats == "W" else -1.0 if r.ats == "L" else 0.0, 2)))
+        if r.tot != "" and abs(r.te) >= TOTAL_EDGE:
+            out.append(dict(base, kind="Total", pick=f"{'Over' if r.te > 0 else 'Under'} {r.line_total:g}", edge=round(abs(r.te), 1), result=r.tot, units=round(WIN if r.tot == "W" else -1.0 if r.tot == "L" else 0.0, 2)))
+    return sorted(out, key=lambda x: -x["edge"])
+
 def season_summary(d):
     o = {}
     if d.empty: return o
@@ -93,8 +103,10 @@ def model_only(season):
     from walk import run_chain, G
     p = dict(P); d = run_chain(p, seasons=range(2020, season + 1), step=7)
     d = d[d.season == season].copy()
-    d["em"] = d.pts_h - d.pts_a + p["margin_bias"] - (d.act_h - d.act_a); d["et"] = d.pts_h + d.pts_a + p["tot_bias"] - (d.act_h + d.act_a)
-    d["su"] = ((d.pts_h - d.pts_a + p["margin_bias"]) > 0) == ((d.act_h - d.act_a) > 0)
+    from model import early_factor
+    ef = early_factor((d.date - d.date.min()).dt.days.values, p); eh = np.where(d.neutral.values, 0.0, p["early_margin"]) * ef
+    d["em"] = d.pts_h - d.pts_a + p["margin_bias"] + eh - (d.act_h - d.act_a); d["et"] = d.pts_h + d.pts_a + p["tot_bias"] + p["early_total"] * ef - (d.act_h + d.act_a)
+    d["su"] = ((d.pts_h - d.pts_a + p["margin_bias"] + eh) > 0) == ((d.act_h - d.act_a) > 0)
     last7 = d[d.date >= d.date.max() - pd.Timedelta(days=6)]
     f = lambda x: dict(n=int(len(x)), mae_margin=round(float(x.em.abs().mean()), 2), mae_total=round(float(x.et.abs().mean()), 2), bias_margin=round(float(x.em.mean()), 2), bias_total=round(float(x.et.mean()), 2), su=round(float(x.su.mean()), 3))
     return dict(season=f(d), last7=f(last7), through=str(d.date.max().date()), note="Walk-forward on finished games using only data before each game; no betting lines involved.")
@@ -106,7 +118,7 @@ def main():
         out["yesterday"] = None; out["season"] = {}; out["parlays"] = None
     else:
         last_day = d.date.max(); y = d[d.date == last_day].sort_values("date")
-        out["yesterday"] = dict(date=str(last_day), summary=season_summary(y), games=[dict(away=r.away, home=r.home, final=f"{int(r.act_a)}-{int(r.act_h)}", model_margin=round(r.model_margin, 1), model_total=round(r.model_total, 1), line_spread=None if pd.isna(r.line_spread) else r.line_spread, line_total=None if pd.isna(r.line_total) else r.line_total, ats=r.ats, tot=r.tot, err_margin=round(r.err_margin, 1), err_total=round(r.err_total, 1)) for r in y.itertuples()])
+        out["yesterday"] = dict(date=str(last_day), summary=season_summary(y), plays=plays(y), games=[dict(away=r.away, home=r.home, final=f"{int(r.act_a)}-{int(r.act_h)}", model_margin=round(r.model_margin, 1), model_total=round(r.model_total, 1), line_spread=None if pd.isna(r.line_spread) else r.line_spread, line_total=None if pd.isna(r.line_total) else r.line_total, ats=r.ats, tot=r.tot, err_margin=round(r.err_margin, 1), err_total=round(r.err_total, 1)) for r in y.itertuples()])
         out["season"] = season_summary(d); out["parlays"] = parlay_tracker(d)
     try: out["model_only"] = model_only(int(pd.read_parquet("data/games.parquet", columns=["season"]).season.max()))
     except Exception as e: out["model_only"] = None; print("model-only skipped:", e)

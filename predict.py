@@ -44,6 +44,7 @@ def team_miss(tid, tname):
         x.loc[k, "p_out"] = r.p
     x = x[x.p_out > 0]
     return float((x.p_out * x.val).sum()), [f"{r.athlete_display_name} ({r.mpg:.0f} mpg, {'listed' if (inj.player.str.lower() == r.athlete_display_name.lower()).any() else 'auto'} {int(r.p_out*100)}%)" for r in x.sort_values("val", ascending=False).itertuples()]
+season_start = G[G.season == season].date.min()
 rows = []
 lines = pd.read_csv("data/lines.csv", dtype={"game_id": str}) if __import__("os").path.exists("data/lines.csv") else pd.DataFrame(columns=["game_id", "spread_home", "total"])
 lines = lines.set_index("game_id")
@@ -51,7 +52,8 @@ for k, r in enumerate(up.itertuples()):
     mh, nh = team_miss(int(r.home_id), r.home_display_name); ma, na = team_miss(int(r.away_id), r.away_display_name)
     ph = pr["pts_h"][k] + p["tot_bias"] / 2 + p["margin_bias"] / 2 - p["k_off"] * mh + p["k_opp"] * ma
     pa = pr["pts_a"][k] + p["tot_bias"] / 2 - p["margin_bias"] / 2 - p["k_off"] * ma + p["k_opp"] * mh
-    if neu[k]: ph, pa = ph - p["margin_bias"] / 2 * 0, pa
+    ef = float(early_factor((r.game_date - season_start).days, p))        # early-season phase adjustment (see model.early_factor)
+    ph += ef * (p["early_total"] / 2 + (0 if neu[k] else p["early_margin"] / 2)); pa += ef * (p["early_total"] / 2 - (0 if neu[k] else p["early_margin"] / 2))
     gid = str(r.game_id); ln = lines.loc[gid] if gid in lines.index else None
     rows.append(dict(game_id=gid, date=str(r.game_date.date()), home=r.home_display_name, away=r.away_display_name, neutral=bool(neu[k]),
                      pts_h=round(float(ph), 1), pts_a=round(float(pa), 1), poss=round(float(pr["poss"][k]), 1),
