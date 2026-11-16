@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15 13:16",
+ "generated": "2026-11-15 17:35",
  "yesterday": {
   "date": "2026-11-14",
   "summary": {
@@ -436,20 +436,20 @@
    },
    {
     "date": "2026-11-14",
-    "game": "Jackson State Tigers @ Winthrop Eagles",
-    "final": "76-72",
+    "game": "Morgan State Bears @ Loyola Maryland Greyhounds",
+    "final": "63-61",
     "kind": "Spread",
-    "pick": "Winthrop Eagles -9.5",
+    "pick": "Loyola Maryland Greyhounds +1.5",
     "edge": 4.2,
     "result": "L",
     "units": -1.0
    },
    {
     "date": "2026-11-14",
-    "game": "Morgan State Bears @ Loyola Maryland Greyhounds",
-    "final": "63-61",
+    "game": "Jackson State Tigers @ Winthrop Eagles",
+    "final": "76-72",
     "kind": "Spread",
-    "pick": "Loyola Maryland Greyhounds +1.5",
+    "pick": "Winthrop Eagles -9.5",
     "edge": 4.2,
     "result": "L",
     "units": -1.0
@@ -707,17 +707,17 @@
     "err_total": 11.1
    },
    {
-    "away": "Utah Tech Trailblazers",
-    "home": "California Golden Bears",
-    "final": "73-79",
-    "model_margin": 13.9,
-    "model_total": 159.1,
-    "line_spread": -14.5,
-    "line_total": 159.5,
-    "ats": "W",
+    "away": "Morgan State Bears",
+    "home": "Loyola Maryland Greyhounds",
+    "final": "63-61",
+    "model_margin": 2.7,
+    "model_total": 153.3,
+    "line_spread": 1.5,
+    "line_total": 153.5,
+    "ats": "L",
     "tot": "W",
-    "err_margin": 7.9,
-    "err_total": 7.1
+    "err_margin": 4.7,
+    "err_total": 29.3
    },
    {
     "away": "Lipscomb Bisons",
@@ -1175,17 +1175,17 @@
     "err_total": -15.4
    },
    {
-    "away": "Morgan State Bears",
-    "home": "Loyola Maryland Greyhounds",
-    "final": "63-61",
-    "model_margin": 2.7,
-    "model_total": 153.3,
-    "line_spread": 1.5,
-    "line_total": 153.5,
-    "ats": "L",
+    "away": "Utah Tech Trailblazers",
+    "home": "California Golden Bears",
+    "final": "73-79",
+    "model_margin": 13.9,
+    "model_total": 159.1,
+    "line_spread": -14.5,
+    "line_total": 159.5,
+    "ats": "W",
     "tot": "W",
-    "err_margin": 4.7,
-    "err_total": 29.3
+    "err_margin": 7.9,
+    "err_total": 7.1
    },
    {
     "away": "Furman Paladins",
