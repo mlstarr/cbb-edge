@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16 20:21",
+ "generated": "2026-11-17 01:16",
  "yesterday": {
   "date": "2026-11-15",
   "summary": {
@@ -800,19 +800,6 @@
     "err_total": 2.0
    },
    {
-    "away": "Coastal Carolina Chanticleers",
-    "home": "Wisconsin Badgers",
-    "final": "81-89",
-    "model_margin": 26.0,
-    "model_total": 145.8,
-    "line_spread": -27.5,
-    "line_total": 148.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": 18.0,
-    "err_total": -24.2
-   },
-   {
     "away": "Texas State Bobcats",
     "home": "UTSA Roadrunners",
     "final": "87-67",
@@ -837,6 +824,19 @@
     "tot": "L",
     "err_margin": -0.8,
     "err_total": 5.4
+   },
+   {
+    "away": "Coastal Carolina Chanticleers",
+    "home": "Wisconsin Badgers",
+    "final": "81-89",
+    "model_margin": 26.0,
+    "model_total": 145.8,
+    "line_spread": -27.5,
+    "line_total": 148.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": 18.0,
+    "err_total": -24.2
    },
    {
     "away": "Ecclesia Royals",
