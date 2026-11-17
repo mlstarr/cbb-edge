@@ -1,71 +1,71 @@
 {
- "generated": "2026-11-17 01:16",
+ "generated": "2026-11-17 15:51",
  "yesterday": {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "summary": {
-   "games": 36,
-   "with_lines": 34,
+   "games": 23,
+   "with_lines": 22,
    "spread_all": {
-    "w": 17,
-    "l": 17,
+    "w": 9,
+    "l": 13,
     "p": 0,
-    "units": -1.55,
-    "pct": 0.5
+    "units": -4.82,
+    "pct": 0.409
    },
    "spread_edge": {
-    "w": 4,
-    "l": 10,
+    "w": 5,
+    "l": 8,
     "p": 0,
-    "units": -6.36,
-    "pct": 0.286
+    "units": -3.45,
+    "pct": 0.385
    },
    "total_all": {
-    "w": 14,
-    "l": 20,
+    "w": 7,
+    "l": 15,
     "p": 0,
-    "units": -7.27,
-    "pct": 0.412
+    "units": -8.64,
+    "pct": 0.318
    },
    "total_edge": {
-    "w": 5,
-    "l": 7,
+    "w": 1,
+    "l": 5,
     "p": 0,
-    "units": -2.45,
-    "pct": 0.417
+    "units": -4.09,
+    "pct": 0.167
    },
    "buckets": [
     {
      "bucket": "0-2",
      "spread": {
-      "w": 9,
-      "l": 5,
+      "w": 3,
+      "l": 2,
       "p": 0,
-      "units": 3.18,
-      "pct": 0.643
+      "units": 0.73,
+      "pct": 0.6
      },
      "total": {
       "w": 3,
-      "l": 5,
+      "l": 8,
       "p": 0,
-      "units": -2.27,
-      "pct": 0.375
+      "units": -5.27,
+      "pct": 0.273
      }
     },
     {
      "bucket": "2-4",
      "spread": {
-      "w": 7,
-      "l": 6,
+      "w": 3,
+      "l": 5,
       "p": 0,
-      "units": 0.36,
-      "pct": 0.538
+      "units": -2.27,
+      "pct": 0.375
      },
      "total": {
-      "w": 6,
-      "l": 8,
+      "w": 3,
+      "l": 2,
       "p": 0,
-      "units": -2.55,
-      "pct": 0.429
+      "units": 0.73,
+      "pct": 0.6
      }
     },
     {
@@ -78,28 +78,28 @@
       "pct": 0.25
      },
      "total": {
-      "w": 1,
-      "l": 2,
+      "w": 0,
+      "l": 3,
       "p": 0,
-      "units": -1.09,
-      "pct": 0.333
+      "units": -3.0,
+      "pct": 0.0
      }
     },
     {
      "bucket": "6-10",
      "spread": {
-      "w": 0,
+      "w": 2,
       "l": 2,
       "p": 0,
-      "units": -2.0,
-      "pct": 0.0
+      "units": -0.18,
+      "pct": 0.5
      },
      "total": {
-      "w": 2,
-      "l": 5,
+      "w": 1,
+      "l": 1,
       "p": 0,
-      "units": -3.18,
-      "pct": 0.286
+      "units": -0.09,
+      "pct": 0.5
      }
     },
     {
@@ -112,875 +112,636 @@
       "pct": 0.0
      },
      "total": {
-      "w": 2,
-      "l": 0,
+      "w": 0,
+      "l": 1,
       "p": 0,
-      "units": 1.82,
-      "pct": 1.0
+      "units": -1.0,
+      "pct": 0.0
      }
     }
    ],
    "curve": [
     {
-     "date": "2026-11-15",
-     "spread": -6.36,
-     "total": -2.45
+     "date": "2026-11-16",
+     "spread": -3.45,
+     "total": -4.09
     }
    ],
-   "mae_margin": 12.45,
-   "mae_total": 15.16,
-   "bias_margin": -3.05,
-   "bias_total": 2.61,
-   "su": 0.806
+   "mae_margin": 13.64,
+   "mae_total": 17.57,
+   "bias_margin": -4.83,
+   "bias_total": -2.83,
+   "su": 0.87
   },
   "plays": [
    {
-    "date": "2026-11-15",
-    "game": "Arkansas-Pine Bluff Golden Lions @ USC Trojans",
-    "final": "46-122",
-    "kind": "Spread",
-    "pick": "Arkansas-Pine Bluff Golden Lions +46.5",
-    "edge": 13.9,
-    "result": "L",
-    "units": -1.0
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Quinnipiac Bobcats @ Central Connecticut Blue Devils",
-    "final": "67-72",
-    "kind": "Total",
-    "pick": "Over 134.5",
-    "edge": 13.5,
-    "result": "W",
-    "units": 0.91
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Dartmouth Big Green @ Boston University Terriers",
-    "final": "75-90",
-    "kind": "Total",
-    "pick": "Over 143.5",
-    "edge": 10.6,
-    "result": "W",
-    "units": 0.91
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Cleveland State Vikings @ Alabama A&M Bulldogs",
-    "final": "74-73",
-    "kind": "Total",
-    "pick": "Over 145.5",
-    "edge": 9.4,
-    "result": "W",
-    "units": 0.91
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Boise State Broncos @ Nebraska Cornhuskers",
-    "final": "75-102",
-    "kind": "Total",
-    "pick": "Under 158.5",
-    "edge": 9.1,
-    "result": "L",
-    "units": -1.0
-   },
-   {
-    "date": "2026-11-15",
-    "game": "New Haven Chargers @ Penn State Nittany Lions",
-    "final": "52-86",
-    "kind": "Spread",
-    "pick": "New Haven Chargers +24.5",
-    "edge": 8.9,
-    "result": "L",
-    "units": -1.0
-   },
-   {
-    "date": "2026-11-15",
-    "game": "High Point Panthers @ Saint Louis Billikens",
-    "final": "68-58",
-    "kind": "Spread",
-    "pick": "Saint Louis Billikens -6.5",
-    "edge": 8.7,
-    "result": "L",
-    "units": -1.0
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Cal State Bakersfield Roadrunners @ North Dakota State Bison",
-    "final": "73-69",
-    "kind": "Total",
-    "pick": "Over 153.5",
-    "edge": 8.4,
-    "result": "L",
-    "units": -1.0
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Norfolk State Spartans @ Georgia State Panthers",
-    "final": "53-78",
-    "kind": "Total",
-    "pick": "Over 146.5",
-    "edge": 8.0,
-    "result": "L",
-    "units": -1.0
-   },
-   {
-    "date": "2026-11-15",
-    "game": "South Carolina State Bulldogs @ Charleston Cougars",
-    "final": "66-90",
+    "date": "2026-11-16",
+    "game": "SE Louisiana Lions @ Texas A&M Aggies",
+    "final": "69-101",
     "kind": "Total",
     "pick": "Under 161.5",
-    "edge": 7.1,
-    "result": "W",
-    "units": 0.91
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Temple Owls @ La Salle Explorers",
-    "final": "84-71",
-    "kind": "Total",
-    "pick": "Under 152.5",
-    "edge": 6.7,
+    "edge": 11.9,
     "result": "L",
     "units": -1.0
    },
    {
-    "date": "2026-11-15",
-    "game": "Chicago State Cougars @ Loyola Marymount Lions",
-    "final": "49-86",
+    "date": "2026-11-16",
+    "game": "Alcorn State Braves @ Maryland Terrapins",
+    "final": "57-117",
+    "kind": "Spread",
+    "pick": "Alcorn State Braves +34.5",
+    "edge": 10.8,
+    "result": "L",
+    "units": -1.0
+   },
+   {
+    "date": "2026-11-16",
+    "game": "Prairie View A&M Panthers @ Ohio State Buckeyes",
+    "final": "59-86",
+    "kind": "Spread",
+    "pick": "Prairie View A&M Panthers +33.5",
+    "edge": 8.3,
+    "result": "W",
+    "units": 0.91
+   },
+   {
+    "date": "2026-11-16",
+    "game": "Florida A&M Rattlers @ UTEP Miners",
+    "final": "46-79",
+    "kind": "Spread",
+    "pick": "Florida A&M Rattlers +19.5",
+    "edge": 7.6,
+    "result": "L",
+    "units": -1.0
+   },
+   {
+    "date": "2026-11-16",
+    "game": "Richmond Spiders @ Virginia Tech Hokies",
+    "final": "68-85",
     "kind": "Total",
-    "pick": "Over 139.5",
+    "pick": "Over 150.5",
+    "edge": 7.0,
+    "result": "W",
+    "units": 0.91
+   },
+   {
+    "date": "2026-11-16",
+    "game": "Grambling Tigers @ Kentucky Wildcats",
+    "final": "59-88",
+    "kind": "Spread",
+    "pick": "Grambling Tigers +28.5",
     "edge": 6.3,
     "result": "L",
     "units": -1.0
    },
    {
-    "date": "2026-11-15",
-    "game": "Princeton Tigers @ Rhode Island Rams",
-    "final": "72-79",
+    "date": "2026-11-16",
+    "game": "Iona Gaels @ UMBC Retrievers",
+    "final": "67-75",
     "kind": "Spread",
-    "pick": "Rhode Island Rams -7.5",
-    "edge": 5.7,
-    "result": "L",
-    "units": -1.0
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Syracuse Orange @ St. John's Red Storm",
-    "final": "62-79",
-    "kind": "Total",
-    "pick": "Over 149.5",
-    "edge": 5.6,
-    "result": "L",
-    "units": -1.0
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Niagara Purple Eagles @ Iowa State Cyclones",
-    "final": "45-66",
-    "kind": "Total",
-    "pick": "Under 143.5",
-    "edge": 4.9,
+    "pick": "UMBC Retrievers +2.5",
+    "edge": 6.2,
     "result": "W",
     "units": 0.91
    },
    {
-    "date": "2026-11-15",
-    "game": "Idaho State Bengals @ Seattle U Redhawks",
-    "final": "70-77",
+    "date": "2026-11-16",
+    "game": "Texas Southern Tigers @ UC San Diego Tritons",
+    "final": "92-97",
+    "kind": "Total",
+    "pick": "Under 157.5",
+    "edge": 6.1,
+    "result": "L",
+    "units": -1.0
+   },
+   {
+    "date": "2026-11-16",
+    "game": "Western Kentucky Hilltoppers @ Tulsa Golden Hurricane",
+    "final": "64-67",
     "kind": "Spread",
-    "pick": "Idaho State Bengals +15.5",
+    "pick": "Tulsa Golden Hurricane -5.5",
+    "edge": 5.5,
+    "result": "L",
+    "units": -1.0
+   },
+   {
+    "date": "2026-11-16",
+    "game": "Central Arkansas Bears @ Oklahoma State Cowboys",
+    "final": "66-99",
+    "kind": "Spread",
+    "pick": "Central Arkansas Bears +18.5",
+    "edge": 5.4,
+    "result": "L",
+    "units": -1.0
+   },
+   {
+    "date": "2026-11-16",
+    "game": "The Citadel Bulldogs @ Clemson Tigers",
+    "final": "51-87",
+    "kind": "Spread",
+    "pick": "The Citadel Bulldogs +24.5",
+    "edge": 5.1,
+    "result": "L",
+    "units": -1.0
+   },
+   {
+    "date": "2026-11-16",
+    "game": "SE Louisiana Lions @ Texas A&M Aggies",
+    "final": "69-101",
+    "kind": "Spread",
+    "pick": "SE Louisiana Lions +33.5",
     "edge": 4.7,
     "result": "W",
     "units": 0.91
    },
    {
-    "date": "2026-11-15",
-    "game": "Purdue Fort Wayne Mastodons @ Eastern Illinois Panthers",
-    "final": "86-74",
+    "date": "2026-11-16",
+    "game": "Abilene Christian Wildcats @ Missouri State Bears",
+    "final": "64-73",
     "kind": "Total",
-    "pick": "Under 146.5",
-    "edge": 4.5,
+    "pick": "Over 140.5",
+    "edge": 4.6,
     "result": "L",
     "units": -1.0
    },
    {
-    "date": "2026-11-15",
-    "game": "New Mexico State Aggies @ San Diego State Aztecs",
-    "final": "61-73",
-    "kind": "Spread",
-    "pick": "San Diego State Aztecs -12.5",
-    "edge": 4.3,
+    "date": "2026-11-16",
+    "game": "Western Kentucky Hilltoppers @ Tulsa Golden Hurricane",
+    "final": "64-67",
+    "kind": "Total",
+    "pick": "Over 158.5",
+    "edge": 4.1,
     "result": "L",
     "units": -1.0
    },
    {
-    "date": "2026-11-15",
-    "game": "Creighton Bluejays @ Iowa Hawkeyes",
-    "final": "70-69",
-    "kind": "Spread",
-    "pick": "Iowa Hawkeyes -4.5",
-    "edge": 4.2,
+    "date": "2026-11-16",
+    "game": "Eastern Kentucky Colonels @ Kent State Golden Flashes",
+    "final": "65-49",
+    "kind": "Total",
+    "pick": "Over 160.5",
+    "edge": 4.0,
     "result": "L",
     "units": -1.0
    },
    {
-    "date": "2026-11-15",
-    "game": "Norfolk State Spartans @ Georgia State Panthers",
-    "final": "53-78",
+    "date": "2026-11-16",
+    "game": "Western Illinois Leathernecks @ Minnesota Golden Gophers",
+    "final": "63-99",
     "kind": "Spread",
-    "pick": "Norfolk State Spartans +10.5",
-    "edge": 3.9,
-    "result": "L",
-    "units": -1.0
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Niagara Purple Eagles @ Iowa State Cyclones",
-    "final": "45-66",
-    "kind": "Spread",
-    "pick": "Niagara Purple Eagles +39.5",
+    "pick": "Western Illinois Leathernecks +33.5",
     "edge": 3.7,
-    "result": "W",
-    "units": 0.91
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Quinnipiac Bobcats @ Central Connecticut Blue Devils",
-    "final": "67-72",
-    "kind": "Spread",
-    "pick": "Central Connecticut Blue Devils +4.5",
-    "edge": 3.5,
-    "result": "W",
-    "units": 0.91
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Chicago State Cougars @ Loyola Marymount Lions",
-    "final": "49-86",
-    "kind": "Spread",
-    "pick": "Chicago State Cougars +18.5",
-    "edge": 3.3,
     "result": "L",
     "units": -1.0
    },
    {
-    "date": "2026-11-15",
-    "game": "Dartmouth Big Green @ Boston University Terriers",
-    "final": "75-90",
+    "date": "2026-11-16",
+    "game": "Columbia Lions @ Northwestern Wildcats",
+    "final": "75-53",
     "kind": "Spread",
-    "pick": "Boston University Terriers -3.5",
-    "edge": 3.1,
-    "result": "W",
-    "units": 0.91
-   },
-   {
-    "date": "2026-11-15",
-    "game": "Boise State Broncos @ Nebraska Cornhuskers",
-    "final": "75-102",
-    "kind": "Spread",
-    "pick": "Boise State Broncos +9.5",
-    "edge": 3.1,
+    "pick": "Northwestern Wildcats -11.5",
+    "edge": 3.7,
     "result": "L",
     "units": -1.0
    },
    {
-    "date": "2026-11-15",
-    "game": "Cal State Bakersfield Roadrunners @ North Dakota State Bison",
-    "final": "73-69",
+    "date": "2026-11-16",
+    "game": "St. Thomas Tommies @ Long Island University Sharks",
+    "final": "79-70",
     "kind": "Spread",
-    "pick": "North Dakota State Bison -4.5",
+    "pick": "St. Thomas Tommies -1.5",
     "edge": 3.0,
-    "result": "L",
-    "units": -1.0
+    "result": "W",
+    "units": 0.91
+   },
+   {
+    "date": "2026-11-16",
+    "game": "Abilene Christian Wildcats @ Missouri State Bears",
+    "final": "64-73",
+    "kind": "Spread",
+    "pick": "Missouri State Bears -5.5",
+    "edge": 3.0,
+    "result": "W",
+    "units": 0.91
    }
   ],
   "games": [
    {
-    "away": "Harvard Crimson",
-    "home": "American University Eagles",
-    "final": "64-70",
-    "model_margin": 2.6,
-    "model_total": 135.0,
-    "line_spread": -1.5,
-    "line_total": 131.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": -3.4,
-    "err_total": 1.0
-   },
-   {
-    "away": "Niagara Purple Eagles",
-    "home": "Iowa State Cyclones",
-    "final": "45-66",
-    "model_margin": 35.8,
-    "model_total": 138.6,
-    "line_spread": -39.5,
-    "line_total": 143.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": 14.8,
-    "err_total": 27.6
-   },
-   {
-    "away": "Dartmouth Big Green",
-    "home": "Boston University Terriers",
-    "final": "75-90",
-    "model_margin": 6.6,
-    "model_total": 154.1,
-    "line_spread": -3.5,
-    "line_total": 143.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": -8.4,
-    "err_total": -10.9
-   },
-   {
-    "away": "Quinnipiac Bobcats",
-    "home": "Central Connecticut Blue Devils",
-    "final": "67-72",
-    "model_margin": -1.0,
-    "model_total": 148.0,
-    "line_spread": 4.5,
-    "line_total": 134.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": -6.0,
-    "err_total": 9.0
-   },
-   {
-    "away": "Norfolk State Spartans",
-    "home": "Georgia State Panthers",
-    "final": "53-78",
-    "model_margin": 6.6,
-    "model_total": 154.5,
-    "line_spread": -10.5,
-    "line_total": 146.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": -18.4,
-    "err_total": 23.5
-   },
-   {
-    "away": "Boise State Broncos",
-    "home": "Nebraska Cornhuskers",
-    "final": "75-102",
-    "model_margin": 6.4,
-    "model_total": 149.4,
-    "line_spread": -9.5,
-    "line_total": 158.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": -20.6,
-    "err_total": -27.6
-   },
-   {
-    "away": "Louisville Cardinals",
-    "home": "Memphis Tigers",
-    "final": "78-98",
-    "model_margin": -8.5,
-    "model_total": 161.3,
-    "line_spread": 8.5,
-    "line_total": 163.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": -28.5,
-    "err_total": -14.7
-   },
-   {
-    "away": "New Hampshire Wildcats",
-    "home": "Boston College Eagles",
-    "final": "55-67",
-    "model_margin": 19.9,
-    "model_total": 133.9,
-    "line_spread": -22.5,
-    "line_total": 133.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": 7.9,
-    "err_total": 11.9
-   },
-   {
-    "away": "Princeton Tigers",
-    "home": "Rhode Island Rams",
-    "final": "72-79",
-    "model_margin": 13.2,
-    "model_total": 135.1,
-    "line_spread": -7.5,
-    "line_total": 138.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": 6.2,
-    "err_total": -15.9
-   },
-   {
-    "away": "Cal State Bakersfield Roadrunners",
-    "home": "North Dakota State Bison",
-    "final": "73-69",
-    "model_margin": 7.5,
-    "model_total": 161.9,
-    "line_spread": -4.5,
+    "away": "Prairie View A&M Panthers",
+    "home": "Ohio State Buckeyes",
+    "final": "59-86",
+    "model_margin": 25.2,
+    "model_total": 155.0,
+    "line_spread": -33.5,
     "line_total": 153.5,
-    "ats": "L",
+    "ats": "W",
     "tot": "L",
-    "err_margin": 11.5,
-    "err_total": 19.9
+    "err_margin": -1.8,
+    "err_total": 10.0
    },
    {
-    "away": "UAlbany Great Danes",
-    "home": "Holy Cross Crusaders",
-    "final": "62-60",
-    "model_margin": -0.3,
-    "model_total": 149.2,
+    "away": "Iona Gaels",
+    "home": "UMBC Retrievers",
+    "final": "67-75",
+    "model_margin": 3.7,
+    "model_total": 147.3,
     "line_spread": 2.5,
-    "line_total": 146.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": 1.7,
-    "err_total": 27.2
-   },
-   {
-    "away": "Temple Owls",
-    "home": "La Salle Explorers",
-    "final": "84-71",
-    "model_margin": 2.0,
-    "model_total": 145.8,
-    "line_spread": -1.5,
-    "line_total": 152.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": 15.0,
-    "err_total": -9.2
-   },
-   {
-    "away": "South Carolina State Bulldogs",
-    "home": "Charleston Cougars",
-    "final": "66-90",
-    "model_margin": 15.8,
-    "model_total": 154.4,
-    "line_spread": -17.5,
-    "line_total": 161.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": -8.2,
-    "err_total": -1.6
-   },
-   {
-    "away": "William & Mary Tribe",
-    "home": "Michigan Wolverines",
-    "final": "79-123",
-    "model_margin": 25.6,
-    "model_total": 169.2,
-    "line_spread": -28.5,
-    "line_total": 166.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": -18.4,
-    "err_total": -32.8
-   },
-   {
-    "away": "Colgate Raiders",
-    "home": "Delaware Blue Hens",
-    "final": "58-64",
-    "model_margin": 2.5,
-    "model_total": 146.9,
-    "line_spread": -1.5,
-    "line_total": 147.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": -3.5,
-    "err_total": 24.9
-   },
-   {
-    "away": "Creighton Bluejays",
-    "home": "Iowa Hawkeyes",
-    "final": "70-69",
-    "model_margin": 8.7,
-    "model_total": 143.7,
-    "line_spread": -4.5,
     "line_total": 145.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": 9.7,
-    "err_total": 4.7
+    "ats": "W",
+    "tot": "L",
+    "err_margin": -4.3,
+    "err_total": 5.3
    },
    {
-    "away": "Missouri Tigers",
-    "home": "Marquette Golden Eagles",
-    "final": "64-69",
-    "model_margin": 0.4,
-    "model_total": 149.6,
-    "line_spread": -1.5,
+    "away": "Alcorn State Braves",
+    "home": "Maryland Terrapins",
+    "final": "57-117",
+    "model_margin": 23.7,
+    "model_total": 152.2,
+    "line_spread": -34.5,
     "line_total": 153.5,
     "ats": "L",
-    "tot": "W",
-    "err_margin": -4.6,
-    "err_total": 16.6
-   },
-   {
-    "away": "Mercyhurst Lakers",
-    "home": "James Madison Dukes",
-    "final": "71-80",
-    "model_margin": 13.1,
-    "model_total": 139.1,
-    "line_spread": -15.5,
-    "line_total": 138.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": 4.1,
-    "err_total": -11.9
-   },
-   {
-    "away": "Baylor Bears",
-    "home": "Texas Longhorns",
-    "final": "72-75",
-    "model_margin": 3.9,
-    "model_total": 161.9,
-    "line_spread": -5.5,
-    "line_total": 158.5,
-    "ats": "W",
     "tot": "L",
-    "err_margin": 0.9,
-    "err_total": 14.9
+    "err_margin": -36.3,
+    "err_total": -21.8
    },
    {
-    "away": "Purdue Fort Wayne Mastodons",
-    "home": "Eastern Illinois Panthers",
-    "final": "86-74",
-    "model_margin": -1.0,
-    "model_total": 142.0,
-    "line_spread": 3.5,
-    "line_total": 146.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": 11.0,
-    "err_total": -18.0
-   },
-   {
-    "away": "Cleveland State Vikings",
-    "home": "Alabama A&M Bulldogs",
-    "final": "74-73",
-    "model_margin": 3.5,
-    "model_total": 154.9,
-    "line_spread": -3.5,
-    "line_total": 145.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": 4.5,
-    "err_total": 7.9
-   },
-   {
-    "away": "High Point Panthers",
-    "home": "Saint Louis Billikens",
-    "final": "68-58",
-    "model_margin": 15.2,
-    "model_total": 159.7,
-    "line_spread": -6.5,
-    "line_total": 163.5,
+    "away": "Florida A&M Rattlers",
+    "home": "UTEP Miners",
+    "final": "46-79",
+    "model_margin": 11.9,
+    "model_total": 137.9,
+    "line_spread": -19.5,
+    "line_total": 141.5,
     "ats": "L",
     "tot": "W",
-    "err_margin": 25.2,
-    "err_total": 33.7
-   },
-   {
-    "away": "Syracuse Orange",
-    "home": "St. John's Red Storm",
-    "final": "62-79",
-    "model_margin": 12.4,
-    "model_total": 155.1,
-    "line_spread": -12.5,
-    "line_total": 149.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": -4.6,
-    "err_total": 14.1
-   },
-   {
-    "away": "Arkansas-Pine Bluff Golden Lions",
-    "home": "USC Trojans",
-    "final": "46-122",
-    "model_margin": 32.6,
-    "model_total": 156.6,
-    "line_spread": -46.5,
-    "line_total": 158.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": -43.4,
-    "err_total": -11.4
-   },
-   {
-    "away": "Cal Poly Mustangs",
-    "home": "Montana State Bobcats",
-    "final": "52-77",
-    "model_margin": 6.7,
-    "model_total": 166.7,
-    "line_spread": -6.5,
-    "line_total": 165.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": -18.3,
-    "err_total": 37.7
-   },
-   {
-    "away": "Canisius Golden Griffins",
-    "home": "Buffalo Bulls",
-    "final": "55-79",
-    "model_margin": 14.8,
-    "model_total": 147.4,
-    "line_spread": -13.5,
-    "line_total": 150.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": -9.2,
-    "err_total": 13.4
-   },
-   {
-    "away": "Western Michigan Broncos",
-    "home": "Southern Indiana Screaming Eagles",
-    "final": "80-59",
-    "model_margin": -6.5,
-    "model_total": 139.7,
-    "line_spread": 6.5,
-    "line_total": 139.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": 14.5,
-    "err_total": 0.7
-   },
-   {
-    "away": "Idaho State Bengals",
-    "home": "Seattle U Redhawks",
-    "final": "70-77",
-    "model_margin": 10.8,
-    "model_total": 141.2,
-    "line_spread": -15.5,
-    "line_total": 143.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": 3.8,
-    "err_total": -5.8
-   },
-   {
-    "away": "Chicago State Cougars",
-    "home": "Loyola Marymount Lions",
-    "final": "49-86",
-    "model_margin": 15.2,
-    "model_total": 145.8,
-    "line_spread": -18.5,
-    "line_total": 139.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": -21.8,
-    "err_total": 10.8
-   },
-   {
-    "away": "New Mexico State Aggies",
-    "home": "San Diego State Aztecs",
-    "final": "61-73",
-    "model_margin": 16.8,
-    "model_total": 146.9,
-    "line_spread": -12.5,
-    "line_total": 143.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": 4.8,
+    "err_margin": -21.1,
     "err_total": 12.9
    },
    {
-    "away": "New Haven Chargers",
-    "home": "Penn State Nittany Lions",
-    "final": "52-86",
-    "model_margin": 15.6,
-    "model_total": 140.0,
-    "line_spread": -24.5,
-    "line_total": 142.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": -18.4,
-    "err_total": 2.0
-   },
-   {
-    "away": "Texas State Bobcats",
-    "home": "UTSA Roadrunners",
-    "final": "87-67",
-    "model_margin": -4.4,
-    "model_total": 146.4,
-    "line_spread": 3.5,
+    "away": "Tarleton State Texans",
+    "home": "Drake Bulldogs",
+    "final": "83-79",
+    "model_margin": 6.7,
+    "model_total": 146.0,
+    "line_spread": -8.5,
     "line_total": 146.5,
     "ats": "W",
     "tot": "L",
-    "err_margin": 15.6,
-    "err_total": -7.6
+    "err_margin": 10.7,
+    "err_total": -16.0
    },
    {
-    "away": "Alabama State Hornets",
-    "home": "San Jos\u00e9 State Spartans",
-    "final": "68-80",
-    "model_margin": 11.2,
-    "model_total": 153.4,
-    "line_spread": -13.5,
+    "away": "Grambling Tigers",
+    "home": "Kentucky Wildcats",
+    "final": "59-88",
+    "model_margin": 22.2,
+    "model_total": 150.1,
+    "line_spread": -28.5,
+    "line_total": 152.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": -6.8,
+    "err_total": 3.1
+   },
+   {
+    "away": "Eastern Kentucky Colonels",
+    "home": "Kent State Golden Flashes",
+    "final": "65-49",
+    "model_margin": 9.5,
+    "model_total": 164.5,
+    "line_spread": -9.5,
+    "line_total": 160.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": 25.5,
+    "err_total": 50.5
+   },
+   {
+    "away": "Western Kentucky Hilltoppers",
+    "home": "Tulsa Golden Hurricane",
+    "final": "64-67",
+    "model_margin": 11.0,
+    "model_total": 162.6,
+    "line_spread": -5.5,
+    "line_total": 158.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": 8.0,
+    "err_total": 31.6
+   },
+   {
+    "away": "Montana Grizzlies",
+    "home": "Kansas State Wildcats",
+    "final": "45-86",
+    "model_margin": 12.9,
+    "model_total": 156.1,
+    "line_spread": -14.5,
+    "line_total": 154.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": -28.1,
+    "err_total": 25.1
+   },
+   {
+    "away": "St. Thomas Tommies",
+    "home": "Long Island University Sharks",
+    "final": "79-70",
+    "model_margin": -4.5,
+    "model_total": 148.7,
+    "line_spread": 1.5,
+    "line_total": 146.5,
+    "ats": "W",
+    "tot": "W",
+    "err_margin": 4.5,
+    "err_total": -0.3
+   },
+   {
+    "away": "Richmond Spiders",
+    "home": "Virginia Tech Hokies",
+    "final": "68-85",
+    "model_margin": 10.3,
+    "model_total": 157.5,
+    "line_spread": -12.5,
+    "line_total": 150.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": -6.7,
+    "err_total": 4.5
+   },
+   {
+    "away": "Jacksonville Dolphins",
+    "home": "Georgia Bulldogs",
+    "final": "62-107",
+    "model_margin": 19.9,
+    "model_total": 150.6,
+    "line_spread": -21.5,
+    "line_total": 153.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": -25.1,
+    "err_total": -18.4
+   },
+   {
+    "away": "The Citadel Bulldogs",
+    "home": "Clemson Tigers",
+    "final": "51-87",
+    "model_margin": 19.4,
+    "model_total": 143.5,
+    "line_spread": -24.5,
+    "line_total": 142.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": -16.6,
+    "err_total": 5.5
+   },
+   {
+    "away": "Western Illinois Leathernecks",
+    "home": "Minnesota Golden Gophers",
+    "final": "63-99",
+    "model_margin": 29.8,
+    "model_total": 136.6,
+    "line_spread": -33.5,
+    "line_total": 135.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": -6.2,
+    "err_total": -25.4
+   },
+   {
+    "away": "Abilene Christian Wildcats",
+    "home": "Missouri State Bears",
+    "final": "64-73",
+    "model_margin": 8.5,
+    "model_total": 145.1,
+    "line_spread": -5.5,
+    "line_total": 140.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": -0.5,
+    "err_total": 8.1
+   },
+   {
+    "away": "Central Arkansas Bears",
+    "home": "Oklahoma State Cowboys",
+    "final": "66-99",
+    "model_margin": 13.1,
+    "model_total": 159.9,
+    "line_spread": -18.5,
+    "line_total": 162.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": -19.9,
+    "err_total": -5.1
+   },
+   {
+    "away": "Texas Southern Tigers",
+    "home": "UC San Diego Tritons",
+    "final": "92-97",
+    "model_margin": 16.2,
+    "model_total": 151.4,
+    "line_spread": -18.5,
+    "line_total": 157.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": 11.2,
+    "err_total": -37.6
+   },
+   {
+    "away": "Portland State Vikings",
+    "home": "Saint Mary's Gaels",
+    "final": "78-94",
+    "model_margin": 18.1,
+    "model_total": 150.7,
+    "line_spread": -18.5,
     "line_total": 150.5,
     "ats": "W",
-    "tot": "L",
-    "err_margin": -0.8,
-    "err_total": 5.4
+    "tot": "W",
+    "err_margin": 2.1,
+    "err_total": -21.3
    },
    {
-    "away": "Coastal Carolina Chanticleers",
-    "home": "Wisconsin Badgers",
-    "final": "81-89",
-    "model_margin": 26.0,
-    "model_total": 145.8,
-    "line_spread": -27.5,
-    "line_total": 148.5,
+    "away": "East Texas A&M Lions",
+    "home": "Oregon State Beavers",
+    "final": "71-109",
+    "model_margin": 14.0,
+    "model_total": 151.8,
+    "line_spread": -16.5,
+    "line_total": 153.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": -24.0,
+    "err_total": -28.2
+   },
+   {
+    "away": "SE Louisiana Lions",
+    "home": "Texas A&M Aggies",
+    "final": "69-101",
+    "model_margin": 28.8,
+    "model_total": 149.6,
+    "line_spread": -33.5,
+    "line_total": 161.5,
     "ats": "W",
     "tot": "L",
-    "err_margin": 18.0,
-    "err_total": -24.2
+    "err_margin": -3.2,
+    "err_total": -20.4
    },
    {
-    "away": "Ecclesia Royals",
-    "home": "UT Martin Skyhawks",
-    "final": "44-128",
-    "model_margin": 50.8,
-    "model_total": 159.0,
-    "line_spread": null,
-    "line_total": null,
-    "ats": "",
-    "tot": "",
-    "err_margin": -33.2,
-    "err_total": -13.0
-   },
-   {
-    "away": "Air Force Falcons",
-    "home": "Pacific Tigers",
-    "final": "69-93",
-    "model_margin": 14.6,
+    "away": "Columbia Lions",
+    "home": "Northwestern Wildcats",
+    "final": "75-53",
+    "model_margin": 15.2,
     "model_total": 140.8,
+    "line_spread": -11.5,
+    "line_total": 139.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": 37.2,
+    "err_total": 12.8
+   },
+   {
+    "away": "Long Beach State Beach",
+    "home": "UCLA Bruins",
+    "final": "66-105",
+    "model_margin": 27.2,
+    "model_total": 147.0,
+    "line_spread": -29.5,
+    "line_total": 145.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": -11.8,
+    "err_total": -24.0
+   },
+   {
+    "away": "Virginia Lynchburg Dragons",
+    "home": "North Carolina Central Eagles",
+    "final": "71-117",
+    "model_margin": 48.2,
+    "model_total": 171.9,
     "line_spread": null,
     "line_total": null,
     "ats": "",
     "tot": "",
-    "err_margin": -9.4,
-    "err_total": -21.2
+    "err_margin": 2.2,
+    "err_total": -16.1
    }
   ]
  },
  "season": {
-  "games": 94,
-  "with_lines": 91,
+  "games": 117,
+  "with_lines": 113,
   "spread_all": {
-   "w": 40,
-   "l": 51,
+   "w": 49,
+   "l": 64,
    "p": 0,
-   "units": -14.64,
-   "pct": 0.44
+   "units": -19.45,
+   "pct": 0.434
   },
   "spread_edge": {
-   "w": 13,
-   "l": 26,
+   "w": 18,
+   "l": 34,
    "p": 0,
-   "units": -14.18,
-   "pct": 0.333
+   "units": -17.64,
+   "pct": 0.346
   },
   "total_all": {
-   "w": 43,
-   "l": 48,
+   "w": 50,
+   "l": 63,
    "p": 0,
-   "units": -8.91,
-   "pct": 0.473
+   "units": -17.55,
+   "pct": 0.442
   },
   "total_edge": {
-   "w": 14,
-   "l": 17,
+   "w": 15,
+   "l": 22,
    "p": 0,
-   "units": -4.27,
-   "pct": 0.452
+   "units": -8.36,
+   "pct": 0.405
   },
   "buckets": [
    {
     "bucket": "0-2",
     "spread": {
-     "w": 18,
-     "l": 18,
+     "w": 21,
+     "l": 20,
      "p": 0,
-     "units": -1.64,
-     "pct": 0.5
+     "units": -0.91,
+     "pct": 0.512
     },
     "total": {
-     "w": 15,
-     "l": 16,
+     "w": 18,
+     "l": 24,
      "p": 0,
-     "units": -2.36,
-     "pct": 0.484
+     "units": -7.64,
+     "pct": 0.429
     }
    },
    {
     "bucket": "2-4",
     "spread": {
-     "w": 17,
-     "l": 15,
+     "w": 20,
+     "l": 20,
      "p": 0,
-     "units": 0.45,
-     "pct": 0.531
+     "units": -1.82,
+     "pct": 0.5
     },
     "total": {
-     "w": 14,
-     "l": 15,
+     "w": 17,
+     "l": 17,
      "p": 0,
-     "units": -2.27,
-     "pct": 0.483
+     "units": -1.55,
+     "pct": 0.5
     }
    },
    {
     "bucket": "4-6",
     "spread": {
-     "w": 3,
-     "l": 8,
+     "w": 4,
+     "l": 11,
      "p": 0,
-     "units": -5.27,
-     "pct": 0.273
+     "units": -7.36,
+     "pct": 0.267
     },
     "total": {
      "w": 4,
-     "l": 7,
+     "l": 10,
      "p": 0,
-     "units": -3.36,
-     "pct": 0.364
+     "units": -6.36,
+     "pct": 0.286
     }
    },
    {
     "bucket": "6-10",
     "spread": {
-     "w": 2,
-     "l": 9,
+     "w": 4,
+     "l": 11,
      "p": 0,
-     "units": -7.18,
-     "pct": 0.182
+     "units": -7.36,
+     "pct": 0.267
     },
     "total": {
-     "w": 6,
-     "l": 10,
+     "w": 7,
+     "l": 11,
      "p": 0,
-     "units": -4.55,
-     "pct": 0.375
+     "units": -4.64,
+     "pct": 0.389
     }
    },
    {
     "bucket": "10-+",
     "spread": {
      "w": 0,
-     "l": 1,
+     "l": 2,
      "p": 0,
-     "units": -1.0,
+     "units": -2.0,
      "pct": 0.0
     },
     "total": {
      "w": 4,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "units": 3.64,
-     "pct": 1.0
+     "units": 2.64,
+     "pct": 0.8
     }
    }
   ],
@@ -994,13 +755,18 @@
     "date": "2026-11-15",
     "spread": -14.18,
     "total": -4.27
+   },
+   {
+    "date": "2026-11-16",
+    "spread": -17.64,
+    "total": -8.36
    }
   ],
-  "mae_margin": 10.99,
-  "mae_total": 15.37,
-  "bias_margin": 0.93,
-  "bias_total": 4.97,
-  "su": 0.723
+  "mae_margin": 11.51,
+  "mae_total": 15.81,
+  "bias_margin": -0.2,
+  "bias_total": 3.43,
+  "su": 0.752
  },
  "parlays": {
   "days": [
@@ -1059,38 +825,66 @@
       "Under 161.5 (South/Charleston) W"
      ]
     }
+   },
+   {
+    "date": "2026-11-16",
+    "small": {
+     "k": 3,
+     "result": "L",
+     "pnl": -1.0,
+     "legs": [
+      "Prairie View A&M Panthers +33.5 W",
+      "UMBC Retrievers +2.5 W",
+      "Florida A&M Rattlers +19.5 L"
+     ]
+    },
+    "lotto": {
+     "k": 8,
+     "result": "L",
+     "pnl": -0.25,
+     "legs": [
+      "Prairie View A&M Panthers +33.5 W",
+      "UMBC Retrievers +2.5 W",
+      "Florida A&M Rattlers +19.5 L",
+      "Grambling Tigers +28.5 L",
+      "Tulsa Golden Hurricane -5.5 L",
+      "Central Arkansas Bears +18.5 L",
+      "The Citadel Bulldogs +24.5 L",
+      "Over 150.5 (Richmond/Virginia) W"
+     ]
+    }
    }
   ],
   "small": {
-   "n": 2,
+   "n": 3,
    "hit": 0,
-   "units": -2.0
+   "units": -3.0
   },
   "lotto": {
-   "n": 2,
+   "n": 3,
    "hit": 0,
-   "units": -0.5
+   "units": -0.75
   },
   "note": "Flat stakes: small parlay 1u, lotto 0.25u, -110 legs, one leg per game, last logged line before the game."
  },
  "model_only": {
   "season": {
-   "n": 663,
-   "mae_margin": 10.68,
-   "mae_total": 14.27,
-   "bias_margin": 0.33,
-   "bias_total": 0.28,
-   "su": 0.792
+   "n": 686,
+   "mae_margin": 10.77,
+   "mae_total": 14.38,
+   "bias_margin": 0.16,
+   "bias_total": 0.17,
+   "su": 0.794
   },
   "last7": {
-   "n": 322,
-   "mae_margin": 10.44,
-   "mae_total": 14.24,
-   "bias_margin": 1.51,
-   "bias_total": 1.67,
-   "su": 0.761
+   "n": 309,
+   "mae_margin": 10.89,
+   "mae_total": 14.52,
+   "bias_margin": 1.22,
+   "bias_total": 1.36,
+   "su": 0.751
   },
-  "through": "2026-11-15",
+  "through": "2026-11-16",
   "note": "Walk-forward on finished games using only data before each game; no betting lines involved."
  }
 }
