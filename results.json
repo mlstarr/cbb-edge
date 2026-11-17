@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16 16:43",
+ "generated": "2026-11-16 20:21",
  "yesterday": {
   "date": "2026-11-15",
   "summary": {
@@ -397,19 +397,6 @@
   ],
   "games": [
    {
-    "away": "Dartmouth Big Green",
-    "home": "Boston University Terriers",
-    "final": "75-90",
-    "model_margin": 6.6,
-    "model_total": 154.1,
-    "line_spread": -3.5,
-    "line_total": 143.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": -8.4,
-    "err_total": -10.9
-   },
-   {
     "away": "Harvard Crimson",
     "home": "American University Eagles",
     "final": "64-70",
@@ -434,6 +421,19 @@
     "tot": "W",
     "err_margin": 14.8,
     "err_total": 27.6
+   },
+   {
+    "away": "Dartmouth Big Green",
+    "home": "Boston University Terriers",
+    "final": "75-90",
+    "model_margin": 6.6,
+    "model_total": 154.1,
+    "line_spread": -3.5,
+    "line_total": 143.5,
+    "ats": "W",
+    "tot": "W",
+    "err_margin": -8.4,
+    "err_total": -10.9
    },
    {
     "away": "Quinnipiac Bobcats",
@@ -579,19 +579,6 @@
     "err_total": -32.8
    },
    {
-    "away": "Missouri Tigers",
-    "home": "Marquette Golden Eagles",
-    "final": "64-69",
-    "model_margin": 0.4,
-    "model_total": 149.6,
-    "line_spread": -1.5,
-    "line_total": 153.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": -4.6,
-    "err_total": 16.6
-   },
-   {
     "away": "Colgate Raiders",
     "home": "Delaware Blue Hens",
     "final": "58-64",
@@ -605,19 +592,6 @@
     "err_total": 24.9
    },
    {
-    "away": "High Point Panthers",
-    "home": "Saint Louis Billikens",
-    "final": "68-58",
-    "model_margin": 15.2,
-    "model_total": 159.7,
-    "line_spread": -6.5,
-    "line_total": 163.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": 25.2,
-    "err_total": 33.7
-   },
-   {
     "away": "Creighton Bluejays",
     "home": "Iowa Hawkeyes",
     "final": "70-69",
@@ -629,6 +603,32 @@
     "tot": "W",
     "err_margin": 9.7,
     "err_total": 4.7
+   },
+   {
+    "away": "Missouri Tigers",
+    "home": "Marquette Golden Eagles",
+    "final": "64-69",
+    "model_margin": 0.4,
+    "model_total": 149.6,
+    "line_spread": -1.5,
+    "line_total": 153.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": -4.6,
+    "err_total": 16.6
+   },
+   {
+    "away": "Mercyhurst Lakers",
+    "home": "James Madison Dukes",
+    "final": "71-80",
+    "model_margin": 13.1,
+    "model_total": 139.1,
+    "line_spread": -15.5,
+    "line_total": 138.5,
+    "ats": "W",
+    "tot": "W",
+    "err_margin": 4.1,
+    "err_total": -11.9
    },
    {
     "away": "Baylor Bears",
@@ -670,17 +670,17 @@
     "err_total": 7.9
    },
    {
-    "away": "Mercyhurst Lakers",
-    "home": "James Madison Dukes",
-    "final": "71-80",
-    "model_margin": 13.1,
-    "model_total": 139.1,
-    "line_spread": -15.5,
-    "line_total": 138.5,
-    "ats": "W",
+    "away": "High Point Panthers",
+    "home": "Saint Louis Billikens",
+    "final": "68-58",
+    "model_margin": 15.2,
+    "model_total": 159.7,
+    "line_spread": -6.5,
+    "line_total": 163.5,
+    "ats": "L",
     "tot": "W",
-    "err_margin": 4.1,
-    "err_total": -11.9
+    "err_margin": 25.2,
+    "err_total": 33.7
    },
    {
     "away": "Syracuse Orange",
@@ -735,19 +735,6 @@
     "err_total": 13.4
    },
    {
-    "away": "New Haven Chargers",
-    "home": "Penn State Nittany Lions",
-    "final": "52-86",
-    "model_margin": 15.6,
-    "model_total": 140.0,
-    "line_spread": -24.5,
-    "line_total": 142.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": -18.4,
-    "err_total": 2.0
-   },
-   {
     "away": "Western Michigan Broncos",
     "home": "Southern Indiana Screaming Eagles",
     "final": "80-59",
@@ -800,17 +787,17 @@
     "err_total": 12.9
    },
    {
-    "away": "Alabama State Hornets",
-    "home": "San Jos\u00e9 State Spartans",
-    "final": "68-80",
-    "model_margin": 11.2,
-    "model_total": 153.4,
-    "line_spread": -13.5,
-    "line_total": 150.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": -0.8,
-    "err_total": 5.4
+    "away": "New Haven Chargers",
+    "home": "Penn State Nittany Lions",
+    "final": "52-86",
+    "model_margin": 15.6,
+    "model_total": 140.0,
+    "line_spread": -24.5,
+    "line_total": 142.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": -18.4,
+    "err_total": 2.0
    },
    {
     "away": "Coastal Carolina Chanticleers",
@@ -837,6 +824,19 @@
     "tot": "L",
     "err_margin": 15.6,
     "err_total": -7.6
+   },
+   {
+    "away": "Alabama State Hornets",
+    "home": "San Jos\u00e9 State Spartans",
+    "final": "68-80",
+    "model_margin": 11.2,
+    "model_total": 153.4,
+    "line_spread": -13.5,
+    "line_total": 150.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": -0.8,
+    "err_total": 5.4
    },
    {
     "away": "Ecclesia Royals",
@@ -1040,8 +1040,8 @@
      "pnl": -1.0,
      "legs": [
       "Under 158.5 (Boise/Nebraska) L",
-      "Saint Louis Billikens -6.5 L",
-      "Over 145.5 (Cleveland/Alabama) W"
+      "Over 145.5 (Cleveland/Alabama) W",
+      "Saint Louis Billikens -6.5 L"
      ]
     },
     "lotto": {
@@ -1050,8 +1050,8 @@
      "pnl": -0.25,
      "legs": [
       "Under 158.5 (Boise/Nebraska) L",
-      "Saint Louis Billikens -6.5 L",
       "Over 145.5 (Cleveland/Alabama) W",
+      "Saint Louis Billikens -6.5 L",
       "New Haven Chargers +24.5 L",
       "Over 153.5 (Cal/North) L",
       "Rhode Island Rams -7.5 L",
