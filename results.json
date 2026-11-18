@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17 19:42",
+ "generated": "2026-11-18 00:50",
  "yesterday": {
   "date": "2026-11-16",
   "summary": {
@@ -306,16 +306,6 @@
    },
    {
     "date": "2026-11-16",
-    "game": "Abilene Christian Wildcats @ Missouri State Bears",
-    "final": "64-73",
-    "kind": "Spread",
-    "pick": "Missouri State Bears -5.5",
-    "edge": 3.0,
-    "result": "W",
-    "units": 0.91
-   },
-   {
-    "date": "2026-11-16",
     "game": "St. Thomas Tommies @ Long Island University Sharks",
     "final": "79-70",
     "kind": "Spread",
@@ -323,34 +313,31 @@
     "edge": 3.0,
     "result": "W",
     "units": 0.91
+   },
+   {
+    "date": "2026-11-16",
+    "game": "Abilene Christian Wildcats @ Missouri State Bears",
+    "final": "64-73",
+    "kind": "Spread",
+    "pick": "Missouri State Bears -5.5",
+    "edge": 3.0,
+    "result": "W",
+    "units": 0.91
    }
   ],
   "games": [
    {
-    "away": "Florida A&M Rattlers",
-    "home": "UTEP Miners",
-    "final": "46-79",
-    "model_margin": 11.9,
-    "model_total": 137.9,
-    "line_spread": -19.5,
-    "line_total": 141.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": -21.1,
-    "err_total": 12.9
-   },
-   {
-    "away": "Alcorn State Braves",
-    "home": "Maryland Terrapins",
-    "final": "57-117",
-    "model_margin": 23.7,
-    "model_total": 152.2,
-    "line_spread": -34.5,
+    "away": "Prairie View A&M Panthers",
+    "home": "Ohio State Buckeyes",
+    "final": "59-86",
+    "model_margin": 25.2,
+    "model_total": 155.0,
+    "line_spread": -33.5,
     "line_total": 153.5,
-    "ats": "L",
+    "ats": "W",
     "tot": "L",
-    "err_margin": -36.3,
-    "err_total": -21.8
+    "err_margin": -1.8,
+    "err_total": 10.0
    },
    {
     "away": "Iona Gaels",
@@ -366,121 +353,30 @@
     "err_total": 5.3
    },
    {
-    "away": "Prairie View A&M Panthers",
-    "home": "Ohio State Buckeyes",
-    "final": "59-86",
-    "model_margin": 25.2,
-    "model_total": 155.0,
-    "line_spread": -33.5,
-    "line_total": 153.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": -1.8,
-    "err_total": 10.0
-   },
-   {
-    "away": "Abilene Christian Wildcats",
-    "home": "Missouri State Bears",
-    "final": "64-73",
-    "model_margin": 8.5,
-    "model_total": 145.1,
-    "line_spread": -5.5,
-    "line_total": 140.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": -0.5,
-    "err_total": 8.1
-   },
-   {
-    "away": "Jacksonville Dolphins",
-    "home": "Georgia Bulldogs",
-    "final": "62-107",
-    "model_margin": 19.9,
-    "model_total": 150.6,
-    "line_spread": -21.5,
+    "away": "Alcorn State Braves",
+    "home": "Maryland Terrapins",
+    "final": "57-117",
+    "model_margin": 23.7,
+    "model_total": 152.2,
+    "line_spread": -34.5,
     "line_total": 153.5,
     "ats": "L",
     "tot": "L",
-    "err_margin": -25.1,
-    "err_total": -18.4
+    "err_margin": -36.3,
+    "err_total": -21.8
    },
    {
-    "away": "Richmond Spiders",
-    "home": "Virginia Tech Hokies",
-    "final": "68-85",
-    "model_margin": 10.3,
-    "model_total": 157.5,
-    "line_spread": -12.5,
-    "line_total": 150.5,
+    "away": "Florida A&M Rattlers",
+    "home": "UTEP Miners",
+    "final": "46-79",
+    "model_margin": 11.9,
+    "model_total": 137.9,
+    "line_spread": -19.5,
+    "line_total": 141.5,
     "ats": "L",
     "tot": "W",
-    "err_margin": -6.7,
-    "err_total": 4.5
-   },
-   {
-    "away": "The Citadel Bulldogs",
-    "home": "Clemson Tigers",
-    "final": "51-87",
-    "model_margin": 19.4,
-    "model_total": 143.5,
-    "line_spread": -24.5,
-    "line_total": 142.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": -16.6,
-    "err_total": 5.5
-   },
-   {
-    "away": "St. Thomas Tommies",
-    "home": "Long Island University Sharks",
-    "final": "79-70",
-    "model_margin": -4.5,
-    "model_total": 148.7,
-    "line_spread": 1.5,
-    "line_total": 146.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": 4.5,
-    "err_total": -0.3
-   },
-   {
-    "away": "Western Kentucky Hilltoppers",
-    "home": "Tulsa Golden Hurricane",
-    "final": "64-67",
-    "model_margin": 11.0,
-    "model_total": 162.6,
-    "line_spread": -5.5,
-    "line_total": 158.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": 8.0,
-    "err_total": 31.6
-   },
-   {
-    "away": "Eastern Kentucky Colonels",
-    "home": "Kent State Golden Flashes",
-    "final": "65-49",
-    "model_margin": 9.5,
-    "model_total": 164.5,
-    "line_spread": -9.5,
-    "line_total": 160.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": 25.5,
-    "err_total": 50.5
-   },
-   {
-    "away": "Grambling Tigers",
-    "home": "Kentucky Wildcats",
-    "final": "59-88",
-    "model_margin": 22.2,
-    "model_total": 150.1,
-    "line_spread": -28.5,
-    "line_total": 152.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": -6.8,
-    "err_total": 3.1
+    "err_margin": -21.1,
+    "err_total": 12.9
    },
    {
     "away": "Tarleton State Texans",
@@ -496,6 +392,45 @@
     "err_total": -16.0
    },
    {
+    "away": "Grambling Tigers",
+    "home": "Kentucky Wildcats",
+    "final": "59-88",
+    "model_margin": 22.2,
+    "model_total": 150.1,
+    "line_spread": -28.5,
+    "line_total": 152.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": -6.8,
+    "err_total": 3.1
+   },
+   {
+    "away": "Eastern Kentucky Colonels",
+    "home": "Kent State Golden Flashes",
+    "final": "65-49",
+    "model_margin": 9.5,
+    "model_total": 164.5,
+    "line_spread": -9.5,
+    "line_total": 160.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": 25.5,
+    "err_total": 50.5
+   },
+   {
+    "away": "Western Kentucky Hilltoppers",
+    "home": "Tulsa Golden Hurricane",
+    "final": "64-67",
+    "model_margin": 11.0,
+    "model_total": 162.6,
+    "line_spread": -5.5,
+    "line_total": 158.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": 8.0,
+    "err_total": 31.6
+   },
+   {
     "away": "Montana Grizzlies",
     "home": "Kansas State Wildcats",
     "final": "45-86",
@@ -509,6 +444,58 @@
     "err_total": 25.1
    },
    {
+    "away": "St. Thomas Tommies",
+    "home": "Long Island University Sharks",
+    "final": "79-70",
+    "model_margin": -4.5,
+    "model_total": 148.7,
+    "line_spread": 1.5,
+    "line_total": 146.5,
+    "ats": "W",
+    "tot": "W",
+    "err_margin": 4.5,
+    "err_total": -0.3
+   },
+   {
+    "away": "Richmond Spiders",
+    "home": "Virginia Tech Hokies",
+    "final": "68-85",
+    "model_margin": 10.3,
+    "model_total": 157.5,
+    "line_spread": -12.5,
+    "line_total": 150.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": -6.7,
+    "err_total": 4.5
+   },
+   {
+    "away": "Jacksonville Dolphins",
+    "home": "Georgia Bulldogs",
+    "final": "62-107",
+    "model_margin": 19.9,
+    "model_total": 150.6,
+    "line_spread": -21.5,
+    "line_total": 153.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": -25.1,
+    "err_total": -18.4
+   },
+   {
+    "away": "The Citadel Bulldogs",
+    "home": "Clemson Tigers",
+    "final": "51-87",
+    "model_margin": 19.4,
+    "model_total": 143.5,
+    "line_spread": -24.5,
+    "line_total": 142.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": -16.6,
+    "err_total": 5.5
+   },
+   {
     "away": "Western Illinois Leathernecks",
     "home": "Minnesota Golden Gophers",
     "final": "63-99",
@@ -520,6 +507,19 @@
     "tot": "W",
     "err_margin": -6.2,
     "err_total": -25.4
+   },
+   {
+    "away": "Abilene Christian Wildcats",
+    "home": "Missouri State Bears",
+    "final": "64-73",
+    "model_margin": 8.5,
+    "model_total": 145.1,
+    "line_spread": -5.5,
+    "line_total": 140.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": -0.5,
+    "err_total": 8.1
    },
    {
     "away": "Central Arkansas Bears",
@@ -806,8 +806,8 @@
      "pnl": -1.0,
      "legs": [
       "Under 158.5 (Boise/Nebraska) L",
-      "Over 145.5 (Cleveland/Alabama) W",
-      "Saint Louis Billikens -6.5 L"
+      "Saint Louis Billikens -6.5 L",
+      "Over 145.5 (Cleveland/Alabama) W"
      ]
     },
     "lotto": {
@@ -816,8 +816,8 @@
      "pnl": -0.25,
      "legs": [
       "Under 158.5 (Boise/Nebraska) L",
-      "Over 145.5 (Cleveland/Alabama) W",
       "Saint Louis Billikens -6.5 L",
+      "Over 145.5 (Cleveland/Alabama) W",
       "New Haven Chargers +24.5 L",
       "Over 153.5 (Cal/North) L",
       "Rhode Island Rams -7.5 L",
@@ -833,9 +833,9 @@
      "result": "L",
      "pnl": -1.0,
      "legs": [
-      "Florida A&M Rattlers +19.5 L",
+      "Prairie View A&M Panthers +33.5 W",
       "UMBC Retrievers +2.5 W",
-      "Prairie View A&M Panthers +33.5 W"
+      "Florida A&M Rattlers +19.5 L"
      ]
     },
     "lotto": {
@@ -843,9 +843,9 @@
      "result": "L",
      "pnl": -0.25,
      "legs": [
-      "Florida A&M Rattlers +19.5 L",
-      "UMBC Retrievers +2.5 W",
       "Prairie View A&M Panthers +33.5 W",
+      "UMBC Retrievers +2.5 W",
+      "Florida A&M Rattlers +19.5 L",
       "Grambling Tigers +28.5 L",
       "Tulsa Golden Hurricane -5.5 L",
       "Central Arkansas Bears +18.5 L",
