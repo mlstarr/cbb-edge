@@ -59,10 +59,28 @@ def season_summary(d):
         us += (a == "W").sum() * WIN - (a == "L").sum(); ut += (t == "W").sum() * WIN - (t == "L").sum()
         cs.append(dict(date=str(day), spread=round(float(us), 2), total=round(float(ut), 2)))
     o["curve"] = cs
+    cum = dict(sw=0, sl=0, tw=0, tl=0, asw=0, asl=0, atw=0, atl=0); wl = []
+    for day, x in dd.groupby("date"):
+        for pre, res, m in [("s", x.ats, (x.se.abs() >= SPREAD_EDGE) & (x.ats != "")), ("t", x.tot, (x.te.abs() >= TOTAL_EDGE) & (x.tot != ""))]:
+            cum[pre + "w"] += int((res[m] == "W").sum()); cum[pre + "l"] += int((res[m] == "L").sum())
+            cum["a" + pre + "w"] += int((res[res != ""] == "W").sum()); cum["a" + pre + "l"] += int((res[res != ""] == "L").sum())
+        wl.append(dict(date=str(day), **cum))
+    o["cum"] = wl
     o["mae_margin"] = round(float(d.err_margin.abs().mean()), 2); o["mae_total"] = round(float(d.err_total.abs().mean()), 2)
     o["bias_margin"] = round(float(d.err_margin.mean()), 2); o["bias_total"] = round(float(d.err_total.mean()), 2)
     o["su"] = round(float(((d.model_margin > 0) == (d.act_margin > 0)).mean()), 3)
     return o
+
+def market_gap(d):
+    x = d.dropna(subset=["line_spread", "line_total"]).copy()
+    if x.empty: return []
+    x["mk_m"] = (x.act_margin + x.line_spread).abs(); x["mk_t"] = (x.act_total - x.line_total).abs()
+    x["wk"] = x.date.apply(lambda s: str((pd.Timestamp(s) - pd.Timedelta(days=pd.Timestamp(s).weekday())).date()))
+    out = []
+    for wk, g in x.groupby("wk"):
+        out.append(dict(week=wk, n=int(len(g)), model_m=round(float(g.err_margin.abs().mean()), 2), market_m=round(float(g.mk_m.mean()), 2),
+                        model_t=round(float(g.err_total.abs().mean()), 2), market_t=round(float(g.mk_t.mean()), 2)))
+    return out
 
 def legs_for_day(x, sh=0.35, cap=0.57, mx=10.0, sm=11.79, st=17.10):
     from math import erf, sqrt
@@ -99,17 +117,21 @@ def parlay_tracker(d, am=-110, small_u=1.0, lotto_u=0.25):
                 note="Flat stakes: small parlay 1u, lotto 0.25u, -110 legs, one leg per game, last logged line before the game.")
 
 def model_only(season):
-    """walk-forward predictions for this season's finished games (no lines needed)."""
-    from walk import run_chain, G
-    p = dict(P); d = run_chain(p, seasons=range(2020, season + 1), step=7)
-    d = d[d.season == season].copy()
+    """walk-forward predictions for finished games (no lines needed), this season and last season for comparison."""
+    from walk import run_chain
     from model import early_factor
-    ef = early_factor((d.date - d.date.min()).dt.days.values, p); eh = np.where(d.neutral.values, 0.0, p["early_margin"]) * ef
-    d["em"] = d.pts_h - d.pts_a + p["margin_bias"] + eh - (d.act_h - d.act_a); d["et"] = d.pts_h + d.pts_a + p["tot_bias"] + p["early_total"] * ef - (d.act_h + d.act_a)
-    d["su"] = ((d.pts_h - d.pts_a + p["margin_bias"] + eh) > 0) == ((d.act_h - d.act_a) > 0)
-    last7 = d[d.date >= d.date.max() - pd.Timedelta(days=6)]
+    p = dict(P); dall = run_chain(p, seasons=range(2020, season + 1), step=7)
+    def prep(s):
+        d = dall[dall.season == s].copy(); ef = early_factor((d.date - d.date.min()).dt.days.values, p); eh = np.where(d.neutral.values, 0.0, p["early_margin"]) * ef
+        d["em"] = d.pts_h - d.pts_a + p["margin_bias"] + eh - (d.act_h - d.act_a); d["et"] = d.pts_h + d.pts_a + p["tot_bias"] + p["early_total"] * ef - (d.act_h + d.act_a)
+        d["su"] = ((d.pts_h - d.pts_a + p["margin_bias"] + eh) > 0) == ((d.act_h - d.act_a) > 0)
+        d["wk"] = (d.date - d.date.min()).dt.days // 7
+        return d
     f = lambda x: dict(n=int(len(x)), mae_margin=round(float(x.em.abs().mean()), 2), mae_total=round(float(x.et.abs().mean()), 2), bias_margin=round(float(x.em.mean()), 2), bias_total=round(float(x.et.mean()), 2), su=round(float(x.su.mean()), 3))
-    return dict(season=f(d), last7=f(last7), through=str(d.date.max().date()), note="Walk-forward on finished games using only data before each game; no betting lines involved.")
+    wk = lambda d: [dict(week=int(w), **f(x)) for w, x in d.groupby("wk") if len(x) >= 40]
+    d = prep(season); last7 = d[d.date >= d.date.max() - pd.Timedelta(days=6)]
+    return dict(season=f(d), last7=f(last7), through=str(d.date.max().date()), weekly=wk(d), weekly_prev=wk(prep(season - 1)),
+                note="Walk-forward on finished games using only data before each game; no betting lines involved.")
 
 def main():
     d = load_graded()
@@ -119,7 +141,7 @@ def main():
     else:
         last_day = d.date.max(); y = d[d.date == last_day].sort_values("date")
         out["yesterday"] = dict(date=str(last_day), summary=season_summary(y), plays=plays(y), games=[dict(away=r.away, home=r.home, final=f"{int(r.act_a)}-{int(r.act_h)}", model_margin=round(r.model_margin, 1), model_total=round(r.model_total, 1), line_spread=None if pd.isna(r.line_spread) else r.line_spread, line_total=None if pd.isna(r.line_total) else r.line_total, ats=r.ats, tot=r.tot, err_margin=round(r.err_margin, 1), err_total=round(r.err_total, 1)) for r in y.itertuples()])
-        out["season"] = season_summary(d); out["parlays"] = parlay_tracker(d)
+        out["season"] = season_summary(d); out["parlays"] = parlay_tracker(d); out["gap"] = market_gap(d)
     try: out["model_only"] = model_only(int(pd.read_parquet("data/games.parquet", columns=["season"]).season.max()))
     except Exception as e: out["model_only"] = None; print("model-only skipped:", e)
     json.dump(out, open("results.json", "w"), indent=1, default=str)

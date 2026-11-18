@@ -103,6 +103,24 @@ const _r=render;render=function(){_r();parlays()};
 
 function recs(r){return r?`${r.w}-${r.l}${r.p?"-"+r.p:""}`:"-"}
 function u(x){return x==null?"":`<span class="${x>0?"good":x<0?"bad":""}">${x>0?"+":""}${x}u</span>`}
+
+function lc(title,series,o){o=o||{};const w=330,hh=170,L=38,R=8,T=18,B=22;const pts=series.flatMap(s=>s.pts);if(pts.length<2)return `<div class="mut" style="min-width:300px"><b>${title}</b><br>Not enough data yet.</div>`;
+ let xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]).concat(o.refs||[]);const x0=Math.min(...xs),x1=Math.max(...xs)||1,y0=o.y0!=null?o.y0:Math.min(...ys),y1=o.y1!=null?o.y1:Math.max(...ys),pad=(y1-y0)*.08||1;
+ const X=v=>L+(v-x0)/((x1-x0)||1)*(w-L-R),Y=v=>T+(1-(v-(y0-pad))/((y1+pad)-(y0-pad)))*(hh-T-B);
+ let g=`<text x="${L}" y="12" font-size="11" fill="var(--ink)" font-weight="600">${title}</text>`;
+ for(let i=0;i<=3;i++){const v=y0+(y1-y0)*i/3;g+=`<line x1="${L}" x2="${w-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)"/><text x="${L-4}" y="${Y(v)+3}" font-size="9" text-anchor="end" fill="var(--mut)">${(o.pct?(v*100).toFixed(0)+"%":v.toFixed(1))}</text>`}
+ (o.refs||[]).forEach(v=>g+=`<line x1="${L}" x2="${w-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--mut)" stroke-dasharray="4 3"/>`);
+ series.forEach(s=>{if(s.pts.length)g+=`<polyline fill="none" stroke="${s.c}" stroke-width="2" points="${s.pts.map(p=>X(p[0]).toFixed(1)+","+Y(p[1]).toFixed(1)).join(" ")}"/>`+s.pts.map(p=>`<circle cx="${X(p[0]).toFixed(1)}" cy="${Y(p[1]).toFixed(1)}" r="2.5" fill="${s.c}"/>`).join("")});
+ g+=`<text x="${L}" y="${hh-6}" font-size="9" fill="var(--mut)">${o.xl||""}</text>`;
+ return `<div style="min-width:300px"><svg viewBox="0 0 ${w} ${hh}" style="width:100%;max-width:${w}px;background:var(--card);border:1px solid var(--line);border-radius:10px">${g}</svg><div class="mut">${series.map(s=>`<span style="color:${s.c}">&#9632;</span> ${s.n}`).join(" &nbsp; ")}</div></div>`}
+function trendHTML(){let h='<h3>Is the model improving?</h3><div class="mut">Updated each time the daily job runs (see How it works). Weekly points need enough games to be shown; dashed lines are reference levels.</div><div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:8px">';
+ const m=R&&R.model_only;if(m&&m.weekly){const a=m.weekly.map(w=>[w.week,w.mae_margin]),b=(m.weekly_prev||[]).map(w=>[w.week,w.mae_margin]),c=m.weekly.map(w=>[w.week,w.mae_total]),d=(m.weekly_prev||[]).map(w=>[w.week,w.mae_total]);
+  h+=lc("Margin miss by week of season",[{n:"this season",c:"var(--acc)",pts:a},{n:"last season",c:"var(--mut)",pts:b}],{xl:"week of season"});h+=lc("Total miss by week of season",[{n:"this season",c:"var(--acc)",pts:c},{n:"last season",c:"var(--mut)",pts:d}],{xl:"week of season"})}
+ const g=R&&R.gap;if(g&&g.length){const mm=g.map((x,i)=>[i,+(x.model_m-x.market_m).toFixed(2)]),tt=g.map((x,i)=>[i,+(x.model_t-x.market_t).toFixed(2)]);
+  h+=lc("Model miss minus market miss (below 0 = beating the market)",[{n:"margin",c:"var(--acc)",pts:mm},{n:"total",c:"var(--good)",pts:tt}],{refs:[0],xl:"weeks since first logged line (n/wk: "+g.map(x=>x.n).join(",")+")"})}
+ const s=R&&R.season;if(s&&s.cum&&s.cum.length){const f=(a,b)=>s.cum.map((c,i)=>[i,c[a]+c[b]>=15?c[a]/(c[a]+c[b]):null]).filter(p=>p[1]!=null);
+  h+=lc("Cumulative win rate on edge bets",[{n:"spread edge >=3",c:"var(--acc)",pts:f("sw","sl")},{n:"total edge >=4",c:"var(--good)",pts:f("tw","tl")}],{refs:[0.5,0.524],pct:true,xl:"days with graded games (shown after 15 bets). 52.4% = break-even at -110"})}
+ return h+"</div>"}
 function renderResults(){const el=$("#tab-results");if(!R){el.innerHTML='<p class="mut">No results yet. The first report appears after logged predictions have finished games.</p>';return}
  let h=`<div class="sub">Updated ${R.generated}. Every prediction is logged before tip-off and graded against the final score. Units assume -110 flat 1u bets.</div>`;
  const y=R.yesterday;
@@ -116,7 +134,7 @@ function renderResults(){const el=$("#tab-results");if(!R){el.innerHTML='<p clas
  const p=R.parlays;if(p){h+=`<h3>Parlay tickets the builder would have made</h3><div class="kpi"><div>Small parlays<b>${p.small.hit}/${p.small.n} hit</b>${u(p.small.units)}</div><div>Lotto tickets<b>${p.lotto.hit}/${p.lotto.n} hit</b>${u(p.lotto.units)}</div></div><p class="mut">${p.note}</p>`+p.days.slice().reverse().map(d=>`<details><summary>${d.date} ${d.small?"· small "+d.small.result+" "+u(d.small.pnl):""} ${d.lotto?"· lotto "+d.lotto.result+" "+u(d.lotto.pnl):""}</summary>${["small","lotto"].filter(k=>d[k]).map(k=>`<div><b>${k}</b>: ${d[k].legs.join(" · ")}</div>`).join("")}</details>`).join("")}
  const m=R.model_only;if(m){const f=(n,x)=>`<tr><td class="l">${n}</td><td>${x.n}</td><td>${x.mae_margin}</td><td>${x.mae_total}</td><td>${x.bias_margin}</td><td>${x.bias_total}</td><td>${(x.su*100).toFixed(1)}%</td></tr>`;
   h+=`<h3>Model accuracy this season (no lines needed)</h3><div class="wrap"><table><thead><tr><th class="l"></th><th>Games</th><th>Avg miss margin</th><th>Avg miss total</th><th>Bias margin</th><th>Bias total</th><th>Straight-up</th></tr></thead><tbody>${f("Season to date",m.season)}${f("Last 7 days",m.last7)}</tbody></table></div><p class="mut">${m.note} Through ${m.through}. Bias = prediction minus actual; negative total bias means the model is scoring-light.</p>`}
- el.innerHTML=h}
+ h+=trendHTML();el.innerHTML=h}
 document.querySelectorAll(".tb").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tb").forEach(x=>x.classList.toggle("on",x===b));$("#tab-today").hidden=b.dataset.t!=="today";$("#tab-results").hidden=b.dataset.t!=="results";if(b.dataset.t==="results")renderResults()});
 render();
 </script></body></html>
