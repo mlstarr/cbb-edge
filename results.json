@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18 15:33",
+ "generated": "2026-11-18 19:10",
  "yesterday": {
   "date": "2026-11-17",
   "summary": {
@@ -379,16 +379,6 @@
    },
    {
     "date": "2026-11-17",
-    "game": "Marist Red Foxes @ Army Black Knights",
-    "final": "73-68",
-    "kind": "Total",
-    "pick": "Over 131.5",
-    "edge": 5.2,
-    "result": "W",
-    "units": 0.91
-   },
-   {
-    "date": "2026-11-17",
     "game": "Saint Peter's Peacocks @ UMass Lowell River Hawks",
     "final": "51-66",
     "kind": "Total",
@@ -396,6 +386,16 @@
     "edge": 5.2,
     "result": "L",
     "units": -1.0
+   },
+   {
+    "date": "2026-11-17",
+    "game": "Marist Red Foxes @ Army Black Knights",
+    "final": "73-68",
+    "kind": "Total",
+    "pick": "Over 131.5",
+    "edge": 5.2,
+    "result": "W",
+    "units": 0.91
    },
    {
     "date": "2026-11-17",
@@ -409,16 +409,6 @@
    },
    {
     "date": "2026-11-17",
-    "game": "Eastern Illinois Panthers @ Vanderbilt Commodores",
-    "final": "50-96",
-    "kind": "Spread",
-    "pick": "Eastern Illinois Panthers +40.5",
-    "edge": 5.1,
-    "result": "L",
-    "units": -1.0
-   },
-   {
-    "date": "2026-11-17",
     "game": "Michigan State Spartans @ Tennessee Volunteers",
     "final": "46-61",
     "kind": "Total",
@@ -426,6 +416,16 @@
     "edge": 5.1,
     "result": "W",
     "units": 0.91
+   },
+   {
+    "date": "2026-11-17",
+    "game": "Eastern Illinois Panthers @ Vanderbilt Commodores",
+    "final": "50-96",
+    "kind": "Spread",
+    "pick": "Eastern Illinois Panthers +40.5",
+    "edge": 5.1,
+    "result": "L",
+    "units": -1.0
    },
    {
     "date": "2026-11-17",
@@ -529,20 +529,20 @@
    },
    {
     "date": "2026-11-17",
-    "game": "Lipscomb Bisons @ Purdue Boilermakers",
-    "final": "78-95",
-    "kind": "Total",
-    "pick": "Over 148.5",
+    "game": "Bowling Green Falcons @ William & Mary Tribe",
+    "final": "73-77",
+    "kind": "Spread",
+    "pick": "William & Mary Tribe -2.5",
     "edge": 4.1,
     "result": "W",
     "units": 0.91
    },
    {
     "date": "2026-11-17",
-    "game": "Bowling Green Falcons @ William & Mary Tribe",
-    "final": "73-77",
-    "kind": "Spread",
-    "pick": "William & Mary Tribe -2.5",
+    "game": "Lipscomb Bisons @ Purdue Boilermakers",
+    "final": "78-95",
+    "kind": "Total",
+    "pick": "Over 148.5",
     "edge": 4.1,
     "result": "W",
     "units": 0.91
@@ -569,16 +569,6 @@
    },
    {
     "date": "2026-11-17",
-    "game": "Ball State Cardinals @ Florida State Seminoles",
-    "final": "71-85",
-    "kind": "Spread",
-    "pick": "Ball State Cardinals +25.5",
-    "edge": 3.8,
-    "result": "W",
-    "units": 0.91
-   },
-   {
-    "date": "2026-11-17",
     "game": "Villanova Wildcats @ Pittsburgh Panthers",
     "final": "61-81",
     "kind": "Spread",
@@ -589,11 +579,11 @@
    },
    {
     "date": "2026-11-17",
-    "game": "Marist Red Foxes @ Army Black Knights",
-    "final": "73-68",
+    "game": "Ball State Cardinals @ Florida State Seminoles",
+    "final": "71-85",
     "kind": "Spread",
-    "pick": "Marist Red Foxes +1.5",
-    "edge": 3.5,
+    "pick": "Ball State Cardinals +25.5",
+    "edge": 3.8,
     "result": "W",
     "units": 0.91
    },
@@ -603,6 +593,16 @@
     "final": "67-86",
     "kind": "Spread",
     "pick": "Sacred Heart Pioneers +30.5",
+    "edge": 3.5,
+    "result": "W",
+    "units": 0.91
+   },
+   {
+    "date": "2026-11-17",
+    "game": "Marist Red Foxes @ Army Black Knights",
+    "final": "73-68",
+    "kind": "Spread",
+    "pick": "Marist Red Foxes +1.5",
     "edge": 3.5,
     "result": "W",
     "units": 0.91
@@ -650,19 +650,6 @@
   ],
   "games": [
    {
-    "away": "Notre Dame Fighting Irish",
-    "home": "Florida Gators",
-    "final": "78-86",
-    "model_margin": 13.5,
-    "model_total": 153.5,
-    "line_spread": -15.5,
-    "line_total": 150.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": 5.5,
-    "err_total": -10.5
-   },
-   {
     "away": "Rutgers Scarlet Knights",
     "home": "Houston Cougars",
     "final": "73-85",
@@ -674,6 +661,19 @@
     "tot": "L",
     "err_margin": 6.4,
     "err_total": -15.7
+   },
+   {
+    "away": "Notre Dame Fighting Irish",
+    "home": "Florida Gators",
+    "final": "78-86",
+    "model_margin": 13.5,
+    "model_total": 153.5,
+    "line_spread": -15.5,
+    "line_total": 150.5,
+    "ats": "W",
+    "tot": "W",
+    "err_margin": 5.5,
+    "err_total": -10.5
    },
    {
     "away": "Hofstra Pride",
@@ -689,19 +689,6 @@
     "err_total": 1.4
    },
    {
-    "away": "Eastern Washington Eagles",
-    "home": "Utah Utes",
-    "final": "71-67",
-    "model_margin": 7.3,
-    "model_total": 153.2,
-    "line_spread": -12.5,
-    "line_total": 145.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": 11.3,
-    "err_total": 15.2
-   },
-   {
     "away": "Sam Houston Bearkats",
     "home": "Wyoming Cowboys",
     "final": "79-81",
@@ -715,30 +702,17 @@
     "err_total": -7.6
    },
    {
-    "away": "Le Moyne Dolphins",
-    "home": "Evansville Purple Aces",
-    "final": "65-79",
-    "model_margin": 2.7,
-    "model_total": 148.7,
-    "line_spread": -7.5,
-    "line_total": 147.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": -11.3,
-    "err_total": 4.7
-   },
-   {
-    "away": "Alabama State Hornets",
-    "home": "UC Davis Aggies",
-    "final": "75-68",
-    "model_margin": 13.0,
-    "model_total": 145.8,
-    "line_spread": -12.5,
-    "line_total": 142.5,
-    "ats": "L",
+    "away": "Michigan State Spartans",
+    "home": "Tennessee Volunteers",
+    "final": "46-61",
+    "model_margin": -2.2,
+    "model_total": 144.4,
+    "line_spread": 2.5,
+    "line_total": 149.5,
+    "ats": "W",
     "tot": "W",
-    "err_margin": 20.0,
-    "err_total": 2.8
+    "err_margin": -17.2,
+    "err_total": 37.4
    },
    {
     "away": "Old Dominion Monarchs",
@@ -754,6 +728,19 @@
     "err_total": -5.2
    },
    {
+    "away": "Alabama State Hornets",
+    "home": "UC Davis Aggies",
+    "final": "75-68",
+    "model_margin": 13.0,
+    "model_total": 145.8,
+    "line_spread": -12.5,
+    "line_total": 142.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": 20.0,
+    "err_total": 2.8
+   },
+   {
     "away": "Nicholls Colonels",
     "home": "Ole Miss Rebels",
     "final": "41-76",
@@ -767,30 +754,43 @@
     "err_total": 27.2
    },
    {
-    "away": "Eastern Illinois Panthers",
-    "home": "Vanderbilt Commodores",
-    "final": "50-96",
-    "model_margin": 35.4,
-    "model_total": 147.6,
-    "line_spread": -40.5,
-    "line_total": 147.5,
-    "ats": "L",
+    "away": "Eastern Washington Eagles",
+    "home": "Utah Utes",
+    "final": "71-67",
+    "model_margin": 7.3,
+    "model_total": 153.2,
+    "line_spread": -12.5,
+    "line_total": 145.5,
+    "ats": "W",
     "tot": "L",
-    "err_margin": -10.6,
-    "err_total": 1.6
+    "err_margin": 11.3,
+    "err_total": 15.2
    },
    {
-    "away": "Middle Tennessee Blue Raiders",
-    "home": "Georgia Southern Eagles",
-    "final": "85-78",
-    "model_margin": 4.7,
-    "model_total": 157.3,
-    "line_spread": 1.5,
-    "line_total": 155.5,
+    "away": "Texas A&M-Corpus Christi Islanders",
+    "home": "Rice Owls",
+    "final": "74-81",
+    "model_margin": 1.4,
+    "model_total": 138.1,
+    "line_spread": -2.5,
+    "line_total": 141.5,
     "ats": "L",
-    "tot": "W",
-    "err_margin": 11.7,
-    "err_total": -5.7
+    "tot": "L",
+    "err_margin": -5.6,
+    "err_total": -16.9
+   },
+   {
+    "away": "UT Arlington Mavericks",
+    "home": "Southern Miss Golden Eagles",
+    "final": "83-72",
+    "model_margin": 4.3,
+    "model_total": 148.5,
+    "line_spread": -1.5,
+    "line_total": 148.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": 15.3,
+    "err_total": -6.5
    },
    {
     "away": "Lindenwood Lions",
@@ -832,199 +832,82 @@
     "err_total": -35.1
    },
    {
-    "away": "Texas A&M-Corpus Christi Islanders",
-    "home": "Rice Owls",
-    "final": "74-81",
-    "model_margin": 1.4,
-    "model_total": 138.1,
-    "line_spread": -2.5,
-    "line_total": 141.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": -5.6,
-    "err_total": -16.9
-   },
-   {
-    "away": "Michigan State Spartans",
-    "home": "Tennessee Volunteers",
-    "final": "46-61",
-    "model_margin": -2.2,
-    "model_total": 144.4,
-    "line_spread": 2.5,
-    "line_total": 149.5,
+    "away": "Bellarmine Knights",
+    "home": "Illinois State Redbirds",
+    "final": "59-76",
+    "model_margin": 13.2,
+    "model_total": 149.0,
+    "line_spread": -17.5,
+    "line_total": 142.5,
     "ats": "W",
-    "tot": "W",
-    "err_margin": -17.2,
-    "err_total": 37.4
+    "tot": "L",
+    "err_margin": -3.8,
+    "err_total": 14.0
    },
    {
-    "away": "UT Arlington Mavericks",
-    "home": "Southern Miss Golden Eagles",
-    "final": "83-72",
-    "model_margin": 4.3,
-    "model_total": 148.5,
-    "line_spread": -1.5,
-    "line_total": 148.5,
+    "away": "Eastern Illinois Panthers",
+    "home": "Vanderbilt Commodores",
+    "final": "50-96",
+    "model_margin": 35.4,
+    "model_total": 147.6,
+    "line_spread": -40.5,
+    "line_total": 147.5,
     "ats": "L",
     "tot": "L",
-    "err_margin": 15.3,
-    "err_total": -6.5
+    "err_margin": -10.6,
+    "err_total": 1.6
    },
    {
-    "away": "Oral Roberts Golden Eagles",
-    "home": "SMU Mustangs",
-    "final": "72-76",
-    "model_margin": 25.6,
-    "model_total": 155.4,
-    "line_spread": -22.5,
+    "away": "Middle Tennessee Blue Raiders",
+    "home": "Georgia Southern Eagles",
+    "final": "85-78",
+    "model_margin": 4.7,
+    "model_total": 157.3,
+    "line_spread": 1.5,
     "line_total": 155.5,
     "ats": "L",
     "tot": "W",
-    "err_margin": 21.6,
-    "err_total": 7.4
+    "err_margin": 11.7,
+    "err_total": -5.7
    },
    {
-    "away": "Kennesaw State Owls",
-    "home": "Alabama Crimson Tide",
-    "final": "91-109",
-    "model_margin": 21.6,
-    "model_total": 170.6,
-    "line_spread": -25.5,
-    "line_total": 179.5,
-    "ats": "W",
+    "away": "Le Moyne Dolphins",
+    "home": "Evansville Purple Aces",
+    "final": "65-79",
+    "model_margin": 2.7,
+    "model_total": 148.7,
+    "line_spread": -7.5,
+    "line_total": 147.5,
+    "ats": "L",
     "tot": "L",
-    "err_margin": 3.6,
-    "err_total": -29.4
+    "err_margin": -11.3,
+    "err_total": 4.7
    },
    {
-    "away": "Marist Red Foxes",
-    "home": "Army Black Knights",
-    "final": "73-68",
-    "model_margin": -2.0,
-    "model_total": 136.7,
+    "away": "Cal State Northridge Matadors",
+    "home": "Troy Trojans",
+    "final": "74-84",
+    "model_margin": 2.9,
+    "model_total": 153.3,
     "line_spread": -1.5,
-    "line_total": 131.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": 3.0,
-    "err_total": -4.3
-   },
-   {
-    "away": "Liberty Flames",
-    "home": "Southern Illinois Salukis",
-    "final": "87-78",
-    "model_margin": -0.2,
-    "model_total": 148.2,
-    "line_spread": -2.5,
-    "line_total": 145.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": 8.8,
-    "err_total": -16.8
-   },
-   {
-    "away": "Saint Peter's Peacocks",
-    "home": "UMass Lowell River Hawks",
-    "final": "51-66",
-    "model_margin": 6.7,
-    "model_total": 133.7,
-    "line_spread": -5.5,
-    "line_total": 128.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": -8.3,
-    "err_total": 16.7
-   },
-   {
-    "away": "Lipscomb Bisons",
-    "home": "Purdue Boilermakers",
-    "final": "78-95",
-    "model_margin": 22.6,
-    "model_total": 152.6,
-    "line_spread": -22.5,
-    "line_total": 148.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": 5.6,
-    "err_total": -20.4
-   },
-   {
-    "away": "Western Carolina Catamounts",
-    "home": "Butler Bulldogs",
-    "final": "64-89",
-    "model_margin": 10.1,
-    "model_total": 161.6,
-    "line_spread": -11.5,
-    "line_total": 159.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": -14.9,
-    "err_total": 8.6
-   },
-   {
-    "away": "Sacred Heart Pioneers",
-    "home": "Providence Friars",
-    "final": "67-86",
-    "model_margin": 27.0,
-    "model_total": 162.0,
-    "line_spread": -30.5,
-    "line_total": 154.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": 8.0,
-    "err_total": 9.0
-   },
-   {
-    "away": "Cleveland State Vikings",
-    "home": "Xavier Musketeers",
-    "final": "67-75",
-    "model_margin": 30.2,
-    "model_total": 164.2,
-    "line_spread": -32.5,
-    "line_total": 157.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": 22.2,
-    "err_total": 22.2
-   },
-   {
-    "away": "Ball State Cardinals",
-    "home": "Florida State Seminoles",
-    "final": "71-85",
-    "model_margin": 21.7,
-    "model_total": 144.3,
-    "line_spread": -25.5,
     "line_total": 151.5,
     "ats": "W",
+    "tot": "W",
+    "err_margin": -7.1,
+    "err_total": -4.7
+   },
+   {
+    "away": "Maryland Eastern Shore Hawks",
+    "home": "DePaul Blue Demons",
+    "final": "39-83",
+    "model_margin": 20.9,
+    "model_total": 128.2,
+    "line_spread": -30.5,
+    "line_total": 125.5,
+    "ats": "L",
     "tot": "L",
-    "err_margin": 7.7,
-    "err_total": -11.7
-   },
-   {
-    "away": "Villanova Wildcats",
-    "home": "Pittsburgh Panthers",
-    "final": "61-81",
-    "model_margin": 2.3,
-    "model_total": 141.6,
-    "line_spread": 1.5,
-    "line_total": 148.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": -17.7,
-    "err_total": -0.4
-   },
-   {
-    "away": "Monmouth Hawks",
-    "home": "Wake Forest Demon Deacons",
-    "final": "76-81",
-    "model_margin": 12.3,
-    "model_total": 145.5,
-    "line_spread": -14.5,
-    "line_total": 144.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": 7.3,
-    "err_total": -11.5
+    "err_margin": -23.1,
+    "err_total": 6.2
    },
    {
     "away": "Bowling Green Falcons",
@@ -1040,6 +923,71 @@
     "err_total": 21.4
    },
    {
+    "away": "Monmouth Hawks",
+    "home": "Wake Forest Demon Deacons",
+    "final": "76-81",
+    "model_margin": 12.3,
+    "model_total": 145.5,
+    "line_spread": -14.5,
+    "line_total": 144.5,
+    "ats": "W",
+    "tot": "W",
+    "err_margin": 7.3,
+    "err_total": -11.5
+   },
+   {
+    "away": "Villanova Wildcats",
+    "home": "Pittsburgh Panthers",
+    "final": "61-81",
+    "model_margin": 2.3,
+    "model_total": 141.6,
+    "line_spread": 1.5,
+    "line_total": 148.5,
+    "ats": "W",
+    "tot": "W",
+    "err_margin": -17.7,
+    "err_total": -0.4
+   },
+   {
+    "away": "Ball State Cardinals",
+    "home": "Florida State Seminoles",
+    "final": "71-85",
+    "model_margin": 21.7,
+    "model_total": 144.3,
+    "line_spread": -25.5,
+    "line_total": 151.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": 7.7,
+    "err_total": -11.7
+   },
+   {
+    "away": "Cleveland State Vikings",
+    "home": "Xavier Musketeers",
+    "final": "67-75",
+    "model_margin": 30.2,
+    "model_total": 164.2,
+    "line_spread": -32.5,
+    "line_total": 157.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": 22.2,
+    "err_total": 22.2
+   },
+   {
+    "away": "Sacred Heart Pioneers",
+    "home": "Providence Friars",
+    "final": "67-86",
+    "model_margin": 27.0,
+    "model_total": 162.0,
+    "line_spread": -30.5,
+    "line_total": 154.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": 8.0,
+    "err_total": 9.0
+   },
+   {
     "away": "Central Michigan Chippewas",
     "home": "Dayton Flyers",
     "final": "63-88",
@@ -1051,6 +999,84 @@
     "tot": "W",
     "err_margin": -15.9,
     "err_total": 0.6
+   },
+   {
+    "away": "Western Carolina Catamounts",
+    "home": "Butler Bulldogs",
+    "final": "64-89",
+    "model_margin": 10.1,
+    "model_total": 161.6,
+    "line_spread": -11.5,
+    "line_total": 159.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": -14.9,
+    "err_total": 8.6
+   },
+   {
+    "away": "Saint Peter's Peacocks",
+    "home": "UMass Lowell River Hawks",
+    "final": "51-66",
+    "model_margin": 6.7,
+    "model_total": 133.7,
+    "line_spread": -5.5,
+    "line_total": 128.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": -8.3,
+    "err_total": 16.7
+   },
+   {
+    "away": "Liberty Flames",
+    "home": "Southern Illinois Salukis",
+    "final": "87-78",
+    "model_margin": -0.2,
+    "model_total": 148.2,
+    "line_spread": -2.5,
+    "line_total": 145.5,
+    "ats": "W",
+    "tot": "W",
+    "err_margin": 8.8,
+    "err_total": -16.8
+   },
+   {
+    "away": "Marist Red Foxes",
+    "home": "Army Black Knights",
+    "final": "73-68",
+    "model_margin": -2.0,
+    "model_total": 136.7,
+    "line_spread": -1.5,
+    "line_total": 131.5,
+    "ats": "W",
+    "tot": "W",
+    "err_margin": 3.0,
+    "err_total": -4.3
+   },
+   {
+    "away": "Lipscomb Bisons",
+    "home": "Purdue Boilermakers",
+    "final": "78-95",
+    "model_margin": 22.6,
+    "model_total": 152.6,
+    "line_spread": -22.5,
+    "line_total": 148.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": 5.6,
+    "err_total": -20.4
+   },
+   {
+    "away": "Oral Roberts Golden Eagles",
+    "home": "SMU Mustangs",
+    "final": "72-76",
+    "model_margin": 25.6,
+    "model_total": 155.4,
+    "line_spread": -22.5,
+    "line_total": 155.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": 21.6,
+    "err_total": 7.4
    },
    {
     "away": "Fordham Rams",
@@ -1066,19 +1092,6 @@
     "err_total": 5.1
    },
    {
-    "away": "Tennessee State Tigers",
-    "home": "South Florida Bulls",
-    "final": "71-98",
-    "model_margin": 13.9,
-    "model_total": 163.7,
-    "line_spread": -11.5,
-    "line_total": 164.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": -13.1,
-    "err_total": -5.3
-   },
-   {
     "away": "Wagner Seahawks",
     "home": "Saint Joseph's Hawks",
     "final": "65-84",
@@ -1090,6 +1103,19 @@
     "tot": "W",
     "err_margin": -1.0,
     "err_total": -11.0
+   },
+   {
+    "away": "Kennesaw State Owls",
+    "home": "Alabama Crimson Tide",
+    "final": "91-109",
+    "model_margin": 21.6,
+    "model_total": 170.6,
+    "line_spread": -25.5,
+    "line_total": 179.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": 3.6,
+    "err_total": -29.4
    },
    {
     "away": "Arkansas Razorbacks",
@@ -1157,6 +1183,19 @@
     "err_total": -20.9
    },
    {
+    "away": "Tennessee State Tigers",
+    "home": "South Florida Bulls",
+    "final": "71-98",
+    "model_margin": 13.9,
+    "model_total": 163.7,
+    "line_spread": -11.5,
+    "line_total": 164.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": -13.1,
+    "err_total": -5.3
+   },
+   {
     "away": "Rider Broncs",
     "home": "Miami Hurricanes",
     "final": "48-95",
@@ -1170,30 +1209,17 @@
     "err_total": 2.3
    },
    {
-    "away": "Maryland Eastern Shore Hawks",
-    "home": "DePaul Blue Demons",
-    "final": "39-83",
-    "model_margin": 20.9,
-    "model_total": 128.2,
-    "line_spread": -30.5,
-    "line_total": 125.5,
+    "away": "Akron Zips",
+    "home": "Bucknell Bison",
+    "final": "49-53",
+    "model_margin": -16.8,
+    "model_total": 152.1,
+    "line_spread": 15.5,
+    "line_total": 146.5,
     "ats": "L",
     "tot": "L",
-    "err_margin": -23.1,
-    "err_total": 6.2
-   },
-   {
-    "away": "Charlotte 49ers",
-    "home": "Davidson Wildcats",
-    "final": "73-66",
-    "model_margin": 8.1,
-    "model_total": 134.5,
-    "line_spread": -3.5,
-    "line_total": 132.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": 15.1,
-    "err_total": -4.5
+    "err_margin": -20.8,
+    "err_total": 50.1
    },
    {
     "away": "Green Bay Phoenix",
@@ -1261,43 +1287,17 @@
     "err_total": -19.6
    },
    {
-    "away": "Cal State Northridge Matadors",
-    "home": "Troy Trojans",
-    "final": "74-84",
-    "model_margin": 2.9,
-    "model_total": 153.3,
-    "line_spread": -1.5,
-    "line_total": 151.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": -7.1,
-    "err_total": -4.7
-   },
-   {
-    "away": "Akron Zips",
-    "home": "Bucknell Bison",
-    "final": "49-53",
-    "model_margin": -16.8,
-    "model_total": 152.1,
-    "line_spread": 15.5,
-    "line_total": 146.5,
+    "away": "Charlotte 49ers",
+    "home": "Davidson Wildcats",
+    "final": "73-66",
+    "model_margin": 8.1,
+    "model_total": 134.5,
+    "line_spread": -3.5,
+    "line_total": 132.5,
     "ats": "L",
-    "tot": "L",
-    "err_margin": -20.8,
-    "err_total": 50.1
-   },
-   {
-    "away": "Bellarmine Knights",
-    "home": "Illinois State Redbirds",
-    "final": "59-76",
-    "model_margin": 13.2,
-    "model_total": 149.0,
-    "line_spread": -17.5,
-    "line_total": 142.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": -3.8,
-    "err_total": 14.0
+    "tot": "W",
+    "err_margin": 15.1,
+    "err_total": -4.5
    },
    {
     "away": "UNLV Rebels",
@@ -1326,17 +1326,17 @@
     "err_total": 15.2
    },
    {
-    "away": "Seattle U Redhawks",
-    "home": "California Baptist Lancers",
-    "final": "83-54",
-    "model_margin": -3.6,
-    "model_total": 130.9,
-    "line_spread": 8.5,
-    "line_total": 133.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": 25.4,
-    "err_total": -6.1
+    "away": "Montana State Bobcats",
+    "home": "Gonzaga Bulldogs",
+    "final": "62-74",
+    "model_margin": 20.1,
+    "model_total": 148.1,
+    "line_spread": -23.5,
+    "line_total": 152.5,
+    "ats": "W",
+    "tot": "W",
+    "err_margin": 8.1,
+    "err_total": 12.1
    },
    {
     "away": "West Virginia Mountaineers",
@@ -1352,17 +1352,17 @@
     "err_total": -3.4
    },
    {
-    "away": "Montana State Bobcats",
-    "home": "Gonzaga Bulldogs",
-    "final": "62-74",
-    "model_margin": 20.1,
-    "model_total": 148.1,
-    "line_spread": -23.5,
-    "line_total": 152.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": 8.1,
-    "err_total": 12.1
+    "away": "Seattle U Redhawks",
+    "home": "California Baptist Lancers",
+    "final": "83-54",
+    "model_margin": -3.6,
+    "model_total": 130.9,
+    "line_spread": 8.5,
+    "line_total": 133.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": 25.4,
+    "err_total": -6.1
    }
   ]
  },
@@ -1623,9 +1623,9 @@
      "result": "L",
      "pnl": -1.0,
      "legs": [
-      "Prairie View A&M Panthers +33.5 W",
+      "Florida A&M Rattlers +19.5 L",
       "UMBC Retrievers +2.5 W",
-      "Florida A&M Rattlers +19.5 L"
+      "Prairie View A&M Panthers +33.5 W"
      ]
     },
     "lotto": {
@@ -1633,9 +1633,9 @@
      "result": "L",
      "pnl": -0.25,
      "legs": [
-      "Prairie View A&M Panthers +33.5 W",
-      "UMBC Retrievers +2.5 W",
       "Florida A&M Rattlers +19.5 L",
+      "UMBC Retrievers +2.5 W",
+      "Prairie View A&M Panthers +33.5 W",
       "Grambling Tigers +28.5 L",
       "Tulsa Golden Hurricane -5.5 L",
       "Central Arkansas Bears +18.5 L",
@@ -1664,8 +1664,8 @@
       "Hofstra Pride +11.5 L",
       "Old Dominion Monarchs +26.5 W",
       "Georgia Southern Eagles +1.5 L",
-      "Rider Broncs +41.5 L",
       "Maryland Eastern Shore Hawks +30.5 L",
+      "Rider Broncs +41.5 L",
       "Under 179.5 (Kennesaw/Alabama) L",
       "Nicholls Colonels +27.5 L",
       "Under 153.5 (Lindenwood/Northern) L"

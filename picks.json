@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18 15:33:19.892827",
+ "generated": "2026-11-18 19:10:47.359788",
  "data_through": "2026-11-17",
  "sigma_margin": 11.79,
  "sigma_total": 17.1,
@@ -1010,8 +1010,8 @@
     "Kade Douglas (21 mpg, auto 50%)",
     "Jac Mani (14 mpg, auto 50%)"
    ],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": -27.5,
+   "line_total": 159.5
   },
   {
    "game_id": "401917536",
@@ -1048,8 +1048,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": -16.5,
+   "line_total": 153.5
   },
   {
    "game_id": "401918056",
@@ -1086,8 +1086,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": -2.5,
+   "line_total": 164.5
   },
   {
    "game_id": "401928354",
@@ -1105,8 +1105,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": 3.5,
+   "line_total": 150.5
   },
   {
    "game_id": "401925941",
@@ -1124,8 +1124,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": -18.5,
+   "line_total": 160.5
   },
   {
    "game_id": "401911534",
@@ -1143,8 +1143,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": -1.5,
+   "line_total": 136.5
   },
   {
    "game_id": "401920888",
@@ -1164,8 +1164,8 @@
    "out_away": [
     "Terry Copeland Jr. (17 mpg, auto 50%)"
    ],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": -4.5,
+   "line_total": 140.5
   },
   {
    "game_id": "401906867",
@@ -1183,8 +1183,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": -38.5,
+   "line_total": 157.5
   },
   {
    "game_id": "401918950",
@@ -1244,8 +1244,8 @@
     "Austin Herro (20 mpg, auto 50%)"
    ],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": -7.5,
+   "line_total": 149.5
   },
   {
    "game_id": "401919050",
@@ -1265,8 +1265,8 @@
    "out_away": [
     "Cade Phillips (18 mpg, auto 50%)"
    ],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": 1.5,
+   "line_total": 162.5
   },
   {
    "game_id": "401926814",
@@ -1284,8 +1284,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": 1.5,
+   "line_total": 158.5
   },
   {
    "game_id": "401919005",
@@ -1305,8 +1305,8 @@
     "Deven Bates (20 mpg, auto 50%)"
    ],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": 1.5,
+   "line_total": 144.5
   },
   {
    "game_id": "401928826",
@@ -1324,8 +1324,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": -7.5,
+   "line_total": 144.5
   },
   {
    "game_id": "401928388",
@@ -1448,8 +1448,8 @@
     "Cameron Blankenberg (18 mpg, auto 50%)"
    ],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": -9.5,
+   "line_total": 147.5
   },
   {
    "game_id": "401902280",
@@ -1467,8 +1467,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": -15.5,
+   "line_total": 164.5
   },
   {
    "game_id": "401918959",
@@ -1486,8 +1486,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": null,
-   "line_total": null
+   "line_spread": 4.5,
+   "line_total": 160.5
   },
   {
    "game_id": "401920158",
@@ -1526,7 +1526,7 @@
    "out_away": [
     "Cameron Patterson (16 mpg, auto 50%)"
    ],
-   "line_spread": -25.5,
+   "line_spread": -24.5,
    "line_total": 157.5
   },
   {
@@ -1645,7 +1645,7 @@
     "Nik Khamenia (19 mpg, auto 50%)"
    ],
    "line_spread": -3.5,
-   "line_total": 147.5
+   "line_total": 145.5
   },
   {
    "game_id": "401921742",
@@ -1663,8 +1663,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -28.5,
-   "line_total": 163.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401929176",
@@ -1684,8 +1684,8 @@
    "out_away": [
     "Andy Stefonowicz (26 mpg, auto 50%)"
    ],
-   "line_spread": -12.5,
-   "line_total": 147.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401925949",
@@ -1703,8 +1703,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -28.5,
-   "line_total": 171.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401921816",
@@ -1724,8 +1724,8 @@
     "Mark Mitchell Jr. (19 mpg, auto 50%)"
    ],
    "out_away": [],
-   "line_spread": -40.5,
-   "line_total": 153.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401921734",
@@ -1743,8 +1743,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -22.5,
-   "line_total": 147.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401911473",
@@ -1762,8 +1762,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -6.5,
-   "line_total": 156.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401909762",
@@ -1781,8 +1781,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -14.5,
-   "line_total": 155.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401909494",
@@ -1802,8 +1802,8 @@
    "out_away": [
     "Kevin Patton Jr. (22 mpg, auto 50%)"
    ],
-   "line_spread": -23.5,
-   "line_total": 153.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401926064",
@@ -1821,8 +1821,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -32.5,
-   "line_total": 155.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401917982",
@@ -1842,8 +1842,8 @@
    "out_away": [
     "Quaran McPherson (26 mpg, auto 50%)"
    ],
-   "line_spread": -37.5,
-   "line_total": 159.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401929420",
@@ -1861,8 +1861,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -17.5,
-   "line_total": 148.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401929201",
@@ -1880,8 +1880,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -17.5,
-   "line_total": 140.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401928398",
@@ -1902,8 +1902,8 @@
     "Jalen Tatum (34 mpg, auto 50%)",
     "Harrison Pickett (21 mpg, auto 50%)"
    ],
-   "line_spread": -28.5,
-   "line_total": 162.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401927357",
@@ -1925,8 +1925,8 @@
    "out_away": [
     "Ashton Williamson (26 mpg, auto 50%)"
    ],
-   "line_spread": -6.5,
-   "line_total": 136.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401924721",
@@ -1944,8 +1944,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -18.5,
-   "line_total": 155.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401919848",
@@ -1965,8 +1965,8 @@
     "Jack Medalie (18 mpg, auto 50%)"
    ],
    "out_away": [],
-   "line_spread": 1.5,
-   "line_total": 130.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401911393",
@@ -1984,8 +1984,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": 2.5,
-   "line_total": 148.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401911232",
@@ -2003,8 +2003,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": 1.5,
-   "line_total": 150.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401909555",
@@ -2024,8 +2024,8 @@
    "out_away": [
     "Money Williams (37 mpg, auto 50%)"
    ],
-   "line_spread": 4.5,
-   "line_total": 128.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401906805",
@@ -2045,8 +2045,8 @@
     "Dayton Forsythe (20 mpg, auto 50%)"
    ],
    "out_away": [],
-   "line_spread": -20.5,
-   "line_total": 147.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401921134",
@@ -2067,8 +2067,8 @@
     "Darrion Williams (27 mpg, auto 50%)"
    ],
    "out_away": [],
-   "line_spread": -35.5,
-   "line_total": 157.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401920515",
@@ -2088,8 +2088,8 @@
    "out_away": [
     "Melvin Council Jr. (22 mpg, auto 50%)"
    ],
-   "line_spread": 7.5,
-   "line_total": 150.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401925109",
@@ -2128,8 +2128,8 @@
    "out_away": [
     "Linus Holmstrom (31 mpg, auto 50%)"
    ],
-   "line_spread": -28.5,
-   "line_total": 153.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401909526",
@@ -2149,8 +2149,8 @@
    "out_away": [
     "Colin Hardrick (20 mpg, auto 50%)"
    ],
-   "line_spread": -27.5,
-   "line_total": 146.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401920682",
@@ -2168,8 +2168,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -29.5,
-   "line_total": 171.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401928347",
@@ -2189,8 +2189,8 @@
    "out_away": [
     "KJ Lamonte (24 mpg, auto 50%)"
    ],
-   "line_spread": -1.5,
-   "line_total": 152.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401926838",
@@ -2208,8 +2208,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -3.5,
-   "line_total": 138.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401925782",
@@ -2229,8 +2229,8 @@
    "out_away": [
     "Gasper Kocevar (16 mpg, auto 50%)"
    ],
-   "line_spread": -4.5,
-   "line_total": 138.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401925632",
@@ -2250,8 +2250,8 @@
    "out_away": [
     "Sven Djopmo (16 mpg, auto 50%)"
    ],
-   "line_spread": -15.5,
-   "line_total": 141.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401923401",
@@ -2269,8 +2269,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -3.5,
-   "line_total": 132.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401922212",
@@ -2288,8 +2288,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -6.5,
-   "line_total": 154.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401922055",
@@ -2309,8 +2309,8 @@
    "out_away": [
     "Collin O'Neal (16 mpg, auto 50%)"
    ],
-   "line_spread": 3.5,
-   "line_total": 150.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401922047",
@@ -2330,8 +2330,8 @@
    "out_away": [
     "AJ Clark (14 mpg, auto 50%)"
    ],
-   "line_spread": -7.5,
-   "line_total": 154.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401921156",
@@ -2349,8 +2349,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -8.5,
-   "line_total": 150.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401921141",
@@ -2370,8 +2370,8 @@
    "out_away": [
     "Ra\u00fal Villar (30 mpg, auto 50%)"
    ],
-   "line_spread": -15.5,
-   "line_total": 136.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401920963",
@@ -2389,8 +2389,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -15.5,
-   "line_total": 150.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401920694",
@@ -2408,8 +2408,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -7.5,
-   "line_total": 137.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401920075",
@@ -2427,8 +2427,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -22.5,
-   "line_total": 132.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401919808",
@@ -2446,8 +2446,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": 8.5,
-   "line_total": 147.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401919760",
@@ -2465,8 +2465,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -4.5,
-   "line_total": 136.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401919735",
@@ -2484,8 +2484,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -23.5,
-   "line_total": 138.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401911377",
@@ -2503,8 +2503,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": 1.5,
-   "line_total": 163.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401911309",
@@ -2522,8 +2522,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": 6.5,
-   "line_total": 138.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401911277",
@@ -2544,8 +2544,8 @@
     "Demetrius Lilley (34 mpg, auto 50%)",
     "Jake Blackburn (23 mpg, auto 50%)"
    ],
-   "line_spread": -3.5,
-   "line_total": 133.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401922292",
@@ -2563,8 +2563,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": 3.5,
-   "line_total": 163.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401922283",
@@ -2582,8 +2582,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": 7.5,
-   "line_total": 150.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401920974",
@@ -2601,8 +2601,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": 3.5,
-   "line_total": 164.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401920947",
@@ -2620,8 +2620,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -10.5,
-   "line_total": 140.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401917181",
@@ -2641,8 +2641,8 @@
     "Brant Byers (28 mpg, auto 50%)"
    ],
    "out_away": [],
-   "line_spread": -16.5,
-   "line_total": 168.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401909516",
@@ -2660,8 +2660,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -20.5,
-   "line_total": 138.5
+   "line_spread": null,
+   "line_total": null
   },
   {
    "game_id": "401920514",
