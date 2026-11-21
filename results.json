@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20 15:13",
+ "generated": "2026-11-20 18:55",
  "yesterday": {
   "date": "2026-11-19",
   "summary": {
@@ -610,6 +610,19 @@
     "err_total": -21.2
    },
    {
+    "away": "Southern Miss Golden Eagles",
+    "home": "Grambling Tigers",
+    "final": "103-100",
+    "model_margin": -0.3,
+    "model_total": 148.3,
+    "line_spread": 1.5,
+    "line_total": 144.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": 2.7,
+    "err_total": -54.7
+   },
+   {
     "away": "Oregon State Beavers",
     "home": "Oregon Ducks",
     "final": "82-71",
@@ -688,17 +701,17 @@
     "err_total": -29.4
    },
    {
-    "away": "Southern Miss Golden Eagles",
-    "home": "Grambling Tigers",
-    "final": "103-100",
-    "model_margin": -0.3,
-    "model_total": 148.3,
-    "line_spread": 1.5,
-    "line_total": 144.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": 2.7,
-    "err_total": -54.7
+    "away": "Florida Gators",
+    "home": "West Virginia Mountaineers",
+    "final": "85-72",
+    "model_margin": -7.6,
+    "model_total": 144.6,
+    "line_spread": null,
+    "line_total": null,
+    "ats": "",
+    "tot": "",
+    "err_margin": 5.4,
+    "err_total": -12.4
    },
    {
     "away": "Notre Dame Fighting Irish",
@@ -712,19 +725,6 @@
     "tot": "",
     "err_margin": 9.0,
     "err_total": 9.0
-   },
-   {
-    "away": "Florida Gators",
-    "home": "West Virginia Mountaineers",
-    "final": "85-72",
-    "model_margin": -7.6,
-    "model_total": 144.6,
-    "line_spread": null,
-    "line_total": null,
-    "ats": "",
-    "tot": "",
-    "err_margin": 5.4,
-    "err_total": -12.4
    }
   ]
  },
@@ -1017,9 +1017,9 @@
      "result": "L",
      "pnl": -1.0,
      "legs": [
-      "Prairie View A&M Panthers +33.5 W",
+      "Florida A&M Rattlers +19.5 L",
       "UMBC Retrievers +2.5 W",
-      "Florida A&M Rattlers +19.5 L"
+      "Prairie View A&M Panthers +33.5 W"
      ]
     },
     "lotto": {
@@ -1027,9 +1027,9 @@
      "result": "L",
      "pnl": -0.25,
      "legs": [
-      "Prairie View A&M Panthers +33.5 W",
-      "UMBC Retrievers +2.5 W",
       "Florida A&M Rattlers +19.5 L",
+      "UMBC Retrievers +2.5 W",
+      "Prairie View A&M Panthers +33.5 W",
       "Grambling Tigers +28.5 L",
       "Tulsa Golden Hurricane -5.5 L",
       "Central Arkansas Bears +18.5 L",
@@ -1046,8 +1046,8 @@
      "pnl": -1.0,
      "legs": [
       "Hofstra Pride +11.5 L",
-      "Georgia Southern Eagles +1.5 L",
-      "Old Dominion Monarchs +26.5 W"
+      "Old Dominion Monarchs +26.5 W",
+      "Georgia Southern Eagles +1.5 L"
      ]
     },
     "lotto": {
@@ -1056,8 +1056,8 @@
      "pnl": -0.25,
      "legs": [
       "Hofstra Pride +11.5 L",
-      "Georgia Southern Eagles +1.5 L",
       "Old Dominion Monarchs +26.5 W",
+      "Georgia Southern Eagles +1.5 L",
       "Maryland Eastern Shore Hawks +30.5 L",
       "Rider Broncs +41.5 L",
       "Under 179.5 (Kennesaw/Alabama) L",
