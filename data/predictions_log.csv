@@ -2747,3 +2747,122 @@ game_id,date,home,away,neutral,pts_h,pts_a,poss,model_spread,model_total,win_pro
 401923402,2026-11-21,Boston University Terriers,Columbia Lions,False,74.4,74.7,65.1,0.2,149.1,0.492,0.0,0.0,1.5,142.5,2026-11-21 00:33:33.915781
 401924884,2026-11-21,Bucknell Bison,Siena Saints,False,73.3,77.0,70.0,3.7,150.2,0.376,0.0,0.0,6.5,154.5,2026-11-21 00:33:33.915781
 401922284,2026-11-21,UNC Greensboro Spartans,South Carolina Upstate Spartans,False,80.0,71.3,68.1,-8.7,151.3,0.77,-0.45,0.0,-7.5,146.5,2026-11-21 00:33:33.915781
+401909743,2026-11-23,Arizona Wildcats,Colorado State Rams,True,84.3,65.9,69.5,-18.4,150.1,0.941,0.0,0.0,,,2026-11-21 13:52:32.413124
+401920721,2026-11-23,UNLV Rebels,Eastern Washington Eagles,False,84.6,76.8,72.4,-7.8,161.5,0.746,0.0,0.0,,,2026-11-21 13:52:32.413124
+401918057,2026-11-23,California Golden Bears,Alabama State Hornets,False,81.6,64.1,68.7,-17.4,145.7,0.93,0.0,0.0,,,2026-11-21 13:52:32.413124
+401926183,2026-11-23,Pepperdine Waves,UNC Greensboro Spartans,False,81.7,74.5,68.6,-7.2,156.2,0.73,0.0,-0.45,,,2026-11-21 13:52:32.413124
+401909536,2026-11-23,Providence Friars,VCU Rams,True,77.4,77.3,71.6,-0.0,154.7,0.501,1.52,0.0,,,2026-11-21 13:52:32.413124
+401913530,2026-11-23,Illinois Fighting Illini,Winthrop Eagles,False,102.4,66.6,75.6,-35.8,169.0,0.999,4.5,1.1,,,2026-11-21 13:52:32.413124
+401909788,2026-11-23,Kansas Jayhawks,Denver Pioneers,False,92.4,63.0,71.9,-29.4,155.4,0.994,0.87,0.0,,,2026-11-21 13:52:32.413124
+401913102,2026-11-23,North Carolina Tar Heels,Monmouth Hawks,False,83.1,66.4,71.1,-16.8,149.5,0.922,0.32,0.0,,,2026-11-21 13:52:32.413124
+401919032,2026-11-23,Wichita State Shockers,Texas A&M-Corpus Christi Islanders,False,76.3,63.0,68.4,-13.3,139.3,0.87,0.0,0.0,,,2026-11-21 13:52:32.413124
+401921157,2026-11-23,South Carolina State Bulldogs,North Carolina A&T Aggies,False,74.2,76.6,72.0,2.4,150.8,0.42,1.34,0.0,,,2026-11-21 13:52:32.413124
+401921029,2026-11-23,Northern Kentucky Norse,Georgia Southern Eagles,False,82.5,84.6,76.2,2.1,167.2,0.43,0.0,-0.38,,,2026-11-21 13:52:32.413124
+401919761,2026-11-23,Iona Gaels,Fairleigh Dickinson Knights,False,74.3,65.2,66.3,-9.1,139.5,0.78,0.49,0.0,,,2026-11-21 13:52:32.413124
+401917919,2026-11-23,North Florida Ospreys,Central Arkansas Bears,False,76.5,83.1,75.1,6.6,159.6,0.287,0.0,0.0,,,2026-11-21 13:52:32.413124
+401917543,2026-11-23,Santa Clara Broncos,Illinois State Redbirds,True,82.0,74.4,71.6,-7.6,156.3,0.742,0.0,0.35,,,2026-11-21 13:52:32.413124
+401920752,2026-11-23,Youngstown State Penguins,Maryland Eastern Shore Hawks,False,72.6,60.6,67.6,-12.0,133.1,0.846,1.38,0.0,,,2026-11-21 13:52:32.413124
+401921708,2026-11-23,BYU Cougars,Washington Huskies,True,84.6,75.8,70.7,-8.8,160.4,0.772,3.93,0.0,,,2026-11-21 13:52:32.413124
+401911457,2026-11-23,San Francisco Dons,Nevada Wolf Pack,True,67.9,75.3,67.7,7.4,143.2,0.265,0.0,0.0,,,2026-11-21 13:52:32.413124
+401929286,2026-11-23,Belmont Bruins,Yale Bulldogs,True,77.9,74.5,67.6,-3.4,152.4,0.612,0.0,0.14,,,2026-11-21 13:52:32.413124
+401919006,2026-11-23,Georgia State Panthers,Tulane Green Wave,True,76.9,77.2,70.0,0.3,154.0,0.49,0.0,0.0,,,2026-11-21 13:52:32.413124
+401929445,2026-11-23,Southern Utah Thunderbirds,Arkansas State Red Wolves,True,75.7,83.7,75.6,8.0,159.4,0.249,0.0,0.0,,,2026-11-21 13:52:32.413124
+401921177,2026-11-23,IU Indianapolis Jaguars,William & Mary Tribe,True,81.9,91.8,77.0,9.9,173.8,0.201,0.0,0.0,,,2026-11-21 13:52:32.413124
+401918076,2026-11-23,Clemson Tigers,Ole Miss Rebels,True,71.4,73.4,67.0,2.0,144.8,0.434,0.0,0.0,,,2026-11-21 13:52:32.413124
+401921658,2026-11-23,Oregon State Beavers,Tulsa Golden Hurricane,True,80.1,77.5,70.5,-2.6,157.6,0.588,0.0,0.0,,,2026-11-21 13:52:32.413124
+401928830,2026-11-23,Wright State Raiders,Akron Zips,True,78.0,75.6,69.5,-2.4,153.6,0.582,0.0,0.0,,,2026-11-21 13:52:32.413124
+401921701,2026-11-23,Florida Gulf Coast Eagles,Charlotte 49ers,True,73.3,75.3,65.7,2.0,148.6,0.433,0.0,0.09,,,2026-11-21 13:52:32.413124
+401924266,2026-11-23,Florida International Panthers,Long Beach State Beach,False,83.3,74.9,74.3,-8.4,158.2,0.761,0.0,0.66,,,2026-11-21 13:52:32.413124
+401928389,2026-11-23,Grambling Tigers,Ecclesia Royals,False,113.3,57.6,80.5,-55.7,170.9,1.0,0.0,0.0,,,2026-11-21 13:52:32.413124
+401927397,2026-11-23,App State Mountaineers,St. Bonaventure Bonnies,True,68.3,69.7,63.2,1.5,138.0,0.451,0.0,0.0,,,2026-11-21 13:52:32.413124
+401921700,2026-11-23,Davidson Wildcats,Northern Iowa Panthers,True,70.9,67.6,63.7,-3.3,138.4,0.61,0.0,0.0,,,2026-11-21 13:52:32.413124
+401911233,2026-11-22,Loyola Chicago Ramblers,San José State Spartans,True,78.0,74.6,67.2,-3.4,152.6,0.614,0.0,0.0,,,2026-11-21 13:52:32.413124
+401917542,2026-11-22,UC San Diego Tritons,Seattle U Redhawks,True,71.1,71.2,69.3,0.1,142.3,0.497,0.0,0.0,,,2026-11-21 13:52:32.413124
+401926774,2026-11-22,USC Trojans,Louisiana Ragin' Cajuns,False,84.6,57.1,69.0,-27.5,141.7,0.99,0.0,0.5,,,2026-11-21 13:52:32.413124
+401921206,2026-11-22,Utah Valley Wolverines,UT Martin Skyhawks,True,77.0,68.5,69.7,-8.4,145.5,0.763,0.0,0.14,,,2026-11-21 13:52:32.413124
+401920905,2026-11-22,UCLA Bruins,Delaware Blue Hens,False,83.8,58.8,65.6,-25.0,142.5,0.983,0.0,0.0,,,2026-11-21 13:52:32.413124
+401919020,2026-11-22,UAB Blazers,Rhode Island Rams,True,75.1,75.4,69.5,0.2,150.5,0.492,1.11,0.0,,,2026-11-21 13:52:32.413124
+401917541,2026-11-22,Portland Pilots,California Baptist Lancers,True,76.3,69.6,69.8,-6.7,145.9,0.716,2.46,0.46,,,2026-11-21 13:52:32.413124
+401928999,2026-11-22,Valparaiso Beacons,Southern Miss Golden Eagles,True,82.1,74.3,74.5,-7.8,156.3,0.746,0.0,-0.04,,,2026-11-21 13:52:32.413124
+401921420,2026-11-22,Minnesota Golden Gophers,Utah Utes,True,72.5,60.8,62.1,-11.7,133.3,0.84,0.0,0.0,,,2026-11-21 13:52:32.413124
+401921205,2026-11-22,Stephen F. Austin Lumberjacks,Temple Owls,True,74.0,72.2,66.7,-1.7,146.2,0.558,0.0,0.0,,,2026-11-21 13:52:32.413124
+401925013,2026-11-22,Lamar Cardinals,Rice Owls,True,76.4,75.7,69.9,-0.7,152.2,0.523,0.0,0.0,,,2026-11-21 13:52:32.413124
+401922293,2026-11-22,Samford Bulldogs,UNC Asheville Bulldogs,False,80.7,73.0,69.8,-7.7,153.6,0.742,0.0,0.0,,,2026-11-21 13:52:32.413124
+401920159,2026-11-22,Portland State Vikings,Cal State Fullerton Titans,False,81.9,76.9,75.5,-5.0,158.8,0.665,0.0,0.87,,,2026-11-21 13:52:32.413124
+401909556,2026-11-22,Boston College Eagles,NJIT Highlanders,False,76.6,55.7,64.9,-20.8,132.3,0.961,2.84,0.0,,,2026-11-21 13:52:32.413124
+401926795,2026-11-22,Liberty Flames,Richmond Spiders,True,74.9,73.9,65.4,-1.0,148.8,0.535,0.0,0.0,,,2026-11-21 13:52:32.413124
+401921176,2026-11-22,Maryland Eastern Shore Hawks,IU Indianapolis Jaguars,True,69.3,74.2,68.6,4.9,143.5,0.34,0.0,0.0,,,2026-11-21 13:52:32.413124
+401917540,2026-11-22,Loyola Marymount Lions,UC Irvine Anteaters,True,70.1,71.6,70.2,1.4,141.7,0.452,0.0,0.0,,,2026-11-21 13:52:32.413124
+401929202,2026-11-22,Texas State Bobcats,McNeese Cowboys,False,73.5,75.0,66.0,1.5,148.5,0.449,0.0,0.52,,,2026-11-21 13:52:32.413124
+401923323,2026-11-22,UAlbany Great Danes,Mercyhurst Lakers,True,66.5,67.0,64.5,0.5,133.5,0.483,0.32,-0.12,,,2026-11-21 13:52:32.413124
+401920381,2026-11-22,Oklahoma State Cowboys,Virginia Tech Hokies,True,82.9,84.8,74.8,1.9,167.7,0.435,0.0,0.0,,,2026-11-21 13:52:32.413124
+401906868,2026-11-22,Texas Longhorns,Southern Indiana Screaming Eagles,False,89.0,56.7,69.4,-32.4,145.7,0.997,0.0,0.0,,,2026-11-21 13:52:32.413124
+401925066,2026-11-22,Nicholls Colonels,Troy Trojans,True,65.0,70.2,66.7,5.2,135.2,0.329,0.0,0.0,,,2026-11-21 13:52:32.413124
+401922252,2026-11-22,South Alabama Jaguars,West Florida Argonauts,False,76.2,71.2,67.7,-5.1,147.4,0.667,0.69,0.0,,,2026-11-21 13:52:32.413124
+401928790,2026-11-22,New Mexico State Aggies,Robert Morris Colonials,True,72.5,70.8,66.5,-1.7,143.3,0.557,0.0,0.0,,,2026-11-21 13:52:32.413124
+401928802,2026-11-22,Western Kentucky Hilltoppers,George Washington Revolutionaries,True,72.1,79.2,72.4,7.1,151.2,0.274,0.0,0.0,,,2026-11-21 13:52:32.413124
+401925942,2026-11-22,Utah Tech Trailblazers,South Dakota Coyotes,True,85.6,78.1,73.0,-7.5,163.7,0.738,0.0,0.0,,,2026-11-21 13:52:32.413124
+401921748,2026-11-22,Cincinnati Bearcats,UMass Lowell River Hawks,False,84.7,58.9,69.9,-25.8,143.7,0.986,0.0,0.0,,,2026-11-21 13:52:32.413124
+401921706,2026-11-22,Duquesne Dukes,Wyoming Cowboys,True,69.4,72.7,65.6,3.3,142.1,0.39,0.0,0.0,,,2026-11-21 13:52:32.413124
+401918988,2026-11-22,Memphis Tigers,Evansville Purple Aces,False,87.1,68.2,70.9,-18.9,155.2,0.945,1.38,1.33,,,2026-11-21 13:52:32.413124
+401918455,2026-11-22,Youngstown State Penguins,William & Mary Tribe,False,80.0,83.3,76.0,3.3,163.3,0.39,1.38,0.0,,,2026-11-21 13:52:32.413124
+401911200,2026-11-22,Fordham Rams,San Diego Toreros,True,75.0,72.6,68.1,-2.4,147.6,0.581,2.38,0.0,,,2026-11-21 13:52:32.413124
+401929023,2026-11-22,Canisius Golden Griffins,Western Illinois Leathernecks,False,73.6,68.7,67.4,-4.9,142.2,0.661,0.0,0.0,,,2026-11-21 13:52:32.413124
+401920736,2026-11-22,Northwestern Wildcats,Dayton Flyers,True,70.8,69.7,66.1,-1.1,140.6,0.537,0.0,0.0,,,2026-11-21 13:52:32.413124
+401919809,2026-11-22,Long Island University Sharks,Fairfield Stags,False,76.3,68.5,71.0,-7.8,144.8,0.746,0.0,0.0,,,2026-11-21 13:52:32.413124
+401912212,2026-11-22,American University Eagles,Towson Tigers,False,64.8,65.2,63.8,0.5,130.0,0.484,0.0,0.0,,,2026-11-21 13:52:32.413124
+401909527,2026-11-22,Marquette Golden Eagles,Chicago State Cougars,False,83.7,54.6,66.5,-29.0,138.3,0.993,0.0,-0.21,,,2026-11-21 13:52:32.413124
+401902281,2026-11-22,Butler Bulldogs,Nebraska Cornhuskers,True,69.1,82.6,71.3,13.5,151.8,0.126,0.0,0.0,,,2026-11-21 13:52:32.413124
+401911024,2026-11-22,UIC Flames,Miami (OH) RedHawks,True,74.7,77.9,70.0,3.1,152.6,0.395,0.35,0.0,,,2026-11-21 13:52:32.413124
+401909567,2026-11-21,Duke Blue Devils,Washington State Cougars,True,84.2,63.0,68.2,-21.1,147.2,0.963,0.0,0.0,-25.5,149.5,2026-11-21 13:52:32.413124
+401917537,2026-11-21,Pacific Tigers,Bradley Braves,False,69.7,61.1,64.1,-8.6,130.8,0.766,0.0,0.1,-8.5,130.5,2026-11-21 13:52:32.413124
+401925049,2026-11-21,Texas Southern Tigers,LSU New Orleans Privateers,False,78.9,78.2,74.9,-0.6,157.1,0.522,0.64,0.0,-1.5,154.5,2026-11-21 13:52:32.413124
+401928998,2026-11-21,Valparaiso Beacons,Troy Trojans,True,71.5,70.0,66.8,-1.5,141.5,0.552,0.0,0.0,-4.5,136.5,2026-11-21 13:52:32.413124
+401925099,2026-11-21,Oral Roberts Golden Eagles,Texas A&M-Corpus Christi Islanders,False,68.2,69.5,67.4,1.3,137.7,0.457,0.0,0.0,-3.5,141.5,2026-11-21 13:52:32.413124
+401926217,2026-11-21,Tennessee Tech Golden Eagles,Presbyterian Blue Hose,False,81.5,75.7,70.3,-5.8,157.3,0.688,0.0,0.0,-7.5,163.5,2026-11-21 13:52:32.413124
+401921776,2026-11-21,Villanova Wildcats,Michigan Wolverines,False,72.1,84.0,72.9,11.9,156.1,0.155,0.0,0.0,3.5,160.5,2026-11-21 13:52:32.413124
+401920975,2026-11-21,Chattanooga Mocs,Radford Highlanders,False,82.6,73.1,71.1,-9.5,155.6,0.79,0.0,-0.3,-7.5,150.5,2026-11-21 13:52:32.413124
+401920964,2026-11-21,Elon Phoenix,Morehead State Eagles,False,78.4,66.0,65.0,-12.4,144.3,0.853,0.0,0.0,-11.5,144.5,2026-11-21 13:52:32.413124
+401920125,2026-11-21,Cal Poly Mustangs,Northern Arizona Lumberjacks,False,84.0,76.6,70.0,-7.4,160.6,0.734,0.0,0.0,-7.5,154.5,2026-11-21 13:52:32.413124
+401917539,2026-11-21,Loyola Marymount Lions,California Baptist Lancers,True,75.3,64.3,66.9,-11.0,139.7,0.825,0.0,0.46,-13.5,135.5,2026-11-21 13:52:32.413124
+401911394,2026-11-21,VMI Keydets,Gardner-Webb Runnin' Bulldogs,False,75.5,69.5,71.1,-6.1,145.0,0.697,0.0,0.0,-7.5,146.5,2026-11-21 13:52:32.413124
+401911378,2026-11-21,Mercer Bears,Charleston Southern Buccaneers,False,87.8,78.4,76.4,-9.4,166.2,0.788,0.0,0.13,-8.5,162.5,2026-11-21 13:52:32.413124
+401911310,2026-11-21,Vermont Catamounts,Brown Bears,False,70.8,64.6,65.5,-6.2,135.4,0.701,1.95,-0.65,-4.5,133.5,2026-11-21 13:52:32.413124
+401925897,2026-11-21,Norfolk State Spartans,UNC Wilmington Seahawks,False,72.8,82.8,68.4,10.0,155.6,0.199,0.0,0.0,11.5,149.5,2026-11-21 13:52:32.413124
+401911023,2026-11-21,Massachusetts Minutemen,Maine Black Bears,False,74.6,66.2,70.5,-8.4,140.9,0.762,0.0,0.0,-12.5,138.5,2026-11-21 13:52:32.413124
+401909517,2026-11-21,Georgetown Hoyas,Coppin State Eagles,False,82.7,58.2,66.9,-24.5,140.8,0.981,0.0,-0.57,-31.5,143.5,2026-11-21 13:52:32.413124
+401920570,2026-11-21,East Carolina Pirates,Southern Illinois Salukis,True,74.9,76.5,72.4,1.6,151.4,0.447,0.0,0.0,1.5,153.5,2026-11-21 13:52:32.413124
+401925709,2026-11-21,Wofford Terriers,Winthrop Eagles,False,85.0,80.3,73.0,-4.7,165.4,0.656,0.0,1.1,-6.5,161.5,2026-11-21 13:52:32.413124
+401925065,2026-11-21,Nicholls Colonels,Southern Miss Golden Eagles,True,75.0,73.6,74.4,-1.4,148.6,0.547,0.0,-0.04,2.5,141.5,2026-11-21 13:52:32.413124
+401919849,2026-11-21,Stonehill Skyhawks,Northeastern Huskies,False,70.9,80.5,72.0,9.6,151.5,0.207,0.0,0.0,9.5,146.5,2026-11-21 13:52:32.413124
+401911337,2026-11-21,UTSA Roadrunners,Air Force Falcons,False,82.4,76.3,73.5,-6.2,158.7,0.7,1.04,0.0,-5.5,173.5,2026-11-21 13:52:32.413124
+401917538,2026-11-21,San Diego Toreros,UC Irvine Anteaters,True,70.9,76.7,70.2,5.8,147.6,0.311,0.0,0.0,4.5,134.5,2026-11-21 13:52:32.413124
+401923322,2026-11-21,Canisius Golden Griffins,UAlbany Great Danes,False,67.6,69.9,65.7,2.4,137.5,0.42,0.0,0.32,2.5,140.5,2026-11-21 13:52:32.413124
+401922048,2026-11-21,East Tennessee State Buccaneers,Longwood Lancers,False,77.5,65.7,68.2,-11.7,143.2,0.84,0.0,0.0,-4.5,141.5,2026-11-21 13:52:32.413124
+401921183,2026-11-21,La Salle Explorers,Pennsylvania Quakers,False,77.9,77.7,73.2,-0.2,155.6,0.505,0.0,1.21,-2.5,159.5,2026-11-21 13:52:32.413124
+401918995,2026-11-21,George Mason Patriots,South Florida Bulls,False,74.1,72.5,68.7,-1.7,146.6,0.556,0.0,0.0,-3.5,148.5,2026-11-21 13:52:32.413124
+401917918,2026-11-21,Jacksonville Dolphins,Central Arkansas Bears,False,71.2,72.9,66.5,1.7,144.0,0.443,0.0,0.0,3.5,145.5,2026-11-21 13:52:32.413124
+401911278,2026-11-21,Binghamton Bearcats,Army Black Knights,False,72.4,73.5,64.5,1.1,145.9,0.461,0.0,0.0,,,2026-11-21 13:52:32.413124
+401927365,2026-11-21,Missouri State Bears,Drake Bulldogs,False,75.0,70.6,65.9,-4.4,145.6,0.645,0.0,-0.15,,,2026-11-21 13:52:32.413124
+401920846,2026-11-21,Milwaukee Panthers,St. Thomas Tommies,False,74.8,79.0,69.4,4.2,153.8,0.36,0.01,0.0,,,2026-11-21 13:52:32.413124
+401920569,2026-11-21,Indiana State Sycamores,Middle Tennessee Blue Raiders,True,74.7,78.5,70.3,3.8,153.2,0.373,0.0,0.0,,,2026-11-21 13:52:32.413124
+401917953,2026-11-21,Austin Peay Governors,UT Rio Grande Valley Vaqueros,False,71.8,68.6,67.4,-3.2,140.4,0.607,0.0,2.91,,,2026-11-21 13:52:32.413124
+401929452,2026-11-21,James Madison Dukes,Virginia Lynchburg Dragons,False,119.1,59.7,81.0,-59.4,178.8,1.0,0.0,-0.44,,,2026-11-21 13:52:32.413124
+401924882,2026-11-21,Saint Peter's Peacocks,Stony Brook Seawolves,False,62.9,65.8,63.1,2.9,128.7,0.401,-1.2,0.0,,,2026-11-21 13:52:32.413124
+401924722,2026-11-21,Morgan State Bears,Cornell Big Red,False,77.3,84.2,75.9,6.9,161.5,0.28,0.0,0.0,,,2026-11-21 13:52:32.413124
+401922222,2026-11-21,North Florida Ospreys,Little Rock Trojans,False,80.4,81.6,73.9,1.1,162.0,0.462,0.0,0.0,,,2026-11-21 13:52:32.413124
+401921222,2026-11-21,Rider Broncs,Navy Midshipmen,False,63.0,71.9,66.9,9.0,134.9,0.223,0.0,0.0,,,2026-11-21 13:52:32.413124
+401919031,2026-11-21,Wichita State Shockers,New Mexico Lobos,False,74.1,76.8,71.7,2.7,151.0,0.409,0.0,0.0,,,2026-11-21 13:52:32.413124
+401911199,2026-11-21,Portland Pilots,Fordham Rams,True,72.9,76.2,71.0,3.3,149.2,0.39,2.46,2.38,,,2026-11-21 13:52:32.413124
+401911022,2026-11-21,Bowling Green Falcons,Northern Illinois Huskies,False,79.7,70.9,68.3,-8.9,150.6,0.774,0.0,0.0,,,2026-11-21 13:52:32.413124
+401909730,2026-11-21,Wake Forest Demon Deacons,Western Carolina Catamounts,False,81.5,68.8,67.8,-12.7,150.3,0.86,0.0,1.41,,,2026-11-21 13:52:32.413124
+401909719,2026-11-21,Syracuse Orange,Lafayette Leopards,False,84.1,61.7,70.2,-22.3,145.8,0.971,0.0,0.0,,,2026-11-21 13:52:32.413124
+401919828,2026-11-21,Mercyhurst Lakers,Western Illinois Leathernecks,True,73.5,65.1,66.2,-8.5,138.6,0.764,-0.12,0.0,,,2026-11-21 13:52:32.413124
+401921811,2026-11-21,LSU Tigers,Queens University Royals,False,95.8,77.3,74.4,-18.4,173.1,0.941,0.0,0.0,,,2026-11-21 13:52:32.413124
+401923312,2026-11-21,New Haven Chargers,New Hampshire Wildcats,False,64.1,63.3,65.9,-0.9,127.4,0.53,-0.91,0.0,,,2026-11-21 13:52:32.413124
+401921169,2026-11-21,Cleveland State Vikings,Kent State Golden Flashes,False,78.3,79.8,69.9,1.5,158.1,0.45,0.0,-0.11,,,2026-11-21 13:52:32.413124
+401920948,2026-11-21,Eastern Michigan Eagles,Denver Pioneers,False,76.7,70.0,67.2,-6.8,146.7,0.717,0.0,0.0,,,2026-11-21 13:52:32.413124
+401925756,2026-11-21,Michigan State Spartans,Detroit Mercy Titans,False,93.2,56.3,69.8,-37.0,149.5,0.999,0.0,0.0,,,2026-11-21 13:52:32.413124
+401923402,2026-11-21,Boston University Terriers,Columbia Lions,False,74.3,74.5,65.1,0.2,148.9,0.494,0.0,0.0,,,2026-11-21 13:52:32.413124
+401924884,2026-11-21,Bucknell Bison,Siena Saints,False,73.4,77.2,70.0,3.8,150.7,0.374,0.0,0.0,,,2026-11-21 13:52:32.413124
+401922284,2026-11-21,UNC Greensboro Spartans,South Carolina Upstate Spartans,False,80.0,71.3,68.2,-8.8,151.3,0.771,-0.45,0.0,,,2026-11-21 13:52:32.413124
