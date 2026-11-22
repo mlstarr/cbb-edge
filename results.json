@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21 17:50",
+ "generated": "2026-11-22 00:14",
  "yesterday": {
   "date": "2026-11-20",
   "summary": {
@@ -550,6 +550,19 @@
   ],
   "games": [
    {
+    "away": "Green Bay Phoenix",
+    "home": "Florida State Seminoles",
+    "final": "63-87",
+    "model_margin": 18.0,
+    "model_total": 157.6,
+    "line_spread": -22.5,
+    "line_total": 155.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": -6.0,
+    "err_total": 7.6
+   },
+   {
     "away": "Oklahoma State Cowboys",
     "home": "Minnesota Golden Gophers",
     "final": "70-85",
@@ -665,19 +678,6 @@
     "tot": "L",
     "err_margin": -19.7,
     "err_total": -11.3
-   },
-   {
-    "away": "Green Bay Phoenix",
-    "home": "Florida State Seminoles",
-    "final": "63-87",
-    "model_margin": 18.0,
-    "model_total": 157.6,
-    "line_spread": -22.5,
-    "line_total": 155.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": -6.0,
-    "err_total": 7.6
    },
    {
     "away": "Georgia Bulldogs",
