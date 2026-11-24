@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23 19:05",
+ "generated": "2026-11-23 22:06",
  "yesterday": {
   "date": "2026-11-22",
   "summary": {
@@ -329,20 +329,20 @@
    },
    {
     "date": "2026-11-22",
-    "game": "NJIT Highlanders @ Boston College Eagles",
-    "final": "59-79",
+    "game": "Cal State Fullerton Titans @ Portland State Vikings",
+    "final": "92-75",
     "kind": "Total",
-    "pick": "Under 137.5",
+    "pick": "Under 163.5",
     "edge": 4.8,
     "result": "L",
     "units": -1.0
    },
    {
     "date": "2026-11-22",
-    "game": "Cal State Fullerton Titans @ Portland State Vikings",
-    "final": "92-75",
+    "game": "NJIT Highlanders @ Boston College Eagles",
+    "final": "59-79",
     "kind": "Total",
-    "pick": "Under 163.5",
+    "pick": "Under 137.5",
     "edge": 4.8,
     "result": "L",
     "units": -1.0
@@ -460,17 +460,17 @@
   ],
   "games": [
    {
-    "away": "Dayton Flyers",
-    "home": "Northwestern Wildcats",
-    "final": "55-79",
-    "model_margin": 1.1,
-    "model_total": 140.6,
-    "line_spread": 3.5,
-    "line_total": 135.5,
-    "ats": "W",
-    "tot": "L",
-    "err_margin": -22.9,
-    "err_total": 6.6
+    "away": "Fairfield Stags",
+    "home": "Long Island University Sharks",
+    "final": "74-71",
+    "model_margin": 7.8,
+    "model_total": 144.8,
+    "line_spread": -3.5,
+    "line_total": 143.5,
+    "ats": "L",
+    "tot": "W",
+    "err_margin": 10.8,
+    "err_total": -0.2
    },
    {
     "away": "George Washington Revolutionaries",
@@ -577,17 +577,17 @@
     "err_total": 9.6
    },
    {
-    "away": "Fairfield Stags",
-    "home": "Long Island University Sharks",
-    "final": "74-71",
-    "model_margin": 7.8,
-    "model_total": 144.8,
-    "line_spread": -3.5,
-    "line_total": 143.5,
-    "ats": "L",
-    "tot": "W",
-    "err_margin": 10.8,
-    "err_total": -0.2
+    "away": "Dayton Flyers",
+    "home": "Northwestern Wildcats",
+    "final": "55-79",
+    "model_margin": 1.1,
+    "model_total": 140.6,
+    "line_spread": 3.5,
+    "line_total": 135.5,
+    "ats": "W",
+    "tot": "L",
+    "err_margin": -22.9,
+    "err_total": 6.6
    },
    {
     "away": "Towson Tigers",
@@ -850,6 +850,19 @@
     "err_total": -3.4
    },
    {
+    "away": "Cal State Fullerton Titans",
+    "home": "Portland State Vikings",
+    "final": "92-75",
+    "model_margin": 5.3,
+    "model_total": 158.7,
+    "line_spread": -4.5,
+    "line_total": 163.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": 22.3,
+    "err_total": -8.3
+   },
+   {
     "away": "NJIT Highlanders",
     "home": "Boston College Eagles",
     "final": "59-79",
@@ -900,19 +913,6 @@
     "tot": "W",
     "err_margin": 3.7,
     "err_total": 1.9
-   },
-   {
-    "away": "Cal State Fullerton Titans",
-    "home": "Portland State Vikings",
-    "final": "92-75",
-    "model_margin": 5.3,
-    "model_total": 158.7,
-    "line_spread": -4.5,
-    "line_total": 163.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": 22.3,
-    "err_total": -8.3
    },
    {
     "away": "San Jos\u00e9 State Spartans",
