@@ -33,7 +33,8 @@ pt["val"] = pt.mpg / 40 * (pt.v40 - REPL)
 last = P.sort_values("game_date").groupby("team_id").game_date.max().rename("last")
 played_last = P[P.minutes > 0].merge(last, on="team_id"); played_last = set(map(tuple, played_last[played_last.game_date == played_last["last"]][["team_id", "athlete_id"]].values))
 pt["auto_out"] = [(t, a) not in played_last and m >= 14 and n >= 2 for t, a, m, n in zip(pt.team_id, pt.athlete_id, pt.mpg, pt.n)]
-inj = pd.read_csv("data/injuries.csv") if __import__("os").path.exists("data/injuries.csv") else pd.DataFrame(columns=["team", "player", "status"])
+_rd = lambda f: pd.read_csv(f) if __import__("os").path.exists(f) else pd.DataFrame(columns=["team", "player", "status"])
+inj = pd.concat([_rd("data/injuries_auto.csv"), _rd("data/injuries.csv")], ignore_index=True)[["team", "player", "status"]]   # manual file last, so it overrides the feed
 PO = {"out": 1.0, "doubtful": 0.8, "questionable": 0.5, "day-to-day": 0.4, "probable": 0.15, "available": 0.0}
 inj["p"] = inj.status.str.lower().map(PO).fillna(0.5)
 def team_miss(tid, tname):
@@ -54,6 +55,8 @@ for k, r in enumerate(up.itertuples()):
     pa = pr["pts_a"][k] + p["tot_bias"] / 2 - p["margin_bias"] / 2 - p["k_off"] * ma + p["k_opp"] * mh
     ef = float(early_factor((r.game_date - season_start).days, p))        # early-season phase adjustment (see model.early_factor)
     ph += ef * (p["early_total"] / 2 + (0 if neu[k] else p["early_margin"] / 2)); pa += ef * (p["early_total"] / 2 - (0 if neu[k] else p["early_margin"] / 2))
+    mg, tt = (ph - pa) * p.get("margin_stretch", 1.0), ph + pa                    # ratings run ~5% compressed vs real margins (backtest slope 1.06)
+    ph, pa = (tt + mg) / 2, (tt - mg) / 2
     gid = str(r.game_id); ln = lines.loc[gid] if gid in lines.index else None
     rows.append(dict(game_id=gid, date=str(r.game_date.date()), home=r.home_display_name, away=r.away_display_name, neutral=bool(neu[k]),
                      pts_h=round(float(ph), 1), pts_a=round(float(pa), 1), poss=round(float(pr["poss"][k]), 1),

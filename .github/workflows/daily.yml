@@ -31,10 +31,12 @@ jobs:
       - run: python players.py
       - name: Fetch lines (ESPN public feed, no key)
         run: python fetch_lines.py || echo "lines unavailable; dashboard still works with manual entry"
+      - name: Fetch injury reports (ESPN, best effort)
+        run: python fetch_injuries.py || echo "injury feed unavailable"
       - run: python predict.py data/raw/mbb 3
       - run: python results.py
       - name: Commit results
         run: |
           git config user.name "cbb-bot"; git config user.email "cbb-bot@users.noreply.github.com"
-          git add index.html picks.json results.json data/lines_history.csv data/predictions_log.csv 2>/dev/null || true
+          git add index.html picks.json results.json data/injury_probe.json data/injuries_auto.csv data/lines_history.csv data/predictions_log.csv 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "Update predictions $(date +%F-%H%M)" && git push)

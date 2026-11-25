@@ -123,7 +123,7 @@ def model_only(season):
     p = dict(P); dall = run_chain(p, seasons=range(2020, season + 1), step=7)
     def prep(s):
         d = dall[dall.season == s].copy(); ef = early_factor((d.date - d.date.min()).dt.days.values, p); eh = np.where(d.neutral.values, 0.0, p["early_margin"]) * ef
-        d["em"] = d.pts_h - d.pts_a + p["margin_bias"] + eh - (d.act_h - d.act_a); d["et"] = d.pts_h + d.pts_a + p["tot_bias"] + p["early_total"] * ef - (d.act_h + d.act_a)
+        d["em"] = (d.pts_h - d.pts_a + p["margin_bias"] + eh) * p.get("margin_stretch", 1.0) - (d.act_h - d.act_a); d["et"] = d.pts_h + d.pts_a + p["tot_bias"] + p["early_total"] * ef - (d.act_h + d.act_a)
         d["su"] = ((d.pts_h - d.pts_a + p["margin_bias"] + eh) > 0) == ((d.act_h - d.act_a) > 0)
         d["wk"] = (d.date - d.date.min()).dt.days // 7
         return d

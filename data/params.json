@@ -20,5 +20,6 @@
  "early_margin": 2.4,
  "early_total": 1.0,
  "early_full_days": 10,
- "early_end_days": 14
+ "early_end_days": 14,
+ "margin_stretch": 1.05
 }
