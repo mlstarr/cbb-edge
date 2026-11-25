@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 20:54",
+ "generated": "2026-11-25 01:58",
  "yesterday": {
   "date": "2026-11-23",
   "summary": {
@@ -793,19 +793,6 @@
     "err_total": -9.4
    },
    {
-    "away": "Temple Owls",
-    "home": "UT Martin Skyhawks",
-    "final": "81-90",
-    "model_margin": 1.5,
-    "model_total": 140.1,
-    "line_spread": null,
-    "line_total": null,
-    "ats": "",
-    "tot": "",
-    "err_margin": -7.5,
-    "err_total": -30.9
-   },
-   {
     "away": "Ecclesia Royals",
     "home": "Grambling Tigers",
     "final": "45-126",
@@ -817,6 +804,19 @@
     "tot": "",
     "err_margin": -27.8,
     "err_total": -4.2
+   },
+   {
+    "away": "Temple Owls",
+    "home": "UT Martin Skyhawks",
+    "final": "81-90",
+    "model_margin": 1.5,
+    "model_total": 140.1,
+    "line_spread": null,
+    "line_total": null,
+    "ats": "",
+    "tot": "",
+    "err_margin": -7.5,
+    "err_total": -30.9
    },
    {
     "away": "Stephen F. Austin Lumberjacks",
@@ -1299,8 +1299,8 @@
      "pnl": -1.0,
      "legs": [
       "Manhattan Jaspers +39.5 L",
-      "Loyola Maryland Greyhounds +41.5 L",
-      "Under 131.5 (North/App) L"
+      "Under 131.5 (North/App) L",
+      "Loyola Maryland Greyhounds +41.5 L"
      ]
     },
     "lotto": {
@@ -1309,8 +1309,8 @@
      "pnl": -0.25,
      "legs": [
       "Manhattan Jaspers +39.5 L",
-      "Loyola Maryland Greyhounds +41.5 L",
       "Under 131.5 (North/App) L",
+      "Loyola Maryland Greyhounds +41.5 L",
       "Over 139.5 (Western/UAlbany) L",
       "Over 147.5 (South/SMU) W",
       "Monmouth Hawks +3.5 L",
