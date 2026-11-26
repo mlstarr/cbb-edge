@@ -1,16 +1,16 @@
 {
- "generated": "2026-11-26 01:45",
+ "generated": "2026-11-26 16:39",
  "yesterday": {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "summary": {
    "games": 1,
    "with_lines": 1,
    "spread_all": {
-    "w": 0,
-    "l": 1,
+    "w": 1,
+    "l": 0,
     "p": 0,
-    "units": -1.0,
-    "pct": 0.0
+    "units": 0.91,
+    "pct": 1.0
    },
    "spread_edge": {
     "w": 0,
@@ -37,11 +37,11 @@
     {
      "bucket": "0-2",
      "spread": {
-      "w": 0,
-      "l": 1,
+      "w": 1,
+      "l": 0,
       "p": 0,
-      "units": -1.0,
-      "pct": 0.0
+      "units": 0.91,
+      "pct": 1.0
      },
      "total": {
       "w": 0,
@@ -122,145 +122,145 @@
    ],
    "curve": [
     {
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "spread": 0.0,
      "total": 0.0
     }
    ],
    "cum": [
     {
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "sw": 0,
      "sl": 0,
      "tw": 0,
      "tl": 0,
-     "asw": 0,
-     "asl": 1,
+     "asw": 1,
+     "asl": 0,
      "atw": 0,
      "atl": 1
     }
    ],
-   "mae_margin": 26.0,
-   "mae_total": 7.4,
-   "bias_margin": 26.0,
-   "bias_total": -7.4,
-   "su": 1.0
+   "mae_margin": 4.6,
+   "mae_total": 7.8,
+   "bias_margin": -4.6,
+   "bias_total": -7.8,
+   "su": 0.0
   },
   "plays": [],
   "games": [
    {
-    "away": "Gonzaga Bulldogs",
-    "home": "Kansas State Wildcats",
-    "final": "101-61",
-    "model_margin": -14.0,
-    "model_total": 154.6,
-    "line_spread": 15.5,
-    "line_total": 157.5,
-    "ats": "L",
+    "away": "Clemson Tigers",
+    "home": "Colorado State Rams",
+    "final": "75-77",
+    "model_margin": -2.6,
+    "model_total": 144.2,
+    "line_spread": 3.5,
+    "line_total": 147.5,
+    "ats": "W",
     "tot": "L",
-    "err_margin": 26.0,
-    "err_total": -7.4
+    "err_margin": -4.6,
+    "err_total": -7.8
    }
   ]
  },
  "season": {
-  "games": 517,
-  "with_lines": 500,
+  "games": 576,
+  "with_lines": 552,
   "spread_all": {
-   "w": 237,
-   "l": 263,
+   "w": 263,
+   "l": 289,
    "p": 0,
-   "units": -47.55,
-   "pct": 0.474
+   "units": -49.91,
+   "pct": 0.476
   },
   "spread_edge": {
-   "w": 100,
-   "l": 112,
+   "w": 112,
+   "l": 118,
    "p": 0,
-   "units": -21.09,
-   "pct": 0.472
+   "units": -16.18,
+   "pct": 0.487
   },
   "total_all": {
-   "w": 240,
-   "l": 260,
+   "w": 261,
+   "l": 291,
    "p": 0,
-   "units": -41.82,
-   "pct": 0.48
+   "units": -53.73,
+   "pct": 0.473
   },
   "total_edge": {
-   "w": 95,
-   "l": 101,
+   "w": 106,
+   "l": 112,
    "p": 0,
-   "units": -14.64,
-   "pct": 0.485
+   "units": -15.64,
+   "pct": 0.486
   },
   "buckets": [
    {
     "bucket": "0-2",
     "spread": {
-     "w": 99,
-     "l": 110,
+     "w": 109,
+     "l": 125,
      "p": 0,
-     "units": -20.0,
-     "pct": 0.474
+     "units": -25.91,
+     "pct": 0.466
     },
     "total": {
-     "w": 77,
-     "l": 86,
+     "w": 82,
+     "l": 93,
      "p": 0,
-     "units": -16.0,
-     "pct": 0.472
+     "units": -18.45,
+     "pct": 0.469
     }
    },
    {
     "bucket": "2-4",
     "spread": {
-     "w": 80,
-     "l": 72,
+     "w": 89,
+     "l": 79,
      "p": 0,
-     "units": 0.73,
-     "pct": 0.526
+     "units": 1.91,
+     "pct": 0.53
     },
     "total": {
-     "w": 68,
-     "l": 73,
+     "w": 73,
+     "l": 86,
      "p": 0,
-     "units": -11.18,
-     "pct": 0.482
+     "units": -19.64,
+     "pct": 0.459
     }
    },
    {
     "bucket": "4-6",
     "spread": {
-     "w": 33,
-     "l": 48,
-     "p": 0,
-     "units": -18.0,
-     "pct": 0.407
-    },
-    "total": {
-     "w": 47,
-     "l": 39,
-     "p": 0,
-     "units": 3.73,
-     "pct": 0.547
-    }
-   },
-   {
-    "bucket": "6-10",
-    "spread": {
-     "w": 19,
-     "l": 31,
-     "p": 0,
-     "units": -13.73,
-     "pct": 0.38
-    },
-    "total": {
      "w": 38,
      "l": 51,
      "p": 0,
      "units": -16.45,
      "pct": 0.427
+    },
+    "total": {
+     "w": 50,
+     "l": 45,
+     "p": 0,
+     "units": 0.45,
+     "pct": 0.526
+    }
+   },
+   {
+    "bucket": "6-10",
+    "spread": {
+     "w": 21,
+     "l": 32,
+     "p": 0,
+     "units": -12.91,
+     "pct": 0.396
+    },
+    "total": {
+     "w": 44,
+     "l": 55,
+     "p": 0,
+     "units": -15.0,
+     "pct": 0.444
     }
    },
    {
@@ -273,11 +273,11 @@
      "pct": 0.75
     },
     "total": {
-     "w": 10,
-     "l": 11,
+     "w": 12,
+     "l": 12,
      "p": 0,
-     "units": -1.91,
-     "pct": 0.476
+     "units": -1.09,
+     "pct": 0.5
     }
    }
   ],
@@ -339,8 +339,13 @@
    },
    {
     "date": "2026-11-25",
-    "spread": -21.09,
-    "total": -14.64
+    "spread": -16.18,
+    "total": -15.64
+   },
+   {
+    "date": "2026-11-26",
+    "spread": -16.18,
+    "total": -15.64
    }
   ],
   "cum": [
@@ -467,21 +472,32 @@
    },
    {
     "date": "2026-11-25",
-    "sw": 100,
-    "sl": 112,
-    "tw": 95,
-    "tl": 101,
-    "asw": 237,
-    "asl": 263,
-    "atw": 240,
-    "atl": 260
+    "sw": 112,
+    "sl": 118,
+    "tw": 106,
+    "tl": 112,
+    "asw": 262,
+    "asl": 289,
+    "atw": 261,
+    "atl": 290
+   },
+   {
+    "date": "2026-11-26",
+    "sw": 112,
+    "sl": 118,
+    "tw": 106,
+    "tl": 112,
+    "asw": 263,
+    "asl": 289,
+    "atw": 261,
+    "atl": 291
    }
   ],
-  "mae_margin": 10.98,
-  "mae_total": 14.0,
-  "bias_margin": -0.55,
-  "bias_total": -0.27,
-  "su": 0.725
+  "mae_margin": 10.72,
+  "mae_total": 14.09,
+  "bias_margin": -0.48,
+  "bias_total": -0.05,
+  "su": 0.719
  },
  "parlays": {
   "days": [
@@ -773,8 +789,8 @@
      "pnl": -1.0,
      "legs": [
       "Michigan Wolverines -6.5 L",
-      "Coppin State Eagles +34.5 W",
-      "Georgia Southern Eagles +2.5 W"
+      "Georgia Southern Eagles +2.5 W",
+      "Coppin State Eagles +34.5 W"
      ]
     },
     "lotto": {
@@ -783,8 +799,8 @@
      "pnl": -0.25,
      "legs": [
       "Michigan Wolverines -6.5 L",
-      "Coppin State Eagles +34.5 W",
       "Georgia Southern Eagles +2.5 W",
+      "Coppin State Eagles +34.5 W",
       "UNC Asheville Bulldogs +29.5 L",
       "Saint Louis Billikens +1.5 W",
       "Over 135.5 (DePaul/Purdue) L",
@@ -792,17 +808,45 @@
       "Marist Red Foxes -2.5 L"
      ]
     }
+   },
+   {
+    "date": "2026-11-25",
+    "small": {
+     "k": 3,
+     "result": "L",
+     "pnl": -1.0,
+     "legs": [
+      "Arkansas-Pine Bluff Golden Lions +21.5 L",
+      "Liberty Flames +3.5 W",
+      "Colorado Buffaloes +9.5 W"
+     ]
+    },
+    "lotto": {
+     "k": 8,
+     "result": "L",
+     "pnl": -0.25,
+     "legs": [
+      "Arkansas-Pine Bluff Golden Lions +21.5 L",
+      "Liberty Flames +3.5 W",
+      "Colorado Buffaloes +9.5 W",
+      "Over 153.5 (Northeastern/Wisconsin) L",
+      "St. Thomas Tommies +5.5 L",
+      "Southern Jaguars +35.5 W",
+      "Over 149.5 (Southern/Long) L",
+      "Over 150.5 (Norfolk/NC) L"
+     ]
+    }
    }
   ],
   "small": {
-   "n": 11,
+   "n": 12,
    "hit": 1,
-   "units": -4.04
+   "units": -5.04
   },
   "lotto": {
-   "n": 11,
+   "n": 12,
    "hit": 0,
-   "units": -2.75
+   "units": -3.0
   },
   "note": "Flat stakes: small parlay 1u, lotto 0.25u, -110 legs, one leg per game, last logged line before the game."
  },
@@ -825,31 +869,31 @@
   },
   {
    "week": "2026-11-23",
-   "n": 108,
-   "model_m": 10.22,
-   "market_m": 10.01,
-   "model_t": 14.37,
-   "market_t": 13.35
+   "n": 160,
+   "model_m": 9.71,
+   "market_m": 9.64,
+   "model_t": 14.77,
+   "market_t": 13.6
   }
  ],
  "model_only": {
   "season": {
-   "n": 1091,
-   "mae_margin": 10.88,
-   "mae_total": 13.99,
-   "bias_margin": 0.5,
-   "bias_total": -0.42,
-   "su": 0.762
+   "n": 1150,
+   "mae_margin": 10.78,
+   "mae_total": 14.04,
+   "bias_margin": 0.49,
+   "bias_total": -0.28,
+   "su": 0.757
   },
   "last7": {
-   "n": 283,
-   "mae_margin": 10.75,
-   "mae_total": 13.18,
-   "bias_margin": -0.28,
-   "bias_total": -0.87,
-   "su": 0.682
+   "n": 313,
+   "mae_margin": 10.5,
+   "mae_total": 13.76,
+   "bias_margin": -0.44,
+   "bias_total": 0.21,
+   "su": 0.681
   },
-  "through": "2026-11-25",
+  "through": "2026-11-26",
   "weekly": [
    {
     "week": 0,
@@ -880,12 +924,12 @@
    },
    {
     "week": 3,
-    "n": 151,
-    "mae_margin": 10.49,
-    "mae_total": 13.78,
-    "bias_margin": -0.42,
-    "bias_total": 0.22,
-    "su": 0.675
+    "n": 210,
+    "mae_margin": 10.03,
+    "mae_total": 14.13,
+    "bias_margin": -0.24,
+    "bias_total": 0.79,
+    "su": 0.676
    }
   ],
   "weekly_prev": [
