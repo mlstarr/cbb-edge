@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 20:21",
+ "generated": "2026-11-26 01:45",
  "yesterday": {
   "date": "2026-11-25",
   "summary": {
@@ -548,9 +548,9 @@
      "result": "L",
      "pnl": -1.0,
      "legs": [
-      "Florida A&M Rattlers +19.5 L",
+      "Prairie View A&M Panthers +33.5 W",
       "UMBC Retrievers +2.5 W",
-      "Prairie View A&M Panthers +33.5 W"
+      "Florida A&M Rattlers +19.5 L"
      ]
     },
     "lotto": {
@@ -558,9 +558,9 @@
      "result": "L",
      "pnl": -0.25,
      "legs": [
-      "Florida A&M Rattlers +19.5 L",
-      "UMBC Retrievers +2.5 W",
       "Prairie View A&M Panthers +33.5 W",
+      "UMBC Retrievers +2.5 W",
+      "Florida A&M Rattlers +19.5 L",
       "Grambling Tigers +28.5 L",
       "Tulsa Golden Hurricane -5.5 L",
       "Central Arkansas Bears +18.5 L",
@@ -601,12 +601,12 @@
     "date": "2026-11-18",
     "small": {
      "k": 3,
-     "result": "L",
-     "pnl": -1.0,
+     "result": "W",
+     "pnl": 5.96,
      "legs": [
       "UL Monroe Warhawks +37.5 W",
       "Over 155.5 (Cornell/Syracuse) W",
-      "Northern Colorado Bears +28.5 L"
+      "Campbell Fighting Camels +20.5 W"
      ]
     },
     "lotto": {
@@ -616,11 +616,11 @@
      "legs": [
       "UL Monroe Warhawks +37.5 W",
       "Over 155.5 (Cornell/Syracuse) W",
-      "Northern Colorado Bears +28.5 L",
       "Campbell Fighting Camels +20.5 W",
+      "Northern Colorado Bears +28.5 L",
+      "LSU New Orleans Privateers +35.5 L",
       "UNC Asheville Bulldogs +3.5 L",
       "Youngstown State Penguins +28.5 L",
-      "LSU New Orleans Privateers +35.5 L",
       "Over 137.5 (Washington/Hawai'i) W"
      ]
     }
@@ -773,8 +773,8 @@
      "pnl": -1.0,
      "legs": [
       "Michigan Wolverines -6.5 L",
-      "Georgia Southern Eagles +2.5 W",
-      "Coppin State Eagles +34.5 W"
+      "Coppin State Eagles +34.5 W",
+      "Georgia Southern Eagles +2.5 W"
      ]
     },
     "lotto": {
@@ -783,8 +783,8 @@
      "pnl": -0.25,
      "legs": [
       "Michigan Wolverines -6.5 L",
-      "Georgia Southern Eagles +2.5 W",
       "Coppin State Eagles +34.5 W",
+      "Georgia Southern Eagles +2.5 W",
       "UNC Asheville Bulldogs +29.5 L",
       "Saint Louis Billikens +1.5 W",
       "Over 135.5 (DePaul/Purdue) L",
@@ -796,8 +796,8 @@
   ],
   "small": {
    "n": 11,
-   "hit": 0,
-   "units": -11.0
+   "hit": 1,
+   "units": -4.04
   },
   "lotto": {
    "n": 11,
