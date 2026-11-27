@@ -1,9 +1,934 @@
 {
- "generated": "2026-11-26 20:25:33.847411",
+ "generated": "2026-11-27 01:56:12.848951",
  "data_through": "2026-11-26",
  "sigma_margin": 11.79,
  "sigma_total": 17.1,
  "games": [
+  {
+   "game_id": "401911348",
+   "date": "2026-11-29",
+   "home": "Grand Canyon Lopes",
+   "away": "Incarnate Word Cardinals",
+   "neutral": false,
+   "pts_h": 87.4,
+   "pts_a": 62.1,
+   "poss": 71.9,
+   "model_spread": -25.3,
+   "model_total": 149.5,
+   "win_prob_home": 0.984,
+   "miss_home": 0.0,
+   "miss_away": -0.31,
+   "out_home": [],
+   "out_away": [
+    "Max Garcia-Plata (18 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401925898",
+   "date": "2026-11-29",
+   "home": "Washington Huskies",
+   "away": "Norfolk State Spartans",
+   "neutral": false,
+   "pts_h": 85.8,
+   "pts_a": 63.2,
+   "poss": 66.7,
+   "model_spread": -22.5,
+   "model_total": 149.0,
+   "win_prob_home": 0.972,
+   "miss_home": 1.06,
+   "miss_away": 0.57,
+   "out_home": [
+    "Lathan Sommerville (24 mpg, auto 50%)",
+    "Wesley Yates III (23 mpg, auto 50%)"
+   ],
+   "out_away": [
+    "J.C. Riley Jr. (17 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401929182",
+   "date": "2026-11-29",
+   "home": "Fresno State Bulldogs",
+   "away": "South Dakota State Jackrabbits",
+   "neutral": true,
+   "pts_h": 76.7,
+   "pts_a": 75.7,
+   "poss": 69.0,
+   "model_spread": -1.0,
+   "model_total": 152.4,
+   "win_prob_home": 0.534,
+   "miss_home": 0.0,
+   "miss_away": 1.36,
+   "out_home": [],
+   "out_away": [
+    "Kalen Garry (26 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401916320",
+   "date": "2026-11-29",
+   "home": "Ohio State Buckeyes",
+   "away": "Lipscomb Bisons",
+   "neutral": false,
+   "pts_h": 90.2,
+   "pts_a": 68.1,
+   "poss": 71.2,
+   "model_spread": -22.1,
+   "model_total": 158.2,
+   "win_prob_home": 0.969,
+   "miss_home": 0.0,
+   "miss_away": 3.19,
+   "out_home": [],
+   "out_away": [
+    "Devyn Martin (22 mpg, auto 50%)",
+    "Kennedy Okpara (17 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401925067",
+   "date": "2026-11-29",
+   "home": "Texas State Bobcats",
+   "away": "Nicholls Colonels",
+   "neutral": false,
+   "pts_h": 77.2,
+   "pts_a": 63.7,
+   "poss": 66.8,
+   "model_spread": -13.5,
+   "model_total": 140.8,
+   "win_prob_home": 0.874,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401922213",
+   "date": "2026-11-29",
+   "home": "LSU New Orleans Privateers",
+   "away": "Florida Gulf Coast Eagles",
+   "neutral": false,
+   "pts_h": 75.0,
+   "pts_a": 77.6,
+   "poss": 70.8,
+   "model_spread": 2.6,
+   "model_total": 152.7,
+   "win_prob_home": 0.413,
+   "miss_home": -0.67,
+   "miss_away": -0.37,
+   "out_home": [
+    "Enzo Boudouma (20 mpg, auto 50%)"
+   ],
+   "out_away": [
+    "CJ Outlaw (16 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401925830",
+   "date": "2026-11-29",
+   "home": "North Texas Mean Green",
+   "away": "Drake Bulldogs",
+   "neutral": true,
+   "pts_h": 72.2,
+   "pts_a": 66.4,
+   "poss": 65.7,
+   "model_spread": -5.8,
+   "model_total": 138.5,
+   "win_prob_home": 0.688,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401922232",
+   "date": "2026-11-29",
+   "home": "Houston Cougars",
+   "away": "Queens University Royals",
+   "neutral": false,
+   "pts_h": 98.6,
+   "pts_a": 64.1,
+   "poss": 69.1,
+   "model_spread": -34.5,
+   "model_total": 162.8,
+   "win_prob_home": 0.998,
+   "miss_home": 0.0,
+   "miss_away": 1.62,
+   "out_home": [],
+   "out_away": [
+    "Jordan Watford (31 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401929368",
+   "date": "2026-11-29",
+   "home": "Texas Southern Tigers",
+   "away": "Tarleton State Texans",
+   "neutral": false,
+   "pts_h": 77.2,
+   "pts_a": 78.6,
+   "poss": 75.5,
+   "model_spread": 1.4,
+   "model_total": 155.9,
+   "win_prob_home": 0.453,
+   "miss_home": 0.85,
+   "miss_away": 0.19,
+   "out_home": [
+    "Cameron Patterson (16 mpg, auto 50%)"
+   ],
+   "out_away": [
+    "Kade Douglas (21 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401928390",
+   "date": "2026-11-29",
+   "home": "Southern Miss Golden Eagles",
+   "away": "Grambling Tigers",
+   "neutral": false,
+   "pts_h": 84.0,
+   "pts_a": 75.0,
+   "poss": 76.0,
+   "model_spread": -9.0,
+   "model_total": 159.0,
+   "win_prob_home": 0.777,
+   "miss_home": 0.27,
+   "miss_away": 1.43,
+   "out_home": [
+    "Brewer Carruth (18 mpg, auto 50%)",
+    "Mike Montano (16 mpg, auto 50%)"
+   ],
+   "out_away": [
+    "Isaiah Miranda (20 mpg, auto 50%)",
+    "Chancellor Perkins (18 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401926145",
+   "date": "2026-11-29",
+   "home": "SIU Edwardsville Cougars",
+   "away": "UTSA Roadrunners",
+   "neutral": false,
+   "pts_h": 72.1,
+   "pts_a": 71.0,
+   "poss": 69.4,
+   "model_spread": -1.0,
+   "model_total": 143.1,
+   "win_prob_home": 0.535,
+   "miss_home": 0.0,
+   "miss_away": 0.76,
+   "out_home": [],
+   "out_away": [
+    "Josiah LeGree (18 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401925831",
+   "date": "2026-11-29",
+   "home": "Boise State Broncos",
+   "away": "North Dakota State Bison",
+   "neutral": true,
+   "pts_h": 85.2,
+   "pts_a": 72.9,
+   "poss": 72.1,
+   "model_spread": -12.3,
+   "model_total": 158.2,
+   "win_prob_home": 0.852,
+   "miss_home": 0.21,
+   "miss_away": -0.2,
+   "out_home": [
+    "Julian Bowie (16 mpg, auto 50%)"
+   ],
+   "out_away": [
+    "Andy Stefonowicz (26 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401921192",
+   "date": "2026-11-29",
+   "home": "Bryant Bulldogs",
+   "away": "Iona Gaels",
+   "neutral": false,
+   "pts_h": 65.0,
+   "pts_a": 64.8,
+   "poss": 66.1,
+   "model_spread": -0.2,
+   "model_total": 129.7,
+   "win_prob_home": 0.507,
+   "miss_home": 0.0,
+   "miss_away": 0.49,
+   "out_home": [],
+   "out_away": [
+    "Kosy Akametu (24 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401920965",
+   "date": "2026-11-29",
+   "home": "East Tennessee State Buccaneers",
+   "away": "Morehead State Eagles",
+   "neutral": false,
+   "pts_h": 75.9,
+   "pts_a": 60.4,
+   "poss": 62.5,
+   "model_spread": -15.5,
+   "model_total": 136.3,
+   "win_prob_home": 0.905,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401918456",
+   "date": "2026-11-29",
+   "home": "James Madison Dukes",
+   "away": "William & Mary Tribe",
+   "neutral": false,
+   "pts_h": 83.4,
+   "pts_a": 77.3,
+   "poss": 72.5,
+   "model_spread": -6.1,
+   "model_total": 160.7,
+   "win_prob_home": 0.699,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401917552",
+   "date": "2026-11-29",
+   "home": "Stanford Cardinal",
+   "away": "Portland Pilots",
+   "neutral": false,
+   "pts_h": 83.4,
+   "pts_a": 66.9,
+   "poss": 70.1,
+   "model_spread": -16.5,
+   "model_total": 150.3,
+   "win_prob_home": 0.919,
+   "miss_home": 0.0,
+   "miss_away": 2.46,
+   "out_home": [],
+   "out_away": [
+    "James O'Donnell (30 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401912215",
+   "date": "2026-11-29",
+   "home": "American University Eagles",
+   "away": "Hampton Pirates",
+   "neutral": false,
+   "pts_h": 72.8,
+   "pts_a": 64.3,
+   "poss": 64.6,
+   "model_spread": -8.5,
+   "model_total": 137.1,
+   "win_prob_home": 0.764,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401911255",
+   "date": "2026-11-29",
+   "home": "Saint Louis Billikens",
+   "away": "South Florida Bulls",
+   "neutral": true,
+   "pts_h": 86.8,
+   "pts_a": 79.2,
+   "poss": 76.4,
+   "model_spread": -7.7,
+   "model_total": 166.0,
+   "win_prob_home": 0.742,
+   "miss_home": 0.2,
+   "miss_away": 0.0,
+   "out_home": [
+    "Alon Michaeli (16 mpg, auto 50%)"
+   ],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401925821",
+   "date": "2026-11-29",
+   "home": "Charlotte 49ers",
+   "away": "Western Carolina Catamounts",
+   "neutral": false,
+   "pts_h": 78.8,
+   "pts_a": 68.2,
+   "poss": 66.7,
+   "model_spread": -10.5,
+   "model_total": 147.0,
+   "win_prob_home": 0.814,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [
+    "Miguel Allen (18 mpg, auto 50%)",
+    "Jordi Rodriguez-Stegemeijer (17 mpg, auto 50%)"
+   ],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401922254",
+   "date": "2026-11-29",
+   "home": "Florida State Seminoles",
+   "away": "West Florida Argonauts",
+   "neutral": true,
+   "pts_h": 88.1,
+   "pts_a": 67.5,
+   "poss": 71.8,
+   "model_spread": -20.6,
+   "model_total": 155.6,
+   "win_prob_home": 0.96,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401922049",
+   "date": "2026-11-29",
+   "home": "Longwood Lancers",
+   "away": "Maryland Eastern Shore Hawks",
+   "neutral": false,
+   "pts_h": 75.3,
+   "pts_a": 65.2,
+   "poss": 69.5,
+   "model_spread": -10.1,
+   "model_total": 140.5,
+   "win_prob_home": 0.805,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401920722",
+   "date": "2026-11-29",
+   "home": "Wyoming Cowboys",
+   "away": "Eastern Washington Eagles",
+   "neutral": false,
+   "pts_h": 81.3,
+   "pts_a": 68.7,
+   "poss": 67.6,
+   "model_spread": -12.6,
+   "model_total": 150.0,
+   "win_prob_home": 0.858,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401919043",
+   "date": "2026-11-29",
+   "home": "Oklahoma State Cowboys",
+   "away": "Tennessee State Tigers",
+   "neutral": false,
+   "pts_h": 94.2,
+   "pts_a": 72.3,
+   "poss": 76.7,
+   "model_spread": -21.9,
+   "model_total": 166.6,
+   "win_prob_home": 0.968,
+   "miss_home": -0.14,
+   "miss_away": 0.0,
+   "out_home": [
+    "Kanye Clary (17 mpg, auto 50%)"
+   ],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401924823",
+   "date": "2026-11-29",
+   "home": "Hofstra Pride",
+   "away": "Vermont Catamounts",
+   "neutral": false,
+   "pts_h": 72.9,
+   "pts_a": 64.8,
+   "poss": 63.1,
+   "model_spread": -8.1,
+   "model_total": 137.7,
+   "win_prob_home": 0.754,
+   "miss_home": 0.0,
+   "miss_away": 1.95,
+   "out_home": [],
+   "out_away": [
+    "Gus Yalden (29 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401919788",
+   "date": "2026-11-29",
+   "home": "Lafayette Leopards",
+   "away": "Le Moyne Dolphins",
+   "neutral": false,
+   "pts_h": 75.4,
+   "pts_a": 69.9,
+   "poss": 70.3,
+   "model_spread": -5.5,
+   "model_total": 145.4,
+   "win_prob_home": 0.68,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401928808",
+   "date": "2026-11-29",
+   "home": "Green Bay Phoenix",
+   "away": "North Dakota Fighting Hawks",
+   "neutral": false,
+   "pts_h": 80.3,
+   "pts_a": 73.6,
+   "poss": 68.6,
+   "model_spread": -6.6,
+   "model_total": 153.9,
+   "win_prob_home": 0.713,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401926869",
+   "date": "2026-11-29",
+   "home": "Oregon State Beavers",
+   "away": "Milwaukee Panthers",
+   "neutral": false,
+   "pts_h": 85.4,
+   "pts_a": 69.3,
+   "poss": 70.2,
+   "model_spread": -16.1,
+   "model_total": 154.8,
+   "win_prob_home": 0.913,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401926815",
+   "date": "2026-11-29",
+   "home": "Charleston Cougars",
+   "away": "Howard Bison",
+   "neutral": false,
+   "pts_h": 79.8,
+   "pts_a": 74.6,
+   "poss": 71.7,
+   "model_spread": -5.2,
+   "model_total": 154.4,
+   "win_prob_home": 0.671,
+   "miss_home": -0.02,
+   "miss_away": -0.06,
+   "out_home": [
+    "Eli Ellis (22 mpg, auto 50%)"
+   ],
+   "out_away": [
+    "Gasper Kocevar (16 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401925866",
+   "date": "2026-11-29",
+   "home": "Tulsa Golden Hurricane",
+   "away": "IU Indianapolis Jaguars",
+   "neutral": false,
+   "pts_h": 86.8,
+   "pts_a": 70.7,
+   "poss": 71.2,
+   "model_spread": -16.1,
+   "model_total": 157.5,
+   "win_prob_home": 0.914,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401924898",
+   "date": "2026-11-29",
+   "home": "New Mexico Lobos",
+   "away": "Utah State Aggies",
+   "neutral": false,
+   "pts_h": 78.2,
+   "pts_a": 84.5,
+   "poss": 71.8,
+   "model_spread": 6.3,
+   "model_total": 162.7,
+   "win_prob_home": 0.296,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401924764",
+   "date": "2026-11-29",
+   "home": "Fairfield Stags",
+   "away": "Central Connecticut Blue Devils",
+   "neutral": false,
+   "pts_h": 70.8,
+   "pts_a": 67.1,
+   "poss": 65.6,
+   "model_spread": -3.7,
+   "model_total": 137.9,
+   "win_prob_home": 0.623,
+   "miss_home": 0.0,
+   "miss_away": -0.32,
+   "out_home": [],
+   "out_away": [
+    "Brayden Jackson (14 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401924745",
+   "date": "2026-11-29",
+   "home": "Yale Bulldogs",
+   "away": "Quinnipiac Bobcats",
+   "neutral": false,
+   "pts_h": 81.4,
+   "pts_a": 67.0,
+   "poss": 66.7,
+   "model_spread": -14.4,
+   "model_total": 148.4,
+   "win_prob_home": 0.889,
+   "miss_home": 0.0,
+   "miss_away": -0.17,
+   "out_home": [],
+   "out_away": [
+    "Nate Guerengomba (20 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401923263",
+   "date": "2026-11-29",
+   "home": "Florida Atlantic Owls",
+   "away": "Davidson Wildcats",
+   "neutral": false,
+   "pts_h": 69.7,
+   "pts_a": 73.1,
+   "poss": 67.3,
+   "model_spread": 3.4,
+   "model_total": 142.8,
+   "win_prob_home": 0.386,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401921288",
+   "date": "2026-11-29",
+   "home": "Holy Cross Crusaders",
+   "away": "New Hampshire Wildcats",
+   "neutral": false,
+   "pts_h": 67.5,
+   "pts_a": 67.8,
+   "poss": 70.9,
+   "model_spread": 0.3,
+   "model_total": 135.3,
+   "win_prob_home": 0.49,
+   "miss_home": 0.2,
+   "miss_away": 0.0,
+   "out_home": [
+    "Kole Hanson (23 mpg, auto 50%)"
+   ],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401921098",
+   "date": "2026-11-29",
+   "home": "Arkansas State Red Wolves",
+   "away": "Rice Owls",
+   "neutral": false,
+   "pts_h": 85.1,
+   "pts_a": 79.0,
+   "poss": 75.8,
+   "model_spread": -6.1,
+   "model_total": 164.1,
+   "win_prob_home": 0.698,
+   "miss_home": 0.58,
+   "miss_away": 0.0,
+   "out_home": [
+    "Royal Blue Smith (18 mpg, auto 50%)"
+   ],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401920869",
+   "date": "2026-11-29",
+   "home": "Sacred Heart Pioneers",
+   "away": "NJIT Highlanders",
+   "neutral": false,
+   "pts_h": 79.7,
+   "pts_a": 71.9,
+   "poss": 69.8,
+   "model_spread": -7.8,
+   "model_total": 151.6,
+   "win_prob_home": 0.746,
+   "miss_home": 3.14,
+   "miss_away": 0.0,
+   "out_home": [
+    "Jaden Slaughter (32 mpg, auto 50%)",
+    "Jaylen Robinson (33 mpg, auto 50%)"
+   ],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401917984",
+   "date": "2026-11-29",
+   "home": "Tulane Green Wave",
+   "away": "UL Monroe Warhawks",
+   "neutral": false,
+   "pts_h": 80.1,
+   "pts_a": 72.6,
+   "poss": 71.7,
+   "model_spread": -7.5,
+   "model_total": 152.7,
+   "win_prob_home": 0.738,
+   "miss_home": 0.0,
+   "miss_away": -0.16,
+   "out_home": [],
+   "out_away": [
+    "Mike White (19 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401917905",
+   "date": "2026-11-29",
+   "home": "South Carolina Upstate Spartans",
+   "away": "West Georgia Wolves",
+   "neutral": false,
+   "pts_h": 73.7,
+   "pts_a": 74.5,
+   "poss": 72.1,
+   "model_spread": 0.8,
+   "model_total": 148.3,
+   "win_prob_home": 0.473,
+   "miss_home": 0.45,
+   "miss_away": 0.0,
+   "out_home": [
+    "Alessandro Perotti (16 mpg, auto 50%)"
+   ],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401920280",
+   "date": "2026-11-29",
+   "home": "UIC Flames",
+   "away": "Canisius Golden Griffins",
+   "neutral": false,
+   "pts_h": 78.1,
+   "pts_a": 56.5,
+   "poss": 64.9,
+   "model_spread": -21.6,
+   "model_total": 134.6,
+   "win_prob_home": 0.967,
+   "miss_home": 0.0,
+   "miss_away": -0.63,
+   "out_home": [],
+   "out_away": [
+    "Vinny Sigona (28 mpg, auto 50%)"
+   ],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401911189",
+   "date": "2026-11-29",
+   "home": "Dayton Flyers",
+   "away": "Memphis Tigers",
+   "neutral": true,
+   "pts_h": 74.5,
+   "pts_a": 79.1,
+   "poss": 70.6,
+   "model_spread": 4.6,
+   "model_total": 153.6,
+   "win_prob_home": 0.347,
+   "miss_home": 0.15,
+   "miss_away": 0.0,
+   "out_home": [
+    "Landen Joseph (26 mpg, auto 50%)"
+   ],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401927392",
+   "date": "2026-11-29",
+   "home": "Massachusetts Minutemen",
+   "away": "Loyola Chicago Ramblers",
+   "neutral": false,
+   "pts_h": 72.3,
+   "pts_a": 73.4,
+   "poss": 71.9,
+   "model_spread": 1.1,
+   "model_total": 145.7,
+   "win_prob_home": 0.463,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401921415",
+   "date": "2026-11-29",
+   "home": "UMass Lowell River Hawks",
+   "away": "Radford Highlanders",
+   "neutral": true,
+   "pts_h": 73.8,
+   "pts_a": 75.6,
+   "poss": 70.1,
+   "model_spread": 1.8,
+   "model_total": 149.4,
+   "win_prob_home": 0.439,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401920238",
+   "date": "2026-11-29",
+   "home": "App State Mountaineers",
+   "away": "Dartmouth Big Green",
+   "neutral": false,
+   "pts_h": 77.6,
+   "pts_a": 62.2,
+   "poss": 66.2,
+   "model_spread": -15.4,
+   "model_total": 139.7,
+   "win_prob_home": 0.904,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401923306",
+   "date": "2026-11-29",
+   "home": "Maine Black Bears",
+   "away": "Niagara Purple Eagles",
+   "neutral": true,
+   "pts_h": 66.4,
+   "pts_a": 65.1,
+   "poss": 68.0,
+   "model_spread": -1.3,
+   "model_total": 131.4,
+   "win_prob_home": 0.544,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
+  {
+   "game_id": "401920776",
+   "date": "2026-11-29",
+   "home": "Colgate Raiders",
+   "away": "Merrimack Warriors",
+   "neutral": true,
+   "pts_h": 69.3,
+   "pts_a": 67.0,
+   "poss": 64.3,
+   "model_spread": -2.2,
+   "model_total": 136.3,
+   "win_prob_home": 0.575,
+   "miss_home": 0.0,
+   "miss_away": 0.0,
+   "out_home": [],
+   "out_away": [],
+   "line_spread": null,
+   "line_total": null
+  },
   {
    "game_id": "401917551",
    "date": "2026-11-28",
@@ -1394,7 +2319,7 @@
    "out_home": [],
    "out_away": [],
    "line_spread": 5.5,
-   "line_total": 145.5
+   "line_total": 144.5
   },
   {
    "game_id": "401919033",
@@ -1413,7 +2338,7 @@
    "out_home": [],
    "out_away": [],
    "line_spread": -3.5,
-   "line_total": 157.5
+   "line_total": 156.5
   },
   {
    "game_id": "401928624",
@@ -1432,7 +2357,7 @@
    "out_home": [],
    "out_away": [],
    "line_spread": -3.5,
-   "line_total": 143.5
+   "line_total": 142.5
   },
   {
    "game_id": "401925829",
@@ -1453,7 +2378,7 @@
     "Andy Stefonowicz (26 mpg, auto 50%)"
    ],
    "line_spread": -6.5,
-   "line_total": 144.5
+   "line_total": 142.5
   },
   {
    "game_id": "401922264",
@@ -1471,7 +2396,7 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -12.5,
+   "line_spread": -11.5,
    "line_total": 148.5
   },
   {
@@ -1511,7 +2436,7 @@
     "Brayden Fagbemi (30 mpg, auto 50%)"
    ],
    "out_away": [],
-   "line_spread": 4.5,
+   "line_spread": 5.5,
    "line_total": 138.5
   },
   {
@@ -1532,7 +2457,7 @@
    "out_away": [
     "Belal El Shakery (14 mpg, auto 50%)"
    ],
-   "line_spread": -37.5,
+   "line_spread": -36.5,
    "line_total": 146.5
   },
   {
@@ -1570,7 +2495,7 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -4.5,
+   "line_spread": -5.5,
    "line_total": 164.5
   },
   {
@@ -1592,7 +2517,7 @@
     "Caleb Thomas (15 mpg, auto 50%)"
    ],
    "line_spread": -14.5,
-   "line_total": 145.5
+   "line_total": 143.5
   },
   {
    "game_id": "401918980",
@@ -1632,7 +2557,7 @@
    ],
    "out_away": [],
    "line_spread": 2.5,
-   "line_total": 149.5
+   "line_total": 148.5
   },
   {
    "game_id": "401911380",
@@ -1652,8 +2577,8 @@
    "out_away": [
     "Nicholas Errica (22 mpg, auto 50%)"
    ],
-   "line_spread": -11.5,
-   "line_total": 145.5
+   "line_spread": -10.5,
+   "line_total": 141.5
   },
   {
    "game_id": "401913531",
@@ -1672,7 +2597,7 @@
    "out_home": [],
    "out_away": [],
    "line_spread": -27.5,
-   "line_total": 177.5
+   "line_total": 176.5
   },
   {
    "game_id": "401911030",
@@ -1733,8 +2658,8 @@
     "Julian Bowie (16 mpg, auto 50%)"
    ],
    "out_away": [],
-   "line_spread": -6.5,
-   "line_total": 158.5
+   "line_spread": -5.5,
+   "line_total": 156.5
   },
   {
    "game_id": "401909789",
@@ -1775,8 +2700,8 @@
     "Cade Phillips (18 mpg, auto 50%)"
    ],
    "out_away": [],
-   "line_spread": -2.5,
-   "line_total": 158.5
+   "line_spread": -1.5,
+   "line_total": 157.5
   },
   {
    "game_id": "401920382",
@@ -1796,7 +2721,7 @@
    "out_away": [
     "Zamoku Weluche-Ume (20 mpg, auto 50%)"
    ],
-   "line_spread": -19.5,
+   "line_spread": -18.5,
    "line_total": 144.5
   },
   {
@@ -1818,7 +2743,7 @@
    ],
    "out_away": [],
    "line_spread": 8.5,
-   "line_total": 141.5
+   "line_total": 140.5
   },
   {
    "game_id": "401924845",
@@ -1836,8 +2761,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -5.5,
-   "line_total": 142.5
+   "line_spread": -4.5,
+   "line_total": 141.5
   },
   {
    "game_id": "401921818",
@@ -1857,8 +2782,8 @@
    "out_away": [
     "Harrison Pickett (23 mpg, auto 50%)"
    ],
-   "line_spread": -49.5,
-   "line_total": 156.5
+   "line_spread": -48.5,
+   "line_total": 155.5
   },
   {
    "game_id": "401912213",
@@ -1877,7 +2802,7 @@
    "out_home": [],
    "out_away": [],
    "line_spread": -7.5,
-   "line_total": 146.5
+   "line_total": 145.5
   },
   {
    "game_id": "401911212",
@@ -1895,8 +2820,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -22.5,
-   "line_total": 153.5
+   "line_spread": -21.5,
+   "line_total": 152.5
   },
   {
    "game_id": "401921417",
@@ -1915,7 +2840,7 @@
    "out_home": [],
    "out_away": [],
    "line_spread": 9.5,
-   "line_total": 148.5
+   "line_total": 147.5
   },
   {
    "game_id": "401920774",
@@ -1933,8 +2858,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -5.5,
-   "line_total": 142.5
+   "line_spread": -3.5,
+   "line_total": 140.5
   },
   {
    "game_id": "401928468",
@@ -1976,7 +2901,7 @@
     "Dalen Davis (31 mpg, auto 50%)"
    ],
    "line_spread": -8.5,
-   "line_total": 151.5
+   "line_total": 152.5
   },
   {
    "game_id": "401902282",
@@ -1994,8 +2919,8 @@
    "miss_away": 0.0,
    "out_home": [],
    "out_away": [],
-   "line_spread": -19.5,
-   "line_total": 153.5
+   "line_spread": -18.5,
+   "line_total": 151.5
   },
   {
    "game_id": "401921827",
@@ -2015,7 +2940,7 @@
    "out_away": [
     "Aaron Hall (14 mpg, auto 50%)"
    ],
-   "line_spread": -36.5,
+   "line_spread": -37.5,
    "line_total": 151.5
   },
   {
@@ -2059,7 +2984,7 @@
     "Cam Cole (33 mpg, auto 50%)"
    ],
    "line_spread": -4.5,
-   "line_total": 135.5
+   "line_total": 136.5
   },
   {
    "game_id": "401919786",
@@ -2078,7 +3003,7 @@
    "out_home": [],
    "out_away": [],
    "line_spread": 1.5,
-   "line_total": 140.5
+   "line_total": 139.5
   },
   {
    "game_id": "401929288",
@@ -2117,8 +3042,8 @@
    "out_away": [
     "Gus Yalden (29 mpg, auto 50%)"
    ],
-   "line_spread": 3.5,
-   "line_total": 130.5
+   "line_spread": 2.5,
+   "line_total": 129.5
   },
   {
    "game_id": "401921416",
@@ -2137,7 +3062,7 @@
    "out_home": [],
    "out_away": [],
    "line_spread": -2.5,
-   "line_total": 142.5
+   "line_total": 139.5
   },
   {
    "game_id": "401920848",
@@ -2176,434 +3101,6 @@
    "out_away": [],
    "line_spread": 7.5,
    "line_total": 156.5
-  },
-  {
-   "game_id": "401920531",
-   "date": "2026-11-26",
-   "home": "Oregon Ducks",
-   "away": "Texas Tech Red Raiders",
-   "neutral": true,
-   "pts_h": 67.2,
-   "pts_a": 76.4,
-   "poss": 66.7,
-   "model_spread": 9.1,
-   "model_total": 143.6,
-   "win_prob_home": 0.22,
-   "miss_home": 0.63,
-   "miss_away": 0.0,
-   "out_home": [
-    "Sean Stewart (17 mpg, auto 50%)"
-   ],
-   "out_away": [],
-   "line_spread": 10.5,
-   "line_total": 148.5
-  },
-  {
-   "game_id": "401920540",
-   "date": "2026-11-26",
-   "home": "Gonzaga Bulldogs",
-   "away": "Baylor Bears",
-   "neutral": true,
-   "pts_h": 80.2,
-   "pts_a": 71.6,
-   "poss": 69.7,
-   "model_spread": -8.7,
-   "model_total": 151.8,
-   "win_prob_home": 0.769,
-   "miss_home": 0.37,
-   "miss_away": 0.0,
-   "out_home": [
-    "Javon Bennett (16 mpg, auto 50%)"
-   ],
-   "out_away": [],
-   "line_spread": -3.5,
-   "line_total": 153.5
-  },
-  {
-   "game_id": "401917546",
-   "date": "2026-11-26",
-   "home": "Omaha Mavericks",
-   "away": "Pacific Tigers",
-   "neutral": true,
-   "pts_h": 65.3,
-   "pts_a": 76.0,
-   "poss": 66.1,
-   "model_spread": 10.6,
-   "model_total": 141.3,
-   "win_prob_home": 0.184,
-   "miss_home": 0.0,
-   "miss_away": 0.0,
-   "out_home": [],
-   "out_away": [],
-   "line_spread": 7.5,
-   "line_total": 139.5
-  },
-  {
-   "game_id": "401920530",
-   "date": "2026-11-26",
-   "home": "St. John's Red Storm",
-   "away": "Louisville Cardinals",
-   "neutral": true,
-   "pts_h": 83.5,
-   "pts_a": 75.3,
-   "poss": 73.3,
-   "model_spread": -8.2,
-   "model_total": 158.8,
-   "win_prob_home": 0.757,
-   "miss_home": 0.0,
-   "miss_away": 0.0,
-   "out_home": [],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401920539",
-   "date": "2026-11-26",
-   "home": "Kansas State Wildcats",
-   "away": "Alabama Crimson Tide",
-   "neutral": true,
-   "pts_h": 78.9,
-   "pts_a": 92.0,
-   "poss": 77.1,
-   "model_spread": 13.1,
-   "model_total": 170.9,
-   "win_prob_home": 0.133,
-   "miss_home": 0.43,
-   "miss_away": 0.63,
-   "out_home": [
-    "Matt Gilhool (16 mpg, auto 50%)"
-   ],
-   "out_away": [
-    "Tarris Bouie (14 mpg, auto 50%)"
-   ],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401911523",
-   "date": "2026-11-26",
-   "home": "UC Davis Aggies",
-   "away": "Jacksonville State Gamecocks",
-   "neutral": true,
-   "pts_h": 72.6,
-   "pts_a": 73.9,
-   "poss": 70.0,
-   "model_spread": 1.3,
-   "model_total": 146.5,
-   "win_prob_home": 0.455,
-   "miss_home": 1.75,
-   "miss_away": 0.0,
-   "out_home": [
-    "Brayden Fagbemi (30 mpg, auto 50%)"
-   ],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401918972",
-   "date": "2026-11-26",
-   "home": "LSU Tigers",
-   "away": "SMU Mustangs",
-   "neutral": true,
-   "pts_h": 83.5,
-   "pts_a": 79.0,
-   "poss": 74.4,
-   "model_spread": -4.5,
-   "model_total": 162.5,
-   "win_prob_home": 0.648,
-   "miss_home": 0.0,
-   "miss_away": 2.01,
-   "out_home": [],
-   "out_away": [
-    "Jermaine O'Neal Jr. (23 mpg, auto 50%)"
-   ],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401909506",
-   "date": "2026-11-26",
-   "home": "Pittsburgh Panthers",
-   "away": "DePaul Blue Demons",
-   "neutral": true,
-   "pts_h": 68.1,
-   "pts_a": 67.3,
-   "poss": 66.7,
-   "model_spread": -0.8,
-   "model_total": 135.4,
-   "win_prob_home": 0.527,
-   "miss_home": 0.0,
-   "miss_away": 0.0,
-   "out_home": [],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401920538",
-   "date": "2026-11-26",
-   "home": "Creighton Bluejays",
-   "away": "TCU Horned Frogs",
-   "neutral": true,
-   "pts_h": 78.7,
-   "pts_a": 75.7,
-   "poss": 72.3,
-   "model_spread": -3.0,
-   "model_total": 154.4,
-   "win_prob_home": 0.6,
-   "miss_home": 0.0,
-   "miss_away": 0.0,
-   "out_home": [],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401917547",
-   "date": "2026-11-26",
-   "home": "UCLA Bruins",
-   "away": "Saint Mary's Gaels",
-   "neutral": true,
-   "pts_h": 78.1,
-   "pts_a": 74.7,
-   "poss": 68.4,
-   "model_spread": -3.4,
-   "model_total": 152.9,
-   "win_prob_home": 0.614,
-   "miss_home": 2.15,
-   "miss_away": 0.0,
-   "out_home": [
-    "Jaylen Petty (29 mpg, auto 50%)"
-   ],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401925757",
-   "date": "2026-11-26",
-   "home": "Michigan State Spartans",
-   "away": "Arkansas Razorbacks",
-   "neutral": true,
-   "pts_h": 80.2,
-   "pts_a": 77.0,
-   "poss": 70.6,
-   "model_spread": -3.2,
-   "model_total": 157.1,
-   "win_prob_home": 0.606,
-   "miss_home": 2.28,
-   "miss_away": 1.23,
-   "out_home": [
-    "Jordan Scott (23 mpg, auto 50%)",
-    "Coen Carr (22 mpg, auto 50%)"
-   ],
-   "out_away": [
-    "Jordan Smith Jr. (28 mpg, auto 50%)"
-   ],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401921673",
-   "date": "2026-11-26",
-   "home": "USC Trojans",
-   "away": "Utah State Aggies",
-   "neutral": true,
-   "pts_h": 78.9,
-   "pts_a": 83.5,
-   "poss": 73.7,
-   "model_spread": 4.7,
-   "model_total": 162.4,
-   "win_prob_home": 0.346,
-   "miss_home": 0.0,
-   "miss_away": 0.0,
-   "out_home": [],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401920529",
-   "date": "2026-11-26",
-   "home": "Iowa State Cyclones",
-   "away": "Tennessee Volunteers",
-   "neutral": true,
-   "pts_h": 66.9,
-   "pts_a": 64.0,
-   "poss": 66.8,
-   "model_spread": -2.9,
-   "model_total": 130.9,
-   "win_prob_home": 0.597,
-   "miss_home": 0.0,
-   "miss_away": 0.64,
-   "out_home": [],
-   "out_away": [
-    "Jalen Haralson (20 mpg, auto 50%)"
-   ],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401920537",
-   "date": "2026-11-26",
-   "home": "Michigan Wolverines",
-   "away": "Miami Hurricanes",
-   "neutral": true,
-   "pts_h": 82.0,
-   "pts_a": 74.3,
-   "poss": 74.9,
-   "model_spread": -7.8,
-   "model_total": 156.3,
-   "win_prob_home": 0.745,
-   "miss_home": 0.0,
-   "miss_away": 0.0,
-   "out_home": [],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401906869",
-   "date": "2026-11-26",
-   "home": "Texas Longhorns",
-   "away": "Georgetown Hoyas",
-   "neutral": true,
-   "pts_h": 83.0,
-   "pts_a": 74.4,
-   "poss": 68.9,
-   "model_spread": -8.6,
-   "model_total": 157.4,
-   "win_prob_home": 0.767,
-   "miss_home": 0.0,
-   "miss_away": 0.0,
-   "out_home": [],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401921674",
-   "date": "2026-11-26",
-   "home": "Arizona State Sun Devils",
-   "away": "South Carolina Gamecocks",
-   "neutral": true,
-   "pts_h": 75.6,
-   "pts_a": 72.1,
-   "poss": 67.8,
-   "model_spread": -3.6,
-   "model_total": 147.7,
-   "win_prob_home": 0.618,
-   "miss_home": 0.49,
-   "miss_away": 0.0,
-   "out_home": [
-    "Filip Malesevic (15 mpg, auto 50%)"
-   ],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401929282",
-   "date": "2026-11-26",
-   "home": "UCF Knights",
-   "away": "Boston College Eagles",
-   "neutral": true,
-   "pts_h": 78.1,
-   "pts_a": 70.8,
-   "poss": 67.1,
-   "model_spread": -7.3,
-   "model_total": 148.9,
-   "win_prob_home": 0.732,
-   "miss_home": 0.0,
-   "miss_away": 2.84,
-   "out_home": [],
-   "out_away": [
-    "Money Williams (37 mpg, auto 50%)"
-   ],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401920528",
-   "date": "2026-11-26",
-   "home": "Maryland Terrapins",
-   "away": "San Diego State Aztecs",
-   "neutral": true,
-   "pts_h": 70.8,
-   "pts_a": 76.2,
-   "poss": 69.3,
-   "model_spread": 5.5,
-   "model_total": 147.0,
-   "win_prob_home": 0.322,
-   "miss_home": 0.0,
-   "miss_away": 0.0,
-   "out_home": [],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401912231",
-   "date": "2026-11-26",
-   "home": "UTSA Roadrunners",
-   "away": "Army Black Knights",
-   "neutral": false,
-   "pts_h": 80.9,
-   "pts_a": 68.5,
-   "poss": 69.9,
-   "model_spread": -12.4,
-   "model_total": 149.4,
-   "win_prob_home": 0.853,
-   "miss_home": 0.76,
-   "miss_away": 0.0,
-   "out_home": [
-    "Josiah LeGree (18 mpg, auto 50%)"
-   ],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401906807",
-   "date": "2026-11-26",
-   "home": "Purdue Boilermakers",
-   "away": "Oklahoma Sooners",
-   "neutral": true,
-   "pts_h": 80.6,
-   "pts_a": 70.3,
-   "poss": 64.3,
-   "model_spread": -10.3,
-   "model_total": 150.9,
-   "win_prob_home": 0.809,
-   "miss_home": 0.0,
-   "miss_away": 0.52,
-   "out_home": [],
-   "out_away": [
-    "Duke Brennan (19 mpg, auto 50%)"
-   ],
-   "line_spread": null,
-   "line_total": null
-  },
-  {
-   "game_id": "401929281",
-   "date": "2026-11-26",
-   "home": "Cincinnati Bearcats",
-   "away": "Georgia Bulldogs",
-   "neutral": true,
-   "pts_h": 78.2,
-   "pts_a": 76.4,
-   "poss": 71.9,
-   "model_spread": -1.8,
-   "model_total": 154.5,
-   "win_prob_home": 0.561,
-   "miss_home": 0.0,
-   "miss_away": 0.0,
-   "out_home": [],
-   "out_away": [],
-   "line_spread": null,
-   "line_total": null
   }
  ]
 }
