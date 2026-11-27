@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 16:39",
+ "generated": "2026-11-26 20:25",
  "yesterday": {
   "date": "2026-11-26",
   "summary": {
@@ -605,8 +605,8 @@
       "Hofstra Pride +11.5 L",
       "Old Dominion Monarchs +26.5 W",
       "Georgia Southern Eagles +1.5 L",
-      "Maryland Eastern Shore Hawks +30.5 L",
       "Rider Broncs +41.5 L",
+      "Maryland Eastern Shore Hawks +30.5 L",
       "Under 179.5 (Kennesaw/Alabama) L",
       "Nicholls Colonels +27.5 L",
       "Under 153.5 (Lindenwood/Northern) L"
@@ -617,12 +617,12 @@
     "date": "2026-11-18",
     "small": {
      "k": 3,
-     "result": "W",
-     "pnl": 5.96,
+     "result": "L",
+     "pnl": -1.0,
      "legs": [
       "UL Monroe Warhawks +37.5 W",
       "Over 155.5 (Cornell/Syracuse) W",
-      "Campbell Fighting Camels +20.5 W"
+      "Northern Colorado Bears +28.5 L"
      ]
     },
     "lotto": {
@@ -632,11 +632,11 @@
      "legs": [
       "UL Monroe Warhawks +37.5 W",
       "Over 155.5 (Cornell/Syracuse) W",
-      "Campbell Fighting Camels +20.5 W",
       "Northern Colorado Bears +28.5 L",
-      "LSU New Orleans Privateers +35.5 L",
+      "Campbell Fighting Camels +20.5 W",
       "UNC Asheville Bulldogs +3.5 L",
       "Youngstown State Penguins +28.5 L",
+      "LSU New Orleans Privateers +35.5 L",
       "Over 137.5 (Washington/Hawai'i) W"
      ]
     }
@@ -677,8 +677,8 @@
      "pnl": -1.0,
      "legs": [
       "Manhattan Jaspers +39.5 L",
-      "Loyola Maryland Greyhounds +41.5 L",
-      "Under 131.5 (North/App) L"
+      "Under 131.5 (North/App) L",
+      "Loyola Maryland Greyhounds +41.5 L"
      ]
     },
     "lotto": {
@@ -687,8 +687,8 @@
      "pnl": -0.25,
      "legs": [
       "Manhattan Jaspers +39.5 L",
-      "Loyola Maryland Greyhounds +41.5 L",
       "Under 131.5 (North/App) L",
+      "Loyola Maryland Greyhounds +41.5 L",
       "Over 139.5 (Western/UAlbany) L",
       "Over 147.5 (South/SMU) W",
       "Monmouth Hawks +3.5 L",
@@ -789,8 +789,8 @@
      "pnl": -1.0,
      "legs": [
       "Michigan Wolverines -6.5 L",
-      "Georgia Southern Eagles +2.5 W",
-      "Coppin State Eagles +34.5 W"
+      "Coppin State Eagles +34.5 W",
+      "Georgia Southern Eagles +2.5 W"
      ]
     },
     "lotto": {
@@ -799,8 +799,8 @@
      "pnl": -0.25,
      "legs": [
       "Michigan Wolverines -6.5 L",
-      "Georgia Southern Eagles +2.5 W",
       "Coppin State Eagles +34.5 W",
+      "Georgia Southern Eagles +2.5 W",
       "UNC Asheville Bulldogs +29.5 L",
       "Saint Louis Billikens +1.5 W",
       "Over 135.5 (DePaul/Purdue) L",
@@ -840,8 +840,8 @@
   ],
   "small": {
    "n": 12,
-   "hit": 1,
-   "units": -5.04
+   "hit": 0,
+   "units": -12.0
   },
   "lotto": {
    "n": 12,
