@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 16:20",
+ "generated": "2026-11-27 20:02",
  "yesterday": {
   "date": "2026-11-26",
   "summary": {
@@ -343,17 +343,17 @@
     "err_total": -7.8
    },
    {
-    "away": "Army Black Knights",
-    "home": "UTSA Roadrunners",
-    "final": "79-61",
-    "model_margin": 12.4,
-    "model_total": 149.6,
-    "line_spread": -13.5,
-    "line_total": 149.5,
-    "ats": "W",
+    "away": "Oklahoma Sooners",
+    "home": "Purdue Boilermakers",
+    "final": "70-63",
+    "model_margin": 10.5,
+    "model_total": 151.1,
+    "line_spread": -4.5,
+    "line_total": 142.5,
+    "ats": "L",
     "tot": "L",
-    "err_margin": 30.4,
-    "err_total": 9.6
+    "err_margin": 17.5,
+    "err_total": 18.1
    },
    {
     "away": "Georgia Bulldogs",
@@ -369,17 +369,17 @@
     "err_total": -9.4
    },
    {
-    "away": "Oklahoma Sooners",
-    "home": "Purdue Boilermakers",
-    "final": "70-63",
-    "model_margin": 10.5,
-    "model_total": 151.1,
-    "line_spread": -4.5,
-    "line_total": 142.5,
-    "ats": "L",
+    "away": "Army Black Knights",
+    "home": "UTSA Roadrunners",
+    "final": "79-61",
+    "model_margin": 12.4,
+    "model_total": 149.6,
+    "line_spread": -13.5,
+    "line_total": 149.5,
+    "ats": "W",
     "tot": "L",
-    "err_margin": 17.5,
-    "err_total": 18.1
+    "err_margin": 30.4,
+    "err_total": 9.6
    },
    {
     "away": "San Diego State Aztecs",
