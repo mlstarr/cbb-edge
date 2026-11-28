@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 20:02",
+ "generated": "2026-11-28 01:16",
  "yesterday": {
   "date": "2026-11-26",
   "summary": {
@@ -343,19 +343,6 @@
     "err_total": -7.8
    },
    {
-    "away": "Oklahoma Sooners",
-    "home": "Purdue Boilermakers",
-    "final": "70-63",
-    "model_margin": 10.5,
-    "model_total": 151.1,
-    "line_spread": -4.5,
-    "line_total": 142.5,
-    "ats": "L",
-    "tot": "L",
-    "err_margin": 17.5,
-    "err_total": 18.1
-   },
-   {
     "away": "Georgia Bulldogs",
     "home": "Cincinnati Bearcats",
     "final": "81-83",
@@ -367,6 +354,19 @@
     "tot": "W",
     "err_margin": -0.1,
     "err_total": -9.4
+   },
+   {
+    "away": "Oklahoma Sooners",
+    "home": "Purdue Boilermakers",
+    "final": "70-63",
+    "model_margin": 10.5,
+    "model_total": 151.1,
+    "line_spread": -4.5,
+    "line_total": 142.5,
+    "ats": "L",
+    "tot": "L",
+    "err_margin": 17.5,
+    "err_total": 18.1
    },
    {
     "away": "Army Black Knights",
@@ -512,6 +512,19 @@
     "err_total": -27.6
    },
    {
+    "away": "Alabama Crimson Tide",
+    "home": "Kansas State Wildcats",
+    "final": "104-91",
+    "model_margin": -13.1,
+    "model_total": 170.9,
+    "line_spread": 13.5,
+    "line_total": 169.5,
+    "ats": "W",
+    "tot": "W",
+    "err_margin": -0.1,
+    "err_total": -24.1
+   },
+   {
     "away": "DePaul Blue Demons",
     "home": "Pittsburgh Panthers",
     "final": "64-71",
@@ -549,19 +562,6 @@
     "tot": "L",
     "err_margin": 3.7,
     "err_total": 15.5
-   },
-   {
-    "away": "Alabama Crimson Tide",
-    "home": "Kansas State Wildcats",
-    "final": "104-91",
-    "model_margin": -13.1,
-    "model_total": 170.9,
-    "line_spread": 13.5,
-    "line_total": 169.5,
-    "ats": "W",
-    "tot": "W",
-    "err_margin": -0.1,
-    "err_total": -24.1
    },
    {
     "away": "Louisville Cardinals",
@@ -1089,8 +1089,8 @@
       "Northern Colorado Bears +28.5 L",
       "Campbell Fighting Camels +20.5 W",
       "UNC Asheville Bulldogs +3.5 L",
-      "Youngstown State Penguins +28.5 L",
       "LSU New Orleans Privateers +35.5 L",
+      "Youngstown State Penguins +28.5 L",
       "Over 137.5 (Washington/Hawai'i) W"
      ]
     }
@@ -1131,8 +1131,8 @@
      "pnl": -1.0,
      "legs": [
       "Manhattan Jaspers +39.5 L",
-      "Loyola Maryland Greyhounds +41.5 L",
-      "Under 131.5 (North/App) L"
+      "Under 131.5 (North/App) L",
+      "Loyola Maryland Greyhounds +41.5 L"
      ]
     },
     "lotto": {
@@ -1141,8 +1141,8 @@
      "pnl": -0.25,
      "legs": [
       "Manhattan Jaspers +39.5 L",
-      "Loyola Maryland Greyhounds +41.5 L",
       "Under 131.5 (North/App) L",
+      "Loyola Maryland Greyhounds +41.5 L",
       "Over 139.5 (Western/UAlbany) L",
       "Over 147.5 (South/SMU) W",
       "Monmouth Hawks +3.5 L",
